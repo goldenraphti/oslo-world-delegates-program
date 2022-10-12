@@ -5,18 +5,27 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
+  const getThemedOWLogo = () => {
+    {
+      const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+      if (darkThemeMq.matches) {
+        return "/oslo-world-logo-white.svg";
+      } else {
+        return "/oslo-world-logo.svg";
+      }
+    }
+  };
   return (
     <div className={styles.container}>
       <Head>
         <title>Oslo World Delegates Program</title>
         <meta name='description' content='Oslo World Delegates Program' />
-        {/* TODO: update /favicon.ico with Oslo World favicon */}
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/oslo_world_favicon_2022.png' />
       </Head>
 
       <main className={styles.main}>
         <Image
-          src='/oslo-world-logo.svg'
+          src={getThemedOWLogo()}
           alt='Oslo World Logo'
           width={400}
           height={200}

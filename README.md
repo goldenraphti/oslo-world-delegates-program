@@ -20,7 +20,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Short term Roadmap
 
-- [ ] update favicon
+- [x] update favicon
+- [x] dark theme fix logo
 - [ ] make header nav a component present in in all pages except Index
 - [ ] make footer a component present in all pages
 - [ ] responsive mobile first

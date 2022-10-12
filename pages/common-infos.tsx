@@ -13,8 +13,7 @@ const Home: NextPage = () => {
           name='description'
           content='The common information regarding the Oslo World Delegates Program'
         />
-        {/* TODO: update /favicon.ico with Oslo World favicon */}
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/oslo_world_favicon_2022.png' />
       </Head>
 
       <main className={styles.main}>
