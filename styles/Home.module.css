@@ -21,13 +21,6 @@
   align-items: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -43,6 +36,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-bottom: 100px;
 }
 
 .title,
@@ -88,8 +82,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: var(--pink-regular);
+  border-color: var(--pink-regular);
 }
 
 .card h2 {
