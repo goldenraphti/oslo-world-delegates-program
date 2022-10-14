@@ -2,11 +2,22 @@
   display: flex;
   flex: 1;
   justify-content: space-between;
-  padding: 30px 50px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header nav a img {
+  min-width: 100px;
 }
 
 .header nav ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .header nav ul li {
@@ -26,6 +37,13 @@
 .header nav a:active,
 .header nav a:focus {
   color: var(--pink-regular);
+}
+
+@media (min-width: 1000px) {
+  .header nav {
+    flex-direction: row;
+    padding: 30px 50px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
