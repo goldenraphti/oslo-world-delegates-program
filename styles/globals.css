@@ -55,3 +55,12 @@ a:hover {
 :root {
   --pink-regular: #f5a0b3;
 }
+
+.venue-list li {
+  padding-bottom: 25px;
+}
+
+.venue-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
