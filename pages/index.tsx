@@ -65,7 +65,7 @@ const Home: NextPageWithLayout = () => {
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {
-  return <Layout>{page}</Layout>;
+  return <Layout hasHeader={false}>{page}</Layout>;
 };
 
 export default Home;

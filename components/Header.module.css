@@ -1,0 +1,35 @@
+.header nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.header nav ul {
+  display: flex;
+}
+
+.header nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.header nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  color: inherit;
+}
+
+.header nav a:hover,
+.header nav a:active,
+.header nav a:focus {
+  color: var(--pink-regular);
+}
+
+@media (prefers-color-scheme: dark) {
+  .header nav ul li a {
+    color: #fff
+  }
+}
