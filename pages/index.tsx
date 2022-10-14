@@ -1,12 +1,14 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
 import { useThemeDetector } from "../hooks/getDarkTheme";
+import type { ReactElement } from "react";
+import Layout from "../components/layout";
+import type { NextPageWithLayout } from "./_app";
 
-const Home: NextPage = () => {
+const Home: NextPageWithLayout = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -58,22 +60,12 @@ const Home: NextPage = () => {
           </Link>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <p>
-          From{" "}
-          <a
-            href='https://osloworld.no/en'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Oslo World
-          </a>{" "}
-          with <span className='pink'>♥</span> for the delegates
-        </p>
-      </footer>
     </div>
   );
+};
+
+Home.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>;
 };
 
 export default Home;
