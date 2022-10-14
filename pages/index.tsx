@@ -3,18 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import { useState } from "react";
+import { useThemeDetector } from "../hooks/getDarkTheme";
 
 const Home: NextPage = () => {
-  const getThemedOWLogo = () => {
-    {
-      const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-      if (darkThemeMq.matches) {
-        return "/oslo-world-logo-white.svg";
-      } else {
-        return "/oslo-world-logo.svg";
-      }
-    }
-  };
   return (
     <div className={styles.container}>
       <Head>
@@ -25,7 +17,11 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Image
-          src={getThemedOWLogo()}
+          src={
+            useThemeDetector()
+              ? "/oslo-world-logo-white.svg"
+              : "/oslo-world-logo.svg"
+          }
           alt='Oslo World Logo'
           width={400}
           height={200}
