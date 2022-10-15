@@ -40,16 +40,14 @@ const DelegateProfile: NextPageWithLayout = () => {
               <Image
                 src={`/photos/${delegate.category}-delegates-pictures/${delegate.imgPath}`}
                 alt={`${delegate} profile picture`}
-                width='150'
-                height='150'
+                width='300'
+                height='300'
+                className={styles.imgProfile}
               />
             ) : (
               <div className={styles.imgPlaceolder}></div>
             )}
           </div>
-          <a className={styles.email} href={`mailto:${delegate.email}`}>
-            {delegate.email}
-          </a>
           <p className={styles.organization}>{delegate.organization}</p>
           <p className={styles.country}>{delegate.country}</p>
           <p className={styles.job}>{delegate.jobPositionTitle}</p>
