@@ -10,15 +10,12 @@ import { delegatesList } from "../../assets/delegates-list";
 const DelegateProfile: NextPageWithLayout = () => {
   const router = useRouter();
   const { pid } = router.query;
-  console.log("pid", pid);
 
   const delegate = Object.values(delegatesList)
     .flat()
     .filter(
       (delegate) => `${delegate.firstName}-${delegate.lastName}` === pid
     )[0];
-  console.log("delegate", delegate);
-
   return (
     <div className={styles.container}>
       <Head>

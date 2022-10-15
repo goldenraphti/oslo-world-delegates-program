@@ -16,4 +16,5 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
+  padding: 0;
 }
