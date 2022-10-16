@@ -34,7 +34,7 @@ const DelegatesPage: NextPageWithLayout = () => {
             .map((delegate, i) => (
               <DelegateComponent
                 delegate={delegate}
-                order={i}
+                priorityImgLoading={i < 8 ? true : false}
                 key={`${delegate.firstName}-${delegate.lastName}`}
               />
             ))}
@@ -46,7 +46,6 @@ const DelegatesPage: NextPageWithLayout = () => {
             .map((delegate, i) => (
               <DelegateComponent
                 delegate={delegate}
-                order={i}
                 key={`${delegate.firstName}-${delegate.lastName}`}
               />
             ))}

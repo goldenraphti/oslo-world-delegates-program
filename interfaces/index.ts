@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export interface dayInterface {
   day: string;
   events: eventInterface[];
@@ -21,7 +23,7 @@ export interface delegateInterface {
   jobPositionTitle: string;
   country: string;
   description: string;
-  imgPath: string;
+  imgPath: StaticImageData | null;
 }
 
 export interface delegatesListInterface {

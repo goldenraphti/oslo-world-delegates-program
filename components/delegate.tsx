@@ -5,23 +5,27 @@ import styles from "./Delegate.module.css";
 
 type Props = {
   delegate: delegateInterface;
-  order: number;
+  priorityImgLoading: boolean;
 };
 
-export const DelegateComponent = ({ delegate, order }: Props) => {
+export const DelegateComponent = ({
+  delegate,
+  priorityImgLoading = false,
+}: Props) => {
   return (
     <li className={styles.delegate}>
       <Link href={`/delegates/${delegate.firstName}-${delegate.lastName}`}>
         <a className={styles.card}>
           <div className={styles.imgContainer}>
-            {delegate.imgPath !== "" ? (
+            {delegate.imgPath ? (
               <Image
-                src={`/photos/${delegate.category}-delegates-pictures/${delegate.imgPath}`}
-                alt={`${delegate} profile picture ${order}`}
+                src={delegate.imgPath}
+                alt={`${delegate} profile picture`}
                 width='150'
                 height='150'
                 className={styles.imgProfile}
-                priority={order < 8 ? true : false}
+                priority={priorityImgLoading}
+                placeholder='blur'
               />
             ) : (
               <div className={styles.imgPlaceolder}></div>

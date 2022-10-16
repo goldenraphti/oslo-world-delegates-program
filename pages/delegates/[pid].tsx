@@ -35,12 +35,13 @@ const DelegateProfile: NextPageWithLayout = () => {
           <div className={styles.imgContainer}>
             {delegate.imgPath !== "" ? (
               <Image
-                src={`/photos/${delegate.category}-delegates-pictures/${delegate.imgPath}`}
+                src={delegate.imgPath}
                 alt={`${delegate} profile picture`}
                 width='300'
                 height='300'
                 className={styles.imgProfile}
                 priority={true}
+                placeholder='blur'
               />
             ) : (
               <div className={styles.imgPlaceolder}></div>
