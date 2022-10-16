@@ -36,7 +36,7 @@
 .header nav a:hover,
 .header nav a:active,
 .header nav a:focus {
-  color: var(--pink-regular);
+  color: rgb(var(--pink-regular));
 }
 
 @media (min-width: 1000px) {
