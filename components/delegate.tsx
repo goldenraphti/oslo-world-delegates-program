@@ -5,7 +5,7 @@ import styles from "./Delegate.module.css";
 
 type Props = {
   delegate: delegateInterface;
-  priorityImgLoading: boolean;
+  priorityImgLoading?: boolean;
 };
 
 export const DelegateComponent = ({
