@@ -10,8 +10,8 @@
   text-decoration: none;
   padding: 30px;
   border-radius: 1rem;
-  outline: 1px solid rgba(0 0 0 / 0.3);
-  transition: outline 0.15s ease-in-out;
+  border: 1px solid rgba(0 0 0 / 0.3);
+  transition: border 0.15s ease-in-out;
   display: grid;
   grid-template-areas:
     'photo name'
@@ -23,9 +23,9 @@
 
 .card:hover {
   text-decoration: none;
-  outline: 1px solid rgb(var(--pink-regular));
+  border: 1px solid rgb(var(--pink-regular));
   background: rgba(var(--pink-regular) / 0.05);
-  transition: outline 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
 }
 
 .imgContainer {
@@ -97,6 +97,6 @@
 @media (prefers-color-scheme: dark) {
   .card {
     color: #fff;
-    outline: 1px solid rgba(255 255 255 / 0.15);
+    border: 1px solid rgba(255 255 255 / 0.15);
   }
 }
