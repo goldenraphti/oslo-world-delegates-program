@@ -30,7 +30,7 @@ import guilhermeTavaresProfilePic from "../public/photos/international-delegates
 import diegoPabloProfilePic from "../public/photos/international-delegates-pictures/Diego_Pablo.jpg";
 import vladProfilePic from "../public/photos/international-delegates-pictures/Vlad.png";
 import anneSalazarProfilePic from "../public/photos/international-delegates-pictures/Anne Salazar.png";
-import miaProfilePic from "../public/photos/international-delegates-pictures/Mia.jpg";
+import miaTernstromProfilePic from "../public/photos/international-delegates-pictures/miaTernstrom.jpg";
 import ivyOforiProfilePic from "../public/photos/international-delegates-pictures/IvyOfori.jpg";
 import llucProfilePic from "../public/photos/international-delegates-pictures/Lluc.jpeg";
 import jonathanCampbellProfilePic from "../public/photos/international-delegates-pictures/Jonathan Campbell.jpeg";
@@ -387,7 +387,7 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       country: "Sweden",
       description: `Mia Ternström is Keychange Project Manager at Musikcentrum Öst. Musikcentrum Öst is a Swedish non-profit organisation for freelance musicians and part of Musikcentrum Sweden which represents more than 550 acts of professional freelance musicians from all over Sweden. Founded 1970, Musikcentrum aims to put live music on all venues by promoting its members and create projects that reinforces musicians and in 2015 Musikcentrum was one of the initiating organisations behind Keychange. Mia also freelances in various music genres and have performed, produced and toured since 1998.`,
-      imgPath: miaProfilePic,
+      imgPath: miaTernstromProfilePic,
     },
     {
       firstName: "Ivy",
