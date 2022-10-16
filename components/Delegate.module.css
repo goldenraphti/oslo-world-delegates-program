@@ -10,7 +10,7 @@
   text-decoration: none;
   padding: 30px;
   border-radius: 1rem;
-  outline: 1px solid rgba(255 255 255 / 0.15);
+  outline: 1px solid rgba(0 0 0 / 0.3);
   transition: outline 0.15s ease-in-out;
   display: grid;
   grid-template-areas:
@@ -47,7 +47,6 @@
   width: 150px;
   width: 150px;
   border-radius: 100%;
-  background: red;
   grid-area: photo;
 }
 
@@ -98,5 +97,6 @@
 @media (prefers-color-scheme: dark) {
   .card {
     color: #fff;
+    outline: 1px solid rgba(255 255 255 / 0.15);
   }
 }

@@ -157,7 +157,9 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Artist/Producer",
       country: "Norway",
       category: "norwegian",
-      description: `"Fouding member of performing arts group Queendom. Check out our album MamaLove on Spotify www.queendom.no"`,
+      description: `Fouding member of performing arts group Queendom.
+      Check out our album MamaLove on Spotify
+      www.queendom.no`,
       imgPath: astaBusingyeProfilePic,
     },
     {
@@ -223,7 +225,7 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Label Manager, coordinator, Co-director",
       country: "Norway",
       category: "norwegian",
-      description: `"Maria Bringsjord has been working for the record company MTG Music since 2013. She works mainly as a label manager, A&R, and with promotion. Before the music industry became a part of everyday life, Maria worked with television production. She still works with television between releases and promotions as a director on various productions. Concerts, travel, and artist development are a big passion for Maria. She started with promotion and soon got responsibility for several other areas in the company. In 2020 she also became manager to the Norwegian artist «Bølgen». Besides MTG Music, Maria is also working for FONO, Norway's Independent Record Company association, the last seven years as a coordinator. In the last two years, she has also been involved in developing and starting FONO Development. FONO Development aims to help put FONO and the Norwegian indie industry on the map, both home and abroad. The group works to influence and improve the conditions of FONOs members and the indie industry and help initiate and lead discussions and debates about the industry's most important and relevant challenges. FONO Development consists of an equal number of women and men. A few years ago, the group also created ""FONO WOMEN"" as an initiative for FONO's female members. They wanted to make an arena for everyone to get to know each other, learn from each other and be a place to network. Feedback from others in the industry, and experiences the group has done themselves, have contributed to the fact that in the extension of FONO Women, there has clearly been a need and desire to start a Norwegian chapter of shesaid.so."`,
+      description: `Maria Bringsjord has been working for the record company MTG Music since 2013. She works mainly as a label manager, A&R, and with promotion. Before the music industry became a part of everyday life, Maria worked with television production. She still works with television between releases and promotions as a director on various productions. Concerts, travel, and artist development are a big passion for Maria. She started with promotion and soon got responsibility for several other areas in the company. In 2020 she also became manager to the Norwegian artist «Bølgen». Besides MTG Music, Maria is also working for FONO, Norway's Independent Record Company association, the last seven years as a coordinator. In the last two years, she has also been involved in developing and starting FONO Development. FONO Development aims to help put FONO and the Norwegian indie industry on the map, both home and abroad. The group works to influence and improve the conditions of FONOs members and the indie industry and help initiate and lead discussions and debates about the industry's most important and relevant challenges. FONO Development consists of an equal number of women and men. A few years ago, the group also created ""FONO WOMEN"" as an initiative for FONO's female members. They wanted to make an arena for everyone to get to know each other, learn from each other and be a place to network. Feedback from others in the industry, and experiences the group has done themselves, have contributed to the fact that in the extension of FONO Women, there has clearly been a need and desire to start a Norwegian chapter of shesaid.so.`,
       imgPath: mariaBringsjordProfilePic,
     },
     {
@@ -302,8 +304,8 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "International Projects Manager",
       country: "Denmark",
       category: "international",
-      description: `"Laia works as International Projects Manager at Tempi, handling the export activities of Danish Roots Music artists and industry, as well as being an advisor in internationalization strategies for artists, companies and governments.
-      Internationalization as a core, diversity as a motto, Laia’s work is behind projects all over the world, from Nordic parnerships to European projects, North America, South America, Australian and Asian initiatives. Aside, Laia participates in several Boards of Directors as The Nordic Folk Council, Nordic Folk Alliance and Lux Boreal Festival."`,
+      description: `Laia works as International Projects Manager at Tempi, handling the export activities of Danish Roots Music artists and industry, as well as being an advisor in internationalization strategies for artists, companies and governments.
+      Internationalization as a core, diversity as a motto, Laia’s work is behind projects all over the world, from Nordic parnerships to European projects, North America, South America, Australian and Asian initiatives. Aside, Laia participates in several Boards of Directors as The Nordic Folk Council, Nordic Folk Alliance and Lux Boreal Festival.`,
       imgPath: null,
     },
     {
@@ -326,8 +328,8 @@ export const delegatesList: delegatesListInterface = {
         "CEO & Funder, Artist & Label Manager, Creative Director",
       category: "international",
       country: "Italia",
-      description: `"Silvia Nocentini is CEO & Founder of NoOx Worldwide, the bridge  between Italy, the Afro diaspora and Sub Saharan Africa, starting from  Senegal. Pioneering the Afro Urban music market in Italy since 2018.
-      Silvia works behind the inclusion and the export of innovative of diverse sounds, attitudes and lifestyles. From scouting, to development of artists and their creativity, promotion, investments, distribution,  bridging opportunities"`,
+      description: `Silvia Nocentini is CEO & Founder of NoOx Worldwide, the bridge  between Italy, the Afro diaspora and Sub Saharan Africa, starting from  Senegal. Pioneering the Afro Urban music market in Italy since 2018.
+      Silvia works behind the inclusion and the export of innovative of diverse sounds, attitudes and lifestyles. From scouting, to development of artists and their creativity, promotion, investments, distribution,  bridging opportunities`,
       imgPath: silviaNocentiniProfilePic,
     },
     {
@@ -349,8 +351,8 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "owner",
       country: "SPAIN",
       category: "international",
-      description: `"Diego Pablos is a music passionate, concert goer and record collector with around 18 years of experience in the music industry. His first music-related (unpaid) job was conducting a weekly show at the university radio; then he worked as an intern on a PR and online publicity firm (Magnum PR) in New York City for rock and electronic music acts. Back in Spain, he worked in a royalty collecting agency for a short period to then worke for Sony Music for over a decade covering different marketing roles. During 6 years he was the head of Octubre, an indie label within Sony Music developing emerging and alternative acts, and his last position was as International Marketing Manager, supervising in Spain all releases from RCA, Columbia, Epic, Syco, Ultra and other labels from the major. He´s been lucky enough to work with a great variety of artists, from Spain and abroad, from international superstars to upcoming talent, from mainstream acts to underground music.
-      Six years ago Diego funded ABOUT MUSIC, a company based in Madrid, Spain. The focus on the company is music and cultural projects handcrafted and made from the heart. They book and promote shows, curate music programs for different institutions and art foundations – both public and private - , they organize and teach at different music industry courses, they develop special one-of-a-kind projects (for festivals or brands), they executively produce albums, help artists to find shows or guide them through the music industry backstag and promote concerts. Some of our clients are: Centro Botin (www.centrobotin.org) , Institut Français, Cosmocaixa, Veranos de la Villa, Rototom Sunsplash Festival, Matadero Madrid…. In 2022 About Music has developed, amongst other things, a full music program for a beer brand (Cervezas Alhambra) with around 40 shows and 80 dj sessions, curated an electronic music A/V program for Teatros del Canal (Madrid´s #1 theatre), and booked two festivals, Dia de la Música Festival, in Madrid, and IWA Fest (www.iwafest.com), the first ever amazigh culture festival in Spain, held in Melilla."`,
+      description: `Diego Pablos is a music passionate, concert goer and record collector with around 18 years of experience in the music industry. His first music-related (unpaid) job was conducting a weekly show at the university radio; then he worked as an intern on a PR and online publicity firm (Magnum PR) in New York City for rock and electronic music acts. Back in Spain, he worked in a royalty collecting agency for a short period to then worke for Sony Music for over a decade covering different marketing roles. During 6 years he was the head of Octubre, an indie label within Sony Music developing emerging and alternative acts, and his last position was as International Marketing Manager, supervising in Spain all releases from RCA, Columbia, Epic, Syco, Ultra and other labels from the major. He´s been lucky enough to work with a great variety of artists, from Spain and abroad, from international superstars to upcoming talent, from mainstream acts to underground music.
+      Six years ago Diego funded ABOUT MUSIC, a company based in Madrid, Spain. The focus on the company is music and cultural projects handcrafted and made from the heart. They book and promote shows, curate music programs for different institutions and art foundations – both public and private - , they organize and teach at different music industry courses, they develop special one-of-a-kind projects (for festivals or brands), they executively produce albums, help artists to find shows or guide them through the music industry backstag and promote concerts. Some of our clients are: Centro Botin (www.centrobotin.org) , Institut Français, Cosmocaixa, Veranos de la Villa, Rototom Sunsplash Festival, Matadero Madrid…. In 2022 About Music has developed, amongst other things, a full music program for a beer brand (Cervezas Alhambra) with around 40 shows and 80 dj sessions, curated an electronic music A/V program for Teatros del Canal (Madrid´s #1 theatre), and booked two festivals, Dia de la Música Festival, in Madrid, and IWA Fest (www.iwafest.com), the first ever amazigh culture festival in Spain, held in Melilla.`,
       imgPath: diegoPabloProfilePic,
     },
     {
@@ -395,7 +397,7 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Manager",
       country: "Sweden",
       category: "international",
-      description: `"Ivy Ofori, the founder of Malmö-based Pink Ivy Management offers management services for female and non-binary artists. To work in a safe, non-male dominated environment on tour, behind the scenes and in the studio as a
+      description: `Ivy Ofori, the founder of Malmö-based Pink Ivy Management offers management services for female and non-binary artists. To work in a safe, non-male dominated environment on tour, behind the scenes and in the studio as a
       female or non-binary artist should be a matter of course and not a vision.
       Ivy Ofori works also with project management and booking among the venue Mejeriet in Lund (SE), and previous in different projects for
       Roskilde Festival and Popkollo Malmö. The inspiration for founding Pink Ivy Management comes from Ivy's experiences in
@@ -403,7 +405,7 @@ export const delegatesList: delegatesListInterface = {
       that the key to promoting female /non-binary artists lies in a certain, inclusive management style, especially for those
       artists who are surrounded by a completely male crew and band. Having the ""female view"" on the big parts of the business
       like live crew, management and recording sets things in another perspective. Previously Pink Ivy Management has worked
-      with artists like Arre! Arre!, Loljud, Feivel, Sophia Tako, Sallyswag, Aurelia Dey, GNUCCI, Ninoosh and Mi von Ahn."`,
+      with artists like Arre! Arre!, Loljud, Feivel, Sophia Tako, Sallyswag, Aurelia Dey, GNUCCI, Ninoosh and Mi von Ahn.`,
       imgPath: ivyOforiProfilePic,
     },
     {
@@ -414,8 +416,8 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "music project manager",
       country: "Spain",
       category: "international",
-      description: `"Lluc Silvestre has a degree in Social and Cultural Anthropology from Universidad de Barcelona and has a masters in Arts and Cultural Management from the Université de Bourgogne. Since 2006, he has been working at the Institut Ramon Llull, which promotes the international diffusion of Catalan artistic production. To this end and via the music department, he reports and advises international programmers and supports the internationalization of creative production by funding travel.
-      Previously, he had done production work and booking for different European festivals, including BAM (Barcelona/Spain), Periferias (Huesca/Spain), TRIBU Festival (Dijon/France) and MIRA! (Toulouse/France). He had also participated in a European training and exchange of artists programme between Aragon and the Midi-Pyrénées (France)."`,
+      description: `Lluc Silvestre has a degree in Social and Cultural Anthropology from Universidad de Barcelona and has a masters in Arts and Cultural Management from the Université de Bourgogne. Since 2006, he has been working at the Institut Ramon Llull, which promotes the international diffusion of Catalan artistic production. To this end and via the music department, he reports and advises international programmers and supports the internationalization of creative production by funding travel.
+      Previously, he had done production work and booking for different European festivals, including BAM (Barcelona/Spain), Periferias (Huesca/Spain), TRIBU Festival (Dijon/France) and MIRA! (Toulouse/France). He had also participated in a European training and exchange of artists programme between Aragon and the Midi-Pyrénées (France).`,
       imgPath: llucProfilePic,
     },
     {
@@ -437,12 +439,12 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Director",
       country: "Spain",
       category: "international",
-      description: `"Music Business (Production & Management).
+      description: `Music Business (Production & Management).
       Journalist by training, with a postgraduate degree in music industry management from the University of Barcelona. She defines herself as a #CultureHacker. With more than 20 years of experience in the Latin American and European industry, Natalia is currently Founder and Director of the Femnoise Association for gender equality, who have developed the first Feminist Digital Economy platform in music and culture at a global level and in turn supports emerging artists of the electronic music scene through the booking agency and record label of the same name.
 
       Femnoise and FemMarket, has been pre-incubated by the Barcelona Local Development Agency (Barcelona Activa) and funded by the Spanish Ministry of Culture and Sport with the support of SAE Institute Spain. It has also been promoted as an innovator and belongs to the roster of the European Keychange programme.
 
-      Natalia is also manager of the renowned Mexican artist Mystery Affair with whom she is starting the new stage of the record label Femnoise Records."`,
+      Natalia is also manager of the renowned Mexican artist Mystery Affair with whom she is starting the new stage of the record label Femnoise Records.`,
       imgPath: nataliaSanJuanProfilePic,
     },
     {
@@ -453,8 +455,8 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "General Management",
       country: "Italy",
       category: "international",
-      description: `"Fabio Scopino, Italian World Beat Network ( Musiconnect Italy ) CEO, Founder and General Manager, for over 20 years he has gained experience in entertainment development and cultural promotion covering roles such as Music Clubs Founder, Art Director, Event Manager, Artist Manager, Booking Agent.
-      Currently he's engaged in the management and development of an Italian professionals network to represent and promote abroad artists, festivals, fairs, agencies, cultural associations and promoters, operating through active partecipation in the major music fairs worldwide and all occasions of meeting and exchanges related to the global music market."`,
+      description: `Fabio Scopino, Italian World Beat Network ( Musiconnect Italy ) CEO, Founder and General Manager, for over 20 years he has gained experience in entertainment development and cultural promotion covering roles such as Music Clubs Founder, Art Director, Event Manager, Artist Manager, Booking Agent.
+      Currently he's engaged in the management and development of an Italian professionals network to represent and promote abroad artists, festivals, fairs, agencies, cultural associations and promoters, operating through active partecipation in the major music fairs worldwide and all occasions of meeting and exchanges related to the global music market.`,
       imgPath: fabioScopinoProfilePic,
     },
     {
@@ -465,9 +467,9 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "",
       country: "Canada",
       category: "international",
-      description: `"Producer, DJ and performer Liliane Chlela is known for her distinct sound treatment, pushing the boundaries of sound, movement and listening on both the electronic and experimental scenes in Lebanon and the Middle East/West Asia and North Africa.
+      description: `Producer, DJ and performer Liliane Chlela is known for her distinct sound treatment, pushing the boundaries of sound, movement and listening on both the electronic and experimental scenes in Lebanon and the Middle East/West Asia and North Africa.
 
-      Liliane constructs a characteristic sound both as a composer/producer and as a hybrid DJ. She further explores the connections between improvisation and sonic manipulation by approaching numerous musical genres with her signature techniques."`,
+      Liliane constructs a characteristic sound both as a composer/producer and as a hybrid DJ. She further explores the connections between improvisation and sonic manipulation by approaching numerous musical genres with her signature techniques.`,
       imgPath: null,
     },
   ],
