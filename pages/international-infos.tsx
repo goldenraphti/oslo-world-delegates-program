@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/InternationalInfos.module.css";
 import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
@@ -18,7 +18,7 @@ const InternationalInfosPage: NextPageWithLayout = () => {
         <link rel='icon' href='/oslo_world_favicon_2022.png' />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <h1 className={styles.title}>International info</h1>
 
         <p className={styles.description}>
@@ -105,7 +105,7 @@ const InternationalInfosPage: NextPageWithLayout = () => {
           <br />
           (Also you could ask us for our own favourites places to go!)
         </p>
-      </main>
+      </div>
     </div>
   );
 };

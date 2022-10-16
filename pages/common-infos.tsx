@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/CommonInfos.module.css";
 import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
@@ -18,7 +16,7 @@ const CommonInfosPage: NextPageWithLayout = () => {
         <link rel='icon' href='/oslo_world_favicon_2022.png' />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <h1 className={styles.title}>Common info</h1>
         <p className={styles.description}>
           Common informations regarding the Oslo World Delegates Program
@@ -195,7 +193,7 @@ const CommonInfosPage: NextPageWithLayout = () => {
             <span className='venue-address'>Opergata 77</span>
           </li>
         </ul>
-      </main>
+      </div>
     </div>
   );
 };

@@ -18,7 +18,7 @@ const DelegatesPage: NextPageWithLayout = () => {
         <link rel='icon' href='/oslo_world_favicon_2022.png' />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <h1 className={styles.title}>Delegates</h1>
 
         <p className={styles.description}>
@@ -44,7 +44,7 @@ const DelegatesPage: NextPageWithLayout = () => {
             />
           ))}
         </ul>
-      </main>
+      </div>
     </div>
   );
 };

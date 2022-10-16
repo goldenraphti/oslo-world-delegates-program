@@ -17,7 +17,7 @@ const Home: NextPageWithLayout = () => {
         <link rel='icon' href='/oslo_world_favicon_2022.png' />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <Image
           src={
             useThemeDetector()
@@ -59,7 +59,7 @@ const Home: NextPageWithLayout = () => {
             </a>
           </Link>
         </div>
-      </main>
+      </div>
     </div>
   );
 };

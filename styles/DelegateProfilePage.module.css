@@ -36,6 +36,7 @@
   object-fit: cover;
   filter: grayscale();
   border-radius: 100%;
+  background: grey;
 }
 
 .organization {
