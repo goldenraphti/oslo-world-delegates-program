@@ -28,7 +28,7 @@ const Home: NextPageWithLayout = () => {
           width={400}
           height={200}
         />
-        <h1 className={styles.title}>Oslo World Delegates Program</h1>
+        <h1 className={styles.title}>Delegates Program</h1>
 
         <div className={styles.grid}>
           <Link href='/common-infos'>
