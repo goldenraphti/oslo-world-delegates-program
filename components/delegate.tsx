@@ -5,9 +5,10 @@ import styles from "./Delegate.module.css";
 
 type Props = {
   delegate: delegateInterface;
+  order: number;
 };
 
-export const DelegateComponent = ({ delegate }: Props) => {
+export const DelegateComponent = ({ delegate, order }: Props) => {
   return (
     <li className={styles.delegate}>
       <Link href={`/delegates/${delegate.firstName}-${delegate.lastName}`}>
@@ -16,10 +17,11 @@ export const DelegateComponent = ({ delegate }: Props) => {
             {delegate.imgPath !== "" ? (
               <Image
                 src={`/photos/${delegate.category}-delegates-pictures/${delegate.imgPath}`}
-                alt={`${delegate} profile picture`}
+                alt={`${delegate} profile picture ${order}`}
                 width='150'
                 height='150'
                 className={styles.imgProfile}
+                priority={order < 8 ? true : false}
               />
             ) : (
               <div className={styles.imgPlaceolder}></div>

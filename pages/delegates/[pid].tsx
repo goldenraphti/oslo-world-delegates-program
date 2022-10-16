@@ -40,6 +40,7 @@ const DelegateProfile: NextPageWithLayout = () => {
                 width='300'
                 height='300'
                 className={styles.imgProfile}
+                priority={true}
               />
             ) : (
               <div className={styles.imgPlaceolder}></div>

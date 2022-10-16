@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import { delegatesList } from "../assets/delegates-list";
 import { DelegateComponent } from "../components/delegate";
+import { sortDelegateObjectsAlphabetically } from "../utils/index";
 
 const DelegatesPage: NextPageWithLayout = () => {
   return (
@@ -28,21 +29,27 @@ const DelegatesPage: NextPageWithLayout = () => {
 
         <h2>International delegates</h2>
         <ul className={styles.delegatesList}>
-          {delegatesList.international.map((delegate) => (
-            <DelegateComponent
-              delegate={delegate}
-              key={`${delegate.firstName}-${delegate.lastName}`}
-            />
-          ))}
+          {delegatesList.international
+            .sort(sortDelegateObjectsAlphabetically)
+            .map((delegate, i) => (
+              <DelegateComponent
+                delegate={delegate}
+                order={i}
+                key={`${delegate.firstName}-${delegate.lastName}`}
+              />
+            ))}
         </ul>
         <h2>Norwegian delegates</h2>
         <ul className={styles.delegatesList}>
-          {delegatesList.norway.map((delegate) => (
-            <DelegateComponent
-              delegate={delegate}
-              key={`${delegate.firstName}-${delegate.lastName}`}
-            />
-          ))}
+          {delegatesList.norway
+            .sort(sortDelegateObjectsAlphabetically)
+            .map((delegate, i) => (
+              <DelegateComponent
+                delegate={delegate}
+                order={i}
+                key={`${delegate.firstName}-${delegate.lastName}`}
+              />
+            ))}
         </ul>
       </div>
     </div>
