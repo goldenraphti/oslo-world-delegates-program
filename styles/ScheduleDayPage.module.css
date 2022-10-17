@@ -1,0 +1,69 @@
+.container {
+  padding: 0 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.eventsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  width: 90vw;
+  gap: 20px;
+}
+
+.nightProgram .eventsList {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.nightProgram {
+  width: 95vw;
+  margin-top: 60px;
+  padding: 10px 30px 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(275deg 100% 21%) 11%,
+    hsl(296deg 100% 21%) 22%,
+    hsl(313deg 100% 26%) 33%,
+    hsl(324deg 100% 32%) 44%,
+    hsl(333deg 100% 37%) 56%,
+    hsl(339deg 100% 42%) 67%,
+    hsl(345deg 100% 45%) 78%,
+    hsl(351deg 100% 48%) 89%,
+    hsl(0deg 100% 50%) 100%
+  );
+}
+
+.nightTitle {
+  font-size: 2.5em;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 500px) {
+
+  .eventsList {
+    width: 80vw;
+  }
+
+  .nightProgram {
+    width: 90vw;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+}

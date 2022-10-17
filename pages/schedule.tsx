@@ -5,6 +5,7 @@ import styles from "../styles/Schedule.module.css";
 import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
+import { schedule } from "../assets/schedule-list";
 
 const SchedulePage: NextPageWithLayout = () => {
   return (
@@ -24,6 +25,18 @@ const SchedulePage: NextPageWithLayout = () => {
         <p className={styles.description}>
           Schedule for the delegates attending the Oslo World Delegates Program
         </p>
+
+        <ul className={styles.scheduleList}>
+          {schedule.map((day) => (
+            <li className={styles.cardShell} key={day.day}>
+              <Link
+                href={`/schedule/${new Date(day.dayStringForDate).toJSON()}`}
+              >
+                <a className={styles.cardLink}>{day.day}</a>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

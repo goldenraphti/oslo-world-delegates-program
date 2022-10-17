@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 
 export interface dayInterface {
   day: string;
+  dayStringForDate: string;
   events: eventInterface[];
 }
 
@@ -10,8 +11,17 @@ export interface eventInterface {
   endTime?: string;
   title: string;
   venue?: string;
-  language?: string;
+  language?:
+    | "English"
+    | "Norwegian"
+    | "English / Arabic / Norwegian"
+    | "Arabic";
   description?: string;
+  speakers?: string;
+  moderators?: string;
+  facilitators?: string;
+  obligatoryTarget?: null | "all" | "keychange";
+  isNightProgram?: boolean;
 }
 
 export interface delegateInterface {
