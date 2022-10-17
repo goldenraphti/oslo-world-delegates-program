@@ -15,7 +15,7 @@ export const EventCard = ({ event }: Props) => {
     >
       <p className={styles.time}>
         {event.startTime}
-        {event.startTime ? " - " + event.startTime : ""}
+        {event.endTime ? " - " + event.endTime : ""}
       </p>
 
       <p className={styles.title}>{event.title}</p>

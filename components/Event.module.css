@@ -20,6 +20,7 @@
 
 .card.nightCard {
   border: 1px solid rgba(255 255 255 / 0.5);
+  color: #fff;
 }
 
 .card p {
@@ -36,7 +37,7 @@
 }
 
 .language {
-  border: 1px solid rgba(255 255 255 / 0.5);
+  border: 1px solid rgba(0 0 0 / 0.5);
   padding: 3px 12px 5px;
   border-radius: 70px;
   font-size: 0.8em;
@@ -59,5 +60,10 @@
   .card {
     border: 1px solid rgba(255 255 255 / 0.15);
     color: #fff;
+  }
+
+
+  .language {
+    border-color: rgba(255 255 255 / 0.5);
   }
 }
