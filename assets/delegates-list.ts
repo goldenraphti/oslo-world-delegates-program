@@ -22,6 +22,13 @@ import guroKlevelandProfilePic from "../public/photos/norwegian-delegates-pictur
 import selenaSefanyProfilePic from "../public/photos/norwegian-delegates-pictures/Selena Sefany.jpg";
 import wendiPendezProfilePic from "../public/photos/norwegian-delegates-pictures/Wendi Pendeza Kazonza.jpg";
 import kathrineFinnskogProfilePic from "../public/photos/norwegian-delegates-pictures/Kathrine Finnskog.jpg";
+import johanaAlemProfilePic from "../public/photos/norwegian-delegates-pictures/Johana Alem.jpg";
+import erikEgenesProfilePic from "../public/photos/norwegian-delegates-pictures/Erik Egenes.jpeg";
+import almaBoProfilePic from "../public/photos/norwegian-delegates-pictures/AlmaBo.png";
+import anineSmithProfilePic from "../public/photos/norwegian-delegates-pictures/Anine Smith.jpeg";
+import solveigKorumProfilePic from "../public/photos/norwegian-delegates-pictures/Solveig Korum.jpeg";
+import tineTangestuenProfilePic from "../public/photos/norwegian-delegates-pictures/Tine Tangestuen.jpg";
+import solviLienProfilePic from "../public/photos/norwegian-delegates-pictures/Solvi_Lien.jpg";
 
 import victoriaLoteroProfilePic from "../public/photos/international-delegates-pictures/Victoria_Lotero.jpg";
 import amandaBittarProfilePic from "../public/photos/international-delegates-pictures/AmandaBittar_Foto_Romulo.png";
@@ -36,6 +43,26 @@ import llucProfilePic from "../public/photos/international-delegates-pictures/Ll
 import jonathanCampbellProfilePic from "../public/photos/international-delegates-pictures/Jonathan Campbell.jpeg";
 import nataliaSanJuanProfilePic from "../public/photos/international-delegates-pictures/Natalia San Juan.jpeg";
 import fabioScopinoProfilePic from "../public/photos/international-delegates-pictures/Fabio Scopino.jpeg";
+import laiaProfilePic from "../public/photos/international-delegates-pictures/Laia.png";
+import lilianaChlelaProfilePic from "../public/photos/international-delegates-pictures/Liliane Chlela_ foto_ Helene Tarabay.jpg";
+import amaniSemaanProfilePic from "../public/photos/international-delegates-pictures/Amani_Semaan_Credits_Manon_Levet.jpg";
+import annaMarazuelaKimProfilePic from "../public/photos/international-delegates-pictures/AMKIM_press_bw.jpg";
+import bogdanBenigarProfilePic from "../public/photos/international-delegates-pictures/Bogdan.jpg";
+import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
+import christinaHazbounProfilePic from "../public/photos/international-delegates-pictures/Christina Hazboun by Samar Hazboun.jpg";
+import davideMastropaoloProfilePic from "../public/photos/international-delegates-pictures/DAVIDE-MASTROPAOLO-.jpg";
+import helenSildnaProfilePic from "../public/photos/international-delegates-pictures/Helen Sildna by Laura Nestor 2020.jpeg";
+import janeCornwellProfilePic from "../public/photos/international-delegates-pictures/Jane_Cornwell_-_by_Lukasz_Izdebski.jpg";
+import joeMuggsProfilePic from "../public/photos/international-delegates-pictures/Joe muggs.jpg";
+import katharinAhrendProfilePic from "../public/photos/international-delegates-pictures/Katharin Ahrend_bw.png";
+import lamaHazbounProfilePic from "../public/photos/international-delegates-pictures/lama.jpg";
+import ragnarBerthlingProfilePic from "../public/photos/international-delegates-pictures/Ragnar_Berthling.jpg";
+import robertMeijerinkProfilePic from "../public/photos/international-delegates-pictures/robert-meijerink-picture-by-knelis.jpg";
+import shibaMelisaMazazaProfilePic from "../public/photos/international-delegates-pictures/shiba-headshot.jpg";
+import sofieHolstHansenProfilePic from "../public/photos/international-delegates-pictures/Sofie-Holst-Hansen-Tempi-495x400.jpg";
+import soniaGhannamProfilePic from "../public/photos/international-delegates-pictures/SONIA.jpg";
+import tuulikkiBartosikProfilePic from "../public/photos/international-delegates-pictures/TuulikkiBartosik.jpeg";
+// import yaraMradProfilePic from "../public/photos/international-delegates-pictures/";
 
 export const delegatesList: delegatesListInterface = {
   norway: [
@@ -283,6 +310,92 @@ export const delegatesList: delegatesListInterface = {
       description: `Finnskog was appointed Music Norway's first director in 2013. Today, Music Norway is a respected and widely used export office with a number of financial subsidy schemes, educational programs and activities which respond to the industry's needs and the rapid changes in the sector.Finnskog is also an active member of a number of advisory boards related to exports, and participates as a member of networks and working groups in the creative industry.Finnskog has committed to strengthening gender equality and diversity in the music industry and has taken the initiative to create several interdisciplinary networks, including Norwegian Arts Abroad.`,
       imgPath: kathrineFinnskogProfilePic,
     },
+    {
+      firstName: "Johanna",
+      lastName: "Alem",
+      email: "johanna.alem@umusic.com",
+      organization: "Universal Music Norway",
+      jobPositionTitle: "Head of Event & Promotion",
+      country: "Norway",
+      category: "norwegian",
+      description: `Head of Event & Promotion at Universal Music Norway. She leads the PR team representing some of Norway’s biggest artists such as Astrid S and TIX as well as international artists such as The Weeknd, Billie Eilish and many more.
+
+      She is a part of a group working with inclusivity and diversity in the Norwegian music industry, and initiated and executively produced the TV show “Hev Stemmen” (Raise Your Voice) against racism at NRK last year. The show had over 30 contributing Norwegian artists and profiles.`,
+      imgPath: johanaAlemProfilePic,
+    },
+    {
+      firstName: "Erik",
+      lastName: "Egenes",
+      email: "erik@bylarm.no",
+      organization: "by:Larm",
+      jobPositionTitle: "Head of press and international",
+      country: "Norway",
+      category: "norwegian",
+      description: `by:Larm in Oslo is the premier showcase festival in the Nordics, and has been held annually since 1998.
+
+      by:Larm consists of two parts: a festival and a conference. The conference is a meeting place for the Nordic and international music industries. A series of lectures, seminars and debates are held during the day. The festival concerts take place at night and are open to the public. The main focus is to present artists that are on the verge of success, either in their homelands or internationally.`,
+      imgPath: erikEgenesProfilePic,
+    },
+    {
+      firstName: "Alma",
+      lastName: "Bø",
+      email: "anine@fargespill.no",
+      organization: "Fargespill",
+      jobPositionTitle: "Koreograf",
+      country: "Norway",
+      category: "norwegian",
+      description: `Fargespill is an artistic organization that produces stage performances with children and youngsters between the ages of 7 and 25.
+
+      The performances are based on the cultural treasures the participants bring with them, such as traditional songs, dance moves and rhythms from their upbringing or heritage. The musical expressions are merged together in medleys, with Norwegian folk traditions or expressions from modern youth culture. The performances are elevated by professional musicians, choreographers and instructors.
+      www.fargespill.no
+      youtube.com/fargespilloffisiell`,
+      imgPath: almaBoProfilePic,
+    },
+    {
+      firstName: "Anine",
+      lastName: "Smith",
+      email: "anine@fargespill.no",
+      organization: "Fargespill",
+      jobPositionTitle: "",
+      country: "Norway",
+      category: "norwegian",
+      description: `Fargespill is an artistic organization that produces stage performances with children and youngsters between the ages of 7 and 25.
+      The performances are based on the cultural treasures the participants bring with them, such as traditional songs, dance moves and rhythms from their upbringing or heritage. The musical expressions are merged together in medleys, with Norwegian folk traditions or expressions from modern youth culture. The performances are elevated by professional musicians, choreographers and instructors.`,
+      imgPath: anineSmithProfilePic,
+    },
+    {
+      firstName: "Solveig",
+      lastName: "Korum",
+      email: "sk@kulturtanken.no",
+      organization: "Kulturtanken - Arts for Young Audiences Norway",
+      jobPositionTitle: "Senior Advisor",
+      country: "Norway",
+      category: "norwegian",
+      description: `SOLVEIG KORUM works as Senior Advisor for culture and sustainability in the R&D department of Kulturtanken - Arts for Young Audiences Norway. She holds a PhD in Popular Music from the University of Agder. She previously worked in the international department of Rikskonsertene: Concerts Norway where she oversaw musical development projects in South Asia. She is board member of INSPIRE, a research project at PRIO that investigates the the work of artists after war and violent conflict.`,
+      imgPath: solveigKorumProfilePic,
+    },
+    {
+      firstName: "Tine",
+      lastName: "Tangestuen",
+      email: "tine@nopa.no",
+      organization: "NOPA Norwegian Society of Composers and Songwriters",
+      jobPositionTitle: "Executive Manager",
+      country: "Norway",
+      category: "norwegian",
+      description: `Experience from management, administration, international projects and politics in organisations and pubic service. Certification in Diversity management, education in cultural management, administration and business.`,
+      imgPath: tineTangestuenProfilePic,
+    },
+    {
+      firstName: "Sølvi",
+      lastName: "Lien",
+      email: "solvi.lien@fordefestival.no",
+      organization: "Førdefestivalen",
+      jobPositionTitle: "Artistic and managing director",
+      country: "Norway",
+      category: "norwegian",
+      description: `Sølvi Lien is the artistic and managing director of Førde Traditional & World Music Festival (Førdefestivalen). In 2023 the festival will be held from 5.7-9.7. The festival is presenting about 80 acts from 30 venues and 250 artists from all over the world each year. In addition, there are concerts and other events during the year.`,
+      imgPath: solviLienProfilePic,
+    },
   ],
   international: [
     {
@@ -306,7 +419,7 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       description: `Laia works as International Projects Manager at Tempi, handling the export activities of Danish Roots Music artists and industry, as well as being an advisor in internationalization strategies for artists, companies and governments.
       Internationalization as a core, diversity as a motto, Laia’s work is behind projects all over the world, from Nordic parnerships to European projects, North America, South America, Australian and Asian initiatives. Aside, Laia participates in several Boards of Directors as The Nordic Folk Council, Nordic Folk Alliance and Lux Boreal Festival.`,
-      imgPath: null,
+      imgPath: laiaProfilePic,
     },
     {
       firstName: "Amanda",
@@ -470,6 +583,202 @@ export const delegatesList: delegatesListInterface = {
       description: `Producer, DJ and performer Liliane Chlela is known for her distinct sound treatment, pushing the boundaries of sound, movement and listening on both the electronic and experimental scenes in Lebanon and the Middle East/West Asia and North Africa.
 
       Liliane constructs a characteristic sound both as a composer/producer and as a hybrid DJ. She further explores the connections between improvisation and sonic manipulation by approaching numerous musical genres with her signature techniques.`,
+      imgPath: lilianaChlelaProfilePic,
+    },
+    {
+      firstName: "Amani",
+      lastName: "Semaan",
+      email: "",
+      organization: "Beirut & Beyond",
+      jobPositionTitle: "Director",
+      country: "Lebanon",
+      category: "international",
+      description: `Amani Semaan is the co-founder and director of Beirut & Beyond, a Lebanese organization that promotes independent music from the MENA through a showcase festival, professional programs and European tours. Besides her work in music, Amani is a line producer and casting director for international non-scripted TV shows such as The Voice of Arabia. Currently based in Paris, she is also an independent consultant for arts & culture projects.`,
+      imgPath: amaniSemaanProfilePic,
+    },
+    {
+      firstName: "Anna",
+      lastName: "Marazuela Kim",
+      email: "",
+      organization: "London Metropolitan University",
+      jobPositionTitle: null,
+      country: "UK",
+      category: "international",
+      description: `Dr Kim is an international consultant based in London who writes and speaks on the value of culture and the arts to human thriving. A member of Institutes of Advanced Study and multidisciplinary research groups in the US, UK and Europe for over a decade, Dr Kim is committed to advocating for culture, bringing academic expertise to wider publics.`,
+      imgPath: annaMarazuelaKimProfilePic,
+    },
+    {
+      firstName: "Bogdan",
+      lastName: "Benigar",
+      organization: "Druga Godba",
+      jobPositionTitle: "Artistic director",
+      country: "Slovenia",
+      category: "international",
+      description: `Director for jazz and world music in Cankarjev dom, Cultural &  Congress Centre, director of Jazz festival Ljubljana and artistic  director of Druga godba festival, Ljubljana. 
+      Board member of EFWMF (European Forum of Worldwide Music Festivals) 1996 - 1998 and 2004 – 2008 and board member of EJN (Europe Jazz Network) 2012-2018. Leader of European Jazz Conference in Ljubljana 2017. Member of Womex jury 2006 and Jazzahead juries 2011 and 2015.`,
+      imgPath: bogdanBenigarProfilePic,
+    },
+    {
+      firstName: "Brahim",
+      lastName: "El Mazned",
+      email: "",
+      organization: "Visa for Music",
+      jobPositionTitle: "Director",
+      country: "Morocco",
+      category: "international",
+      description: `Brahim El Mazned just joined the EU / UNESCO Expertise Facility 2019-2022, which aims to support initiatives to implement and promote the 2005 Convention on the Protection and Promotion of the Diversity of Cultural Expressions. He is the artistic director of the Timitar Festival of Amazigh and world culture, which hosts more than 600 artists and receives about half a million spectators each year. In recent years, Brahim El Mazned has hosted worldwide conferences and training workshops relating to careers in entertainment, he has initiated over twenty artistic residencies in Europe, in Africa and South America. In November 2014, he successfully initiated the first Africa and the Middle East Music Meeting: Visa For Music.`,
+      imgPath: brahimElMaznedProfilePic,
+    },
+    {
+      firstName: "Christina",
+      lastName: "Hazboun",
+      email: "christina@thesonicagent.com",
+      organization: "Sonic Agent",
+      jobPositionTitle: null,
+      country: "Palestine/ UK",
+      category: "international",
+      description: `The Sonic Agent is the curated multifarious venture of Christina Hazboun; a Palestinian explorer of music in space, time and society through promotion, boutique PR, research, radio shows, mixes, music film curation and podcasting. Her main sphere of activity focuses on increasing the appearance and audibility of new sounds and music from West Asia, North Africa and the global south sharing hybrid, diverse and powerful voices with those who come with an open ear.`,
+      imgPath: christinaHazbounProfilePic,
+    },
+    {
+      firstName: "Davide",
+      lastName: "Mastropaolo",
+      organization: "Italian Music Expo",
+      jobPositionTitle: null,
+      country: "Italy",
+      category: "international",
+      description: `A trained pianist and composer, Davide started out in Naples as a member of the project FRAME - duo keen on electronic music - and went on earning a Master of Arts in 'Soundtrack Production' at Bournemouth University under the guidance of Stephen Deutsch (NFTS). For years he's been combining the activity of score composer and sound designer for feature films and documentaries, with the one of film producer for Audioimage (www.audioimage.eu) – independent audiovisual production company - and music producer for Agualoca Records (www.agualocarecords.com) – an independent world music record label which he founded in 2012. He’s the cofounder of Italian World Beat, a network of Italian professionals involved into the world music market since 2017
+      Since 2017 together with Fabio Scopino he is the founder of ITALIAN WORLD BEAT, an independent network of italian music professionals of the world music environment.`,
+      imgPath: davideMastropaoloProfilePic,
+    },
+    {
+      firstName: "Helen",
+      lastName: "Sildna",
+      organization: "Talinn Music Week",
+      jobPositionTitle: null,
+      country: "Estonia",
+      category: "international",
+      description: `Helen Sildna, based in Estonia, is a music entrepreneur who promotes and produces concerts, festivals, and social campaigns. Helen is an outspoken member of the Baltic-Nordic creative community, vocal on equal rights, diversity and internationalization. She established her own music promotion company Shiftworks in 2008, which has promoted Morrissey, Sigur Ros, Patti Smith and Feist to mention a few. Is the founder and owner of Tallinn Music Week. In 2018, Shiftworks kicked off Station Narva festival in European Union's border town to Russia while also being one of the initiators for Narva’s candidacy to become the European Capital of Culture in 2024.`,
+      imgPath: helenSildnaProfilePic,
+    },
+    {
+      firstName: "Jane",
+      lastName: "Cornwell",
+      organization: "Songlines/ More",
+      jobPositionTitle: null,
+      country: "Australia/UK",
+      category: "international",
+      description: `Australian-born, London-based, I write for major newspapers and online platforms in the UK and Australia. Jane Cornwell is an author, compre and an award-winning writer on jazz and world music for publications including London Evening Standard, Songlines and Jazzwise.`,
+      imgPath: janeCornwellProfilePic,
+    },
+    {
+      firstName: "Joe",
+      lastName: "Muggs",
+      organization: "Journalist",
+      jobPositionTitle: null,
+      country: "UK",
+      category: "international",
+      description: `Joe Muggs. has been a fixture in underground music for quarter of a century as a DJ, promoter, and most notably as a journalist for the Guardian, the Telegraph, FACT, Mixmag, and the Wire.`,
+      imgPath: joeMuggsProfilePic,
+    },
+    {
+      firstName: "Katharin",
+      lastName: "Ahrend",
+      organization: "Clubcommission Berlin",
+      jobPositionTitle: null,
+      country: "Germany",
+      category: "international",
+      description: `For more than ten years, Katharin Ahrend has been working for various festivals and projects as a cultural manager, creative producer, trainer and consultant in the fields of social justice, urban development, club culture and music. As part of the management of the Clubcommission Berlin, Katharin leads the showcase festival TAG DER CLUBKULTUR and the Awareness Academy. A project that promotes the development of anti-discriminatory structures and is actively working for the prevention of violence and exclusion within Berlin club culture. Katharin also co-initiated the global United We Stream campaign and there was responsible for program curation as well as for diversity and safer spaces measurments.`,
+      imgPath: katharinAhrendProfilePic,
+    },
+    {
+      firstName: "Lama",
+      lastName: "Hazboun",
+      organization: "Amman Jazz Festival",
+      jobPositionTitle: null,
+      country: "Jordan",
+      category: "international",
+      description: `Lama Hazboun is co-founder and the Managing Director of OrangeRed, the first private/independent company specialized in music and cultural event management in Jordan, based in Amman since 2004, with a mission to further assist and develop contemporary art culture in general with a specific interest in musical arts in all its forms. She is also Director of Amman Jazz Festival since 2013. She has been operating within culture and music institutions such as the Jordan Academy of Music and the National Music Conservatory, seeking to promote Jordan’s cultural and musical product and organize various events and festivals.`,
+      imgPath: lamaHazbounProfilePic,
+    },
+    {
+      firstName: "Ragnar",
+      lastName: "Berthling",
+      organization: "Musikcentrum Öst/Keychange",
+      jobPositionTitle: "Managing Director",
+      country: "Sweden",
+      category: "international",
+      description: `Managing director and head of international promotion at Musikcentrum  Öst/Sweden, a non-profit multi-genre agency and network for freelance musicians and bands under support of The Swedish Arts Council.  Co-founder of the global gender balance initiative Keychange and co-lead of the present edition 2019-2024. Keychange is a collaboration of 12 countries and the project covers three areas — career development  project for female and non-binary artists, a pledge initiative for  balanced programming and structures in festivals, music companies and organizations, and a campaign for political and structural gender  balance in the global music industry.`,
+      imgPath: ragnarBerthlingProfilePic,
+    },
+    {
+      firstName: "Robert",
+      lastName: "Meijerink",
+      organization: "Eurosonic",
+      jobPositionTitle: null,
+      country: "Netherlands",
+      category: "international",
+      description: `Robert Meijerink, is head of program and booker of ESNS aka Eurosonic Noorderslag, the European conference & showcase platform in Groningen, the Netherlands.ESNS is the key exchange and network platform for European Music and the one and only 100% showcase event in Europe, focused on emerging acts from Europe. ESNS attracts over 4000 delegates, including more than 400 international festivals and venues. During four nights, around 400 acts get the chance to present themselves to an international audience of professionals, media and music lovers. By the day, the Conference takes place featuring around 150 panels, keynote speakers, interviews, workshops, dinners, pitches and meetings on the latest developments in the international music, media, production industry.`,
+      imgPath: robertMeijerinkProfilePic,
+    },
+    {
+      firstName: "Shiba Melisa",
+      lastName: "Mazaza",
+      organization: "Journalist/ DJ",
+      jobPositionTitle: null,
+      country: "South Africa",
+      category: "international",
+      description: `Malawian, UK-born and South Africa-based Shiba Melissa Mazaza is a music journalist, media strategist and curator working with those that value new and exciting voices across Africa. Aiming to ring in the next generation of culture creators, she has provided media services for Platoon, Apple Music, Black Major, mixmag, DJ Mag, Resident Advisor and various artists, fostering the economic and spiritual freedom of African and black voices within her latest venture, Mount Makeda Media House. Simultaneously, she enjoys a fruitful voice over career for hundreds of clients from Africa Development Bank to Volkswagen and Emirates, while building a non-profit organisation with her father, dubbed the African Consciousness Institute, which aims to contribute to the wellbeing of African creatives with the help of mindfulness, consciousness and spiritual health practices.`,
+      imgPath: shibaMelisaMazazaProfilePic,
+    },
+    {
+      firstName: "Sofie",
+      lastName: "Holst Hansen",
+      organization: "TEMPI",
+      jobPositionTitle: null,
+      country: "Denmark",
+      category: "international",
+      description: null,
+      imgPath: sofieHolstHansenProfilePic,
+    },
+    {
+      firstName: "Sonia",
+      lastName: "Ghannam",
+      organization: "Visa for Music",
+      jobPositionTitle: null,
+      country: "Morocco",
+      category: "international",
+      description: null,
+      imgPath: soniaGhannamProfilePic,
+    },
+    {
+      firstName: "Soudabeh",
+      lastName: "Kia",
+      organization: "Theatre de la ville",
+      jobPositionTitle: null,
+      country: "France",
+      category: "international",
+      description: null,
+      imgPath: null,
+    },
+    {
+      firstName: "Tuulikki",
+      lastName: "Bartosik",
+      organization: "BartosikCreative",
+      jobPositionTitle: null,
+      country: "Sweden/ Estonia",
+      category: "international",
+      description: `Tuulikki Bartosik has been selected as part of the Keychange participants for 2022. She is an accordionist, composer, singer and multi-instrumentalist. Her work has grown increasingly adventurous, branching out from its beginnings to explore the possibilities from incorporating vocals, effects and music software with her virtuoso playing. Bartosik’s questing creativity has seen her tour across the globe, discovering inspiration in a quiet forest or the clamour of Tokyo. Her solo albums have received international acclaim; with each one her imagination Dividing her time between Sweden and Estonia, Tuulikki Bartosik is a true Baltoscandic who’s established herself as one of Northern Europe’s most creative performers and composers.`,
+      imgPath: tuulikkiBartosikProfilePic,
+    },
+    {
+      firstName: "Yara",
+      lastName: "Mrad",
+      organization: "Beirut & Beyond",
+      jobPositionTitle: null,
+      country: "Lebanon",
+      category: "international",
+      description: null,
       imgPath: null,
     },
   ],

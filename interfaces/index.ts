@@ -18,11 +18,11 @@ export interface delegateInterface {
   category: "norwegian" | "international";
   firstName: string;
   lastName: string;
-  email: string;
+  email?: string;
   organization: string;
-  jobPositionTitle: string;
+  jobPositionTitle: string | null;
   country: string;
-  description: string;
+  description: string | null;
   imgPath: StaticImageData | null;
 }
 

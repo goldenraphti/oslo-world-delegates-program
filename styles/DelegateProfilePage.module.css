@@ -29,12 +29,12 @@
   height: 300px;
   display: grid;
   place-items: center;
+  filter: grayscale();
   grid-area: photo;
 }
 
 .imgProfile{
   object-fit: cover;
-  filter: grayscale();
   border-radius: 100%;
 }
 
