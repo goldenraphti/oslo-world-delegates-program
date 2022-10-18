@@ -16,6 +16,9 @@ export const EventCard = ({ event }: Props) => {
       <p className={styles.time}>
         {event.startTime}
         {event.endTime ? " - " + event.endTime : ""}
+        {event.obligatoryTarget && (
+          <span className={styles.obligatory}>attendance expected</span>
+        )}
       </p>
 
       <p className={styles.title}>{event.title}</p>
@@ -25,7 +28,6 @@ export const EventCard = ({ event }: Props) => {
           {event.venue && !event.isNightProgram && (
             <span className={styles.venue}>🏠 {event.venue}</span>
           )}
-          {event.venue && event.language && " - "}
           {event.language && (
             <span className={styles.language}>{event.language}</span>
           )}
