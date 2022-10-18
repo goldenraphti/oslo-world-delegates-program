@@ -1,12 +1,16 @@
 .footer {
-  flex: 1;
   align-self: stretch;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 2rem;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+}
+
+.linkLine {
+  margin: 10px 0;
 }
 
 @media (prefers-color-scheme: dark) {
