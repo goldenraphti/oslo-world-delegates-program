@@ -55,7 +55,7 @@
 .imgPlaceholder {
   width: 150px;
   height: 150px;
-  background: rgba(255 255 255 / 0.1);
+  background: rgba(255 255 255 / 0.05);
   border-radius: 50%;
 }
 
@@ -69,5 +69,7 @@
 
 
 @media (min-width: 600px) {
-
+.imgPlaceholder {
+  background: rgba(0 0 0 / 0.05);
+}
 }
