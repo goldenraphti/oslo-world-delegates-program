@@ -20,7 +20,7 @@ export const LogosStripe = () => {
           height={100}
           placeholder='blur'
           priority={false}
-          className={styles.partnersLogo}
+          className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
         />
       </li>
       <li className={styles.partnersLogoContainer}>
@@ -42,7 +42,7 @@ export const LogosStripe = () => {
           width={150}
           placeholder='blur'
           priority={false}
-          className={styles.partnersLogo}
+          className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
         />
       </li>
       <li className={styles.partnersLogoContainer}>
@@ -59,12 +59,12 @@ export const LogosStripe = () => {
       <li className={styles.partnersLogoContainer}>
         <Image
           src={saunaLogo}
-          alt='Oslo Sauna forebund logo'
+          alt='Oslo Badstuforening logo'
           height={100}
           width={150}
           placeholder='blur'
           priority={false}
-          className={styles.partnersLogo}
+          className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
         />
       </li>
       <li className={styles.partnersLogoContainer}>
@@ -75,7 +75,18 @@ export const LogosStripe = () => {
           width={150}
           placeholder='blur'
           priority={false}
-          className={`${styles.partnersLogo} ${styles.logoContrast} ${styles.grayscale}`}
+          className={`${styles.partnersLogo} ${styles.logoContrast}`}
+        />
+      </li>
+      <li className={styles.partnersLogoContainer}>
+        <Image
+          src={musicNorwayLogo}
+          alt='Music Norway logo'
+          height={100}
+          width={150}
+          placeholder='blur'
+          priority={false}
+          className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
         />
       </li>
     </ul>
