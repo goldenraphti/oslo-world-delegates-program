@@ -29,6 +29,8 @@ import anineSmithProfilePic from "../public/photos/norwegian-delegates-pictures/
 import solveigKorumProfilePic from "../public/photos/norwegian-delegates-pictures/Solveig Korum.jpeg";
 import tineTangestuenProfilePic from "../public/photos/norwegian-delegates-pictures/Tine Tangestuen.jpg";
 import solviLienProfilePic from "../public/photos/norwegian-delegates-pictures/Solvi_Lien.jpg";
+import ericaBerthelsenProfilePic from "../public/photos/norwegian-delegates-pictures/ERICA.jpeg";
+import anneMobergProfilePic from "../public/photos/norwegian-delegates-pictures/ANNE MOBERG.jpg";
 
 import victoriaLoteroProfilePic from "../public/photos/international-delegates-pictures/Victoria_Lotero.jpg";
 import amandaBittarProfilePic from "../public/photos/international-delegates-pictures/AmandaBittar_Foto_Romulo.png";
@@ -399,6 +401,26 @@ export const delegatesList: delegatesListInterface = {
       category: "norwegian",
       description: `Sølvi Lien is the artistic and managing director of Førde Traditional & World Music Festival (Førdefestivalen). In 2023 the festival will be held from 5.7-9.7. The festival is presenting about 80 acts from 30 venues and 250 artists from all over the world each year. In addition, there are concerts and other events during the year.`,
       imgPath: solviLienProfilePic,
+    },
+    {
+      firstName: "Erica",
+      lastName: "Berthelsen",
+      organization: "by:Larm",
+      jobPositionTitle: "Head of conferences",
+      country: "Norway",
+      category: "norwegian",
+      description: `Head of Conference at by:Larm, the most essential meeting point for the Nordic Music Industry - Senior Adviser, International Affairs, at the Arts Council Norway.`,
+      imgPath: ericaBerthelsenProfilePic,
+    },
+    {
+      firstName: "Anne",
+      lastName: "Moberg",
+      organization: "Oslo World",
+      jobPositionTitle: "Board member",
+      country: "Norway",
+      category: "norwegian",
+      description: `One of the founders of the festival in 1994 and member of the Oslo World board since 2012.`,
+      imgPath: anneMobergProfilePic,
     },
   ],
   international: [
