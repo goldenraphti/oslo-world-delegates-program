@@ -24,7 +24,7 @@ export const EventCard = ({ event }: Props) => {
       <p className={styles.title}>{event.title}</p>
 
       {(event.venue || event.language) && (
-        <p>
+        <p className={styles.venueLanguageContainer}>
           {event.venue && !event.isNightProgram && (
             <span className={styles.venue}>🏠 {event.venue}</span>
           )}
