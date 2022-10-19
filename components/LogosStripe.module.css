@@ -10,13 +10,16 @@
   gap: 50px;
 }
 
-.partnersLogo {
-  object-fit: contain;
+.partnersLogoContainer {
   filter: grayscale();
 }
 
+.partnersLogo {
+  object-fit: contain;
+}
+
 .logoContrast {
-  filter: contrast(0) grayscale();
+  filter: contrast(0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,12 +27,12 @@
     border: 1px solid #eaeaea;
   }
 
-  .partnersLogo {
+  .partnersLogoContainer {
     filter: grayscale() invert();
   }
 
 
-.logoContrast {
-  filter: contrast(0) grayscale() invert();
-}
+  .logoContrast {
+    filter: contrast(0);
+  }
 }

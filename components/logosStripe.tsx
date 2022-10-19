@@ -13,7 +13,7 @@ import goetheLogo from "../public/logos/Logo_Goethe-Institut.png";
 export const LogosStripe = () => {
   return (
     <ul className={styles.logosContainer}>
-      <li className={styles.partnersLogoLinks}>
+      <li className={styles.partnersLogoContainer}>
         <Image
           src={talentNorgeLogo}
           alt='Talent Norge logo'
@@ -23,7 +23,7 @@ export const LogosStripe = () => {
           className={styles.partnersLogo}
         />
       </li>
-      <li className={styles.partnersLogoLinks}>
+      <li className={styles.partnersLogoContainer}>
         <Image
           src={foreignAffairMinistryLogo}
           alt='Norwegian Foreign Affair ministry logo'
@@ -34,7 +34,7 @@ export const LogosStripe = () => {
           className={styles.partnersLogo}
         />
       </li>
-      <li className={styles.partnersLogoLinks}>
+      <li className={styles.partnersLogoContainer}>
         <Image
           src={frittOrdLogo}
           alt='frittOrd'
@@ -45,7 +45,7 @@ export const LogosStripe = () => {
           className={styles.partnersLogo}
         />
       </li>
-      <li className={styles.partnersLogoLinks}>
+      <li className={styles.partnersLogoContainer}>
         <Image
           src={keyChangeLogo}
           alt='Key Change logo'
@@ -56,7 +56,7 @@ export const LogosStripe = () => {
           className={styles.partnersLogo}
         />
       </li>
-      <li className={styles.partnersLogoLinks}>
+      <li className={styles.partnersLogoContainer}>
         <Image
           src={saunaLogo}
           alt='Oslo Sauna forebund logo'
@@ -67,7 +67,7 @@ export const LogosStripe = () => {
           className={styles.partnersLogo}
         />
       </li>
-      <li className={styles.partnersLogoLinks}>
+      <li className={styles.partnersLogoContainer}>
         <Image
           src={goetheLogo}
           alt='Goethe Institut logo'
