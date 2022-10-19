@@ -47,7 +47,8 @@ a:hover {
 }
 
 :root {
-  --pink-regular: 245 160 179;
+  --pink-light-1: 245 160 179;
+  --pink-regular: 202, 62, 93;
 }
 
 .venue-list li {
@@ -98,5 +99,9 @@ li {
 
   .logo img {
     filter: invert(1);
+  }
+
+  :root {
+    --pink-regular: 245 160 179;
   }
 }
