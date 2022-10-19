@@ -41,7 +41,7 @@ const MeetTheTeamPage: NextPageWithLayout = () => {
                             width={150}
                             height={150}
                             placeholder='blur'
-                            priority={true}
+                            priority={category.order < 2 ? true : false}
                             className={styles.profilePic}
                           />
                         </div>
