@@ -2,8 +2,8 @@
 .logosContainer {
   flex: 1;
   height: 100%;
-  width: auto;
-  padding: 80px 0 0;
+  width: 80vw;
+  padding: 120px 0 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
