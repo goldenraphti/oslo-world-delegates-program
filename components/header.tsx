@@ -43,6 +43,11 @@ export default function Header() {
               <a>Schedule</a>
             </Link>
           </li>
+          <li>
+            <Link href='/meet-the-team'>
+              <a>Staff</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

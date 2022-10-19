@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import { ImageProps, StaticImageData } from "next/image";
 
 export interface dayInterface {
   day: string;
@@ -39,4 +39,20 @@ export interface delegateInterface {
 export interface delegatesListInterface {
   norway: delegateInterface[];
   international: delegateInterface[];
+}
+
+type staffCategoryType = "top" | "main contacts" | "festival team";
+
+export interface staffMemberInterface {
+  firstName: string;
+  lastName: string;
+  position: string;
+  img: StaticImageData | null;
+  category: staffCategoryType;
+}
+
+export interface staffCategoryInterface {
+  id: staffCategoryType;
+  order: number;
+  title: null | string;
 }
