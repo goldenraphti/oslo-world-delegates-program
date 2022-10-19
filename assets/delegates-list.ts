@@ -62,7 +62,11 @@ import shibaMelisaMazazaProfilePic from "../public/photos/international-delegate
 import sofieHolstHansenProfilePic from "../public/photos/international-delegates-pictures/Sofie-Holst-Hansen-Tempi-495x400.jpg";
 import soniaGhannamProfilePic from "../public/photos/international-delegates-pictures/SONIA.jpg";
 import tuulikkiBartosikProfilePic from "../public/photos/international-delegates-pictures/TuulikkiBartosik.jpeg";
-// import yaraMradProfilePic from "../public/photos/international-delegates-pictures/";
+import luisBanrezesProfilePic from "../public/photos/international-delegates-pictures/LuisBanrezes.jpg";
+import joaquimDuraesProfilePic from "../public/photos/international-delegates-pictures/Joaquim Duraes.jpg";
+import marcioLaranjeiraProfilePic from "../public/photos/international-delegates-pictures/Marcio.jpg";
+import natashaPadabedProfilePic from "../public/photos/international-delegates-pictures/Natasha_Padabed_DE_photo_Masha_Kunina_.jpg";
+// import marGironaProfilePic from "../public/photos/international-delegates-pictures/";
 
 export const delegatesList: delegatesListInterface = {
   norway: [
@@ -777,6 +781,58 @@ export const delegatesList: delegatesListInterface = {
       organization: "Beirut & Beyond",
       jobPositionTitle: null,
       country: "Lebanon",
+      category: "international",
+      description: null,
+      imgPath: null,
+    },
+    {
+      firstName: "Luis",
+      lastName: "Banrezes",
+      organization: "Terra Incógnita Festival",
+      jobPositionTitle: "Festival Co-director",
+      country: "Portugal",
+      category: "international",
+      description: `Luis Banrezes is a cultural promoter residing in Azores. In 2010 he started Yuzin "Portugal", an independent cultural agenda. In 2012 he was invited to work at the RTP, the public network television, and was a part of the founding team of Antena 3 Açores, an alternative national radio station, where for 2 and a half years he worked as broadcaster and content programmer. In 2014 he resides in souther Spain, in Granada, tor lead the Iberian Yuzin Agenda. And in 2015 he returns to Azores to work at the Regional Centre for Handicraft Support to develop a project of artistic residencies. He currently works as a consultant, producer, curator, manager, programmer and cultural agent. He's the founder and director the Tremor Music Festival and co-director of the european projects Terra Incógnita and EDGE. He opened La Bamba Record Store and started Marca Pistola, a record label to promote regional and local emerging musicians. He also works as a producer for NOMA International Film Festival and is one of the founding members of Silêncio Sonoro, a non-profit cultural association and Imprópria, a film showcase and social working oriented gender equality event.`,
+      imgPath: luisBanrezesProfilePic,
+    },
+    {
+      firstName: "Joaquim",
+      lastName: "Durães",
+      organization: "Terra Incógnita Festival",
+      jobPositionTitle: null,
+      country: "Portugal",
+      category: "international",
+      description: `With more than a decade of experience in the music scene at national and international levels, Joaquim Durães is a music lover who knows intimately what is behind the music industry. In 2005, after participating in the independent circuit of Barcelona, ​​he returned to Portugal with the aim of emulating what he experienced in the Catalan capital. This is how Lovers & Lollypops was born, a multi-faceted editorial project that occupies a prominent place in the Portuguese music scene due to its artistic scope and its incessant search for new ideas and languages. As co-director of L&L, the editorial activity of this company stands out, with more than one hundred albums edited and the festivals Milhões de Festa, Tremor and Terra Incógnita residency program.`,
+      imgPath: joaquimDuraesProfilePic,
+    },
+    {
+      firstName: "Márcio",
+      lastName: "Laranjeira",
+      organization: "Terra Incógnita Festival",
+      jobPositionTitle: "Director",
+      country: "Portugal",
+      category: "international",
+      description: `Márcio Laranjeira is one of the directors of Lovers and Lollypops, promotor and label based in Porto, Portugal. Active since 2005, is the muscle behind Terra Incógnita and Tremor festivals, hundreds of club shows around the country, and some os the most exiting music events of the last decade. The label side of the company counts with more than 90 releases from Portuguese and non Portuguese artists.`,
+      imgPath: marcioLaranjeiraProfilePic,
+    },
+    {
+      firstName: "Natasha",
+      lastName: "Padabed",
+      organization: "More Zvukov Agency",
+      jobPositionTitle: null,
+      country: "Germany",
+      category: "international",
+      description: `Representing alyona alyona at Oslo World
+      Natasha is an agent, festival programmer and music curator. Currently lives in Berlin.
+      Shortly after she moved to the Netherlands in 2000, she launched More Zvukov Agency, booking mostly Ukrainian, Belarusian and Russian artists around Europe and overseas.`,
+      imgPath: natashaPadabedProfilePic,
+    },
+    {
+      firstName: "Mar",
+      lastName: "Girona",
+      organization: "Calamar MGMT and PR",
+      jobPositionTitle: null,
+      country: "Spain",
       category: "international",
       description: null,
       imgPath: null,
