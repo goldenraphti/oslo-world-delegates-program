@@ -6,9 +6,7 @@ import { useThemeDetector } from "../hooks/getDarkTheme";
 import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
-
-import talentNorgeLogo from "../public/logos/talent-norge.png";
-import foreignAffairMinistryLogo from "../public/logos/norwegian-ministry-of-foreign-affairs-vector-logo.png";
+import { LogosStripe } from "../components/logosStripe";
 
 const Home: NextPageWithLayout = () => {
   return (
@@ -61,39 +59,7 @@ const Home: NextPageWithLayout = () => {
             </a>
           </Link>
         </div>
-        <div className={styles.logosContainer}>
-          <Link
-            href='https://www.talentnorge.no/'
-            className={styles.partnersLogoLinks}
-          >
-            <a>
-              <Image
-                src={talentNorgeLogo}
-                alt='Talent Norge logo'
-                height={100}
-                placeholder='blur'
-                priority={false}
-                className={styles.partnersLogo}
-              />
-            </a>
-          </Link>
-          <Link
-            href='https://www.regjeringen.no/en/dep/ud/id833/'
-            className={styles.partnersLogoLinks}
-          >
-            <a>
-              <Image
-                src={foreignAffairMinistryLogo}
-                alt='Norwegian Foreign Affair ministry logo'
-                height={100}
-                width={150}
-                placeholder='blur'
-                priority={false}
-                className={styles.partnersLogo}
-              />
-            </a>
-          </Link>
-        </div>
+        <LogosStripe />
       </div>
     </div>
   );
