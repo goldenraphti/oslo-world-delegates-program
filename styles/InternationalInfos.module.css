@@ -48,7 +48,7 @@
   width: 45%;
   min-width: 300px;
   padding: 20px 30px;
-  border: 1px solid rgba(255 255 255 / 1);
+  border: 1px solid rgba(0 0 0 / 1);
   border-radius: 6px;
 }
 
@@ -63,4 +63,11 @@
 
 @media (min-width: 600px) {
 
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .transportOptions {
+  border: 1px solid rgba(255 255 255 / 1);
+  }
 }
