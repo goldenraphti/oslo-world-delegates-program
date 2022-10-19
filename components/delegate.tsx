@@ -21,8 +21,8 @@ export const DelegateComponent = ({
               <Image
                 src={delegate.imgPath}
                 alt={`${delegate} profile picture`}
-                width='150'
-                height='150'
+                width={150}
+                height={150}
                 className={styles.imgProfile}
                 priority={priorityImgLoading}
                 placeholder='blur'
