@@ -9,6 +9,8 @@ import mariaProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_L
 import miraProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_LarsOpstad-mira.jpg";
 import samsayaProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_LarsOpstad_035.jpg";
 import joeLeNguyenProfilePic from "../public/photos/staff-photos/joeLeNguyen.jpg";
+import achyProfilePic from "../public/photos/staff-photos/Achy.png";
+import sergioProfilePic from "../public/photos/staff-photos/sergio.jpg";
 
 // import ProfilePic from '../public/photos/staff-photos/
 
@@ -77,7 +79,7 @@ export const staff: staffMemberInterface[] = [
     firstName: "Sergio",
     lastName: "Dreyer",
     position: "Volunteers coordinator",
-    img: null,
+    img: sergioProfilePic,
     category: "festival team",
   },
   {
@@ -105,7 +107,7 @@ export const staff: staffMemberInterface[] = [
     firstName: "Achy",
     lastName: "Ouafik",
     position: "PR assistent",
-    img: null,
+    img: achyProfilePic,
     category: "festival team",
   },
 ];
