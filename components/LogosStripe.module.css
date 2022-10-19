@@ -12,6 +12,11 @@
 
 .partnersLogo {
   object-fit: contain;
+  filter: grayscale();
+}
+
+.logoContrast {
+  filter: contrast(0) grayscale();
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,4 +27,9 @@
   .partnersLogo {
     filter: grayscale() invert();
   }
+
+
+.logoContrast {
+  filter: contrast(0) grayscale() invert();
+}
 }

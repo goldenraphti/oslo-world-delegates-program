@@ -8,8 +8,7 @@ import frittOrdLogo from "../public/logos/fritt-ord-logo-svart-liggende-1000x456
 import keyChangeLogo from "../public/logos/Keychange and CE Lockup.jpg";
 import musicNorwayLogo from "../public/logos/music_norway_big.png";
 import saunaLogo from "../public/logos/SAUNA.png";
-// import Logo from "../public/logos/";
-// import Logo from "../public/logos/";
+import goetheLogo from "../public/logos/Logo_Goethe-Institut.png";
 
 export const LogosStripe = () => {
   return (
@@ -68,17 +67,17 @@ export const LogosStripe = () => {
           className={styles.partnersLogo}
         />
       </li>
-      {/* <li className={styles.partnersLogoLinks}>
+      <li className={styles.partnersLogoLinks}>
         <Image
-          src={frittOrdLogo}
-          alt='Fritt Ord logo'
+          src={goetheLogo}
+          alt='Goethe Institut logo'
           height={100}
           width={150}
           placeholder='blur'
           priority={false}
-          className={styles.partnersLogo}
+          className={`${styles.partnersLogo} ${styles.logoContrast} ${styles.grayscale}`}
         />
-      </li> */}
+      </li>
     </ul>
   );
 };
