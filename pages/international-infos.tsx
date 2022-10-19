@@ -1,10 +1,16 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import styles from "../styles/InternationalInfos.module.css";
 import type { ReactElement } from "react";
+import Head from "next/head";
+import styles from "../styles/InternationalInfos.module.css";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
+import {
+  Plane,
+  BedDouble,
+  Bus,
+  ThermometerSnowflake,
+  Camera,
+  Tag,
+} from "lucide-react";
 
 const InternationalInfosPage: NextPageWithLayout = () => {
   return (
@@ -26,86 +32,142 @@ const InternationalInfosPage: NextPageWithLayout = () => {
           Delegates Program
         </p>
 
-        <h2>Arrival to Oslo</h2>
+        <h2 className={styles.subTitle}>
+          <Plane size={30} className={styles.iconSubTitle} />
+          Arrival to Oslo
+        </h2>
 
+        <p>How to reach the city center from Oslo Gardemoen airport (OSL)?</p>
         <p>
-          How to reach the city center from Oslo Gardemoen airport (OSL)?
-          <br />
-          You have 2 options:
-          <ul>
-            <li>
-              FLYTOGET (Airport Express)
-              <br />
-              PRICE: 204 NOK
-              <br />
+          We suggest taking the train and get off at <b>Oslo Central Station</b>{" "}
+          (<i>also called Oslo S or Oslo Jernbanetorget</i>).
+        </p>
+        <p>You have 2 options:</p>
+        <ul className={`${styles.list} ${styles.transportOptionsList}`}>
+          <li className={`${styles.listItem} ${styles.transportOptions}`}>
+            <p>
+              <b>FLYTOGET</b> (Airport Express)
+            </p>
+            <p>
+              <Tag size={15} className={styles.icon} />
+              210 NOK
+            </p>
+            <p>
               The train departs every 10 minutes (and every 20 minutes on
               Saturdays and early morning/late night). The journey takes 19-22
               minutes.
-              <br />
+            </p>
+            <p>
               Ticketless travel: The simplest option is to swipe your
               credit/debit card at the barrier and select your destination.
               There is no need to swipe your card again on arrival.
-              <br />
+            </p>
+            <p>
               For more information check :{" "}
               <a href='http://www.flytoget.no/flytoget_eng/'>
                 http://www.flytoget.no/flytoget_eng/
               </a>
-            </li>
-            <li>
-              VY
-              <br />
-              PRICE: 110 NOK
-              <br />
-              The journey takes 25 minutes. Timetable:{" "}
+            </p>
+          </li>
+          <li className={`${styles.listItem} ${styles.transportOptions}`}>
+            <p>
+              <b>VY</b>
+            </p>
+            <p>
+              <Tag size={15} className={styles.icon} />
+              114 NOK
+            </p>
+            <p>The journey takes 25 minutes</p>
+            <p>
+              On average, there are three departures per hour in both
+              directions. You can buy tickets at all Entur ticketing machines or
+              in Vy’s app.
+            </p>
+            <p>
+              For more information and timeable check :{" "}
               <a href='https://www.vy.no/'>https://www.vy.no/</a>
-            </li>
-          </ul>
-        </p>
-
-        <h2>Festival Hotel</h2>
-
-        <p>
-          If you have booked the hotel through us. You will be staying at the
-          Clarion Collection Hotel Folketeateret (Storgata 21-23). Your room
-          includes breakfast, after- noon sweets and a light dinner.
-        </p>
-
-        <h2>Public transportation</h2>
-
-        <p>
-          We will be using the very nice and efficient public transport. The
-          metro, buses, trams and ferries to the islands all use the same
-          tickets.
-        </p>
-
-        <p>
-          The price for one ticket is 38 NOK (lasts one hour) you can buy it via
-          the Ruter app, or at 7-Eleven, Narvesen, Deli de Luca or on the ticket
-          vending machines.
-          <br />
-          24h tickets costs 114 NOK and 7 days tickets costs 320 NOK.
-          <br />
-          Infos : <a href='https://ruter.no/en'>https://ruter.no/en</a>
-        </p>
-
-        <h2>What to bring?</h2>
-
-        <h2>Tourist attractions</h2>
-        <p>
-          If you would like to discover even more the city, you could visit the
-          official tourist information (Visit Oslo) that is located at Oslo S.
-        </p>
-
-        <p>
-          Stop by for touristic tips and local knowledge about the city. Or
-          download their free app:{" "}
-          <a href='http://www.visitoslo.com/en/oslo/apps/'>
-            http://www.visitoslo.com/en/oslo/apps/
-          </a>
-          <br />
-          (Also you could ask us for our own favourites places to go!)
-        </p>
+            </p>
+          </li>
+        </ul>
       </div>
+
+      <h2 className={styles.subTitle}>
+        <BedDouble size={30} className={styles.iconSubTitle} />
+        Festival Hotel
+      </h2>
+
+      <p>
+        If you have booked the hotel through us. You will be staying at the
+        <b>Clarion Collection Hotel Folketeateret</b> (Storgata 21-23). Your
+        room includes breakfast, afternoon sweets and a light dinner.
+      </p>
+      <p>
+        <b>Note</b>: From the train station (Oslo S) is only 5 minutes walking.
+      </p>
+      <p>
+        <b>
+          Text us (<a href='tel:+47 98199502'>+47 98199502</a>) as soon as you
+          have arrived at the hotel.
+        </b>
+      </p>
+
+      <h2 className={styles.subTitle}>
+        <Bus size={30} className={styles.iconSubTitle} />
+        Local transportation
+      </h2>
+
+      <p>
+        Distances between the festival venues and the hotel are often quite
+        short, so <b>mainly we will navigate the city walking</b>.
+      </p>
+
+      <p>
+        If not, we will be using the efficient <b>public transport</b>. The
+        metro, buses, trams and ferries to the islands all use the same tickets.
+      </p>
+
+      <p>
+        The price for one ticket is 39 NOK (lasts one hour) . You can buy it via
+        the Ruter app, or at 7-Eleven, Narvesen, Deli de Luca or on the ticket
+        vending machines. 24h tickets cost 117 NOK and 7 days tickets cost 323
+        NOK.
+      </p>
+
+      <p>
+        Infos : <a href='https://ruter.no/en'>https://ruter.no/en</a>
+      </p>
+
+      <h2 className={styles.subTitle}>
+        <ThermometerSnowflake size={30} className={styles.iconSubTitle} />
+        What to bring?
+      </h2>
+
+      <ul className={styles.list}>
+        <li className={styles.listItem}>
+          🔳 Your swimsuit. One of the highlights of the delegates program is
+          “Short talks at high temperatures” that will happen inside of the
+          floating saunas at the Oslo Fjord.
+        </li>
+        <li className={styles.listItem}>
+          🔳 Warm clothes. As you might expect, Oslo can be chilly in fall. The
+          average temperatures during Oslo World are between 3 and 10 degrees.
+        </li>
+      </ul>
+
+      <h2 className={styles.subTitle}>
+        <Camera size={30} className={styles.iconSubTitle} />
+        Tourist attractions
+      </h2>
+
+      <p>
+        If you would like to discover even more the city, you could visit the
+        official tourist information (Visit Oslo) that is located at Oslo S. Or
+        download their free app:
+        <a href='http://www.visitoslo.com/en/oslo/apps/'>
+          http://www.visitoslo.com/en/oslo/apps/
+        </a>
+      </p>
+      <p>(Also you could ask us for our own favourites places to go!)</p>
     </div>
   );
 };
