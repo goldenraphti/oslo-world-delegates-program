@@ -31,6 +31,7 @@ import tineTangestuenProfilePic from "../public/photos/norwegian-delegates-pictu
 import solviLienProfilePic from "../public/photos/norwegian-delegates-pictures/Solvi_Lien.jpg";
 import ericaBerthelsenProfilePic from "../public/photos/norwegian-delegates-pictures/ERICA.jpeg";
 import anneMobergProfilePic from "../public/photos/norwegian-delegates-pictures/ANNE MOBERG.jpg";
+import nassimaDzairProfilePic from "../public/photos/norwegian-delegates-pictures/Nassima.jpeg";
 
 import victoriaLoteroProfilePic from "../public/photos/international-delegates-pictures/Victoria_Lotero.jpg";
 import amandaBittarProfilePic from "../public/photos/international-delegates-pictures/AmandaBittar_Foto_Romulo.png";
@@ -68,7 +69,10 @@ import luisBanrezesProfilePic from "../public/photos/international-delegates-pic
 import joaquimDuraesProfilePic from "../public/photos/international-delegates-pictures/Joaquim Duraes.jpg";
 import marcioLaranjeiraProfilePic from "../public/photos/international-delegates-pictures/Marcio.jpg";
 import natashaPadabedProfilePic from "../public/photos/international-delegates-pictures/Natasha_Padabed_DE_photo_Masha_Kunina_.jpg";
-// import marGironaProfilePic from "../public/photos/international-delegates-pictures/";
+import marGironaProfilePic from "../public/photos/international-delegates-pictures/mar girona.jpg";
+import raulRefreeProfilePic from "../public/photos/international-delegates-pictures/Raul refree.jpg";
+import yaraProfilePic from "../public/photos/international-delegates-pictures/yara.jpg";
+// import ProfilePic from "../public/photos/international-delegates-pictures/";
 
 export const delegatesList: delegatesListInterface = {
   norway: [
@@ -422,6 +426,16 @@ export const delegatesList: delegatesListInterface = {
       description: `One of the founders of the festival in 1994 and member of the Oslo World board since 2012.`,
       imgPath: anneMobergProfilePic,
     },
+    {
+      firstName: "Nassima",
+      lastName: "Dzair",
+      organization: "Interbridge",
+      jobPositionTitle: "CEO",
+      country: "Norway",
+      category: "norwegian",
+      description: `Nassima Dzair is the founder and CEO of InterBridge, a social startup that provides leadership trainings. A niche focus is Gen-Z insights provided to companies and governments through workshops with youth that have been educated to be Impact agents. She is a social innovator that is passionate about working for positive social impact and a more just sustainable future. Her dedication is building bridges between people, cultures, and generations. As a global citizen, Nassima has traveled the world avidly, speaks five languages fluently, relates to different cultures and has acquired knowledge across disciplines. She has a unique interdisciplinary background bridging health and peace including matters of global health, development, security, international conflict and human rights. Nassima is also an accomplished public speaker, trainer and moderator.`,
+      imgPath: nassimaDzairProfilePic,
+    },
   ],
   international: [
     {
@@ -754,7 +768,7 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: null,
       country: "South Africa",
       category: "international",
-      description: `Malawian, UK-born and South Africa-based Shiba Melissa Mazaza is a music journalist, media strategist and curator working with those that value new and exciting voices across Africa. Aiming to ring in the next generation of culture creators, she has provided media services for Platoon, Apple Music, Black Major, mixmag, DJ Mag, Resident Advisor and various artists, fostering the economic and spiritual freedom of African and black voices within her latest venture, Mount Makeda Media House. Simultaneously, she enjoys a fruitful voice over career for hundreds of clients from Africa Development Bank to Volkswagen and Emirates, while building a non-profit organisation with her father, dubbed the African Consciousness Institute, which aims to contribute to the wellbeing of African creatives with the help of mindfulness, consciousness and spiritual health practices.`,
+      description: `Starting as a music journalist at the now-defunct One Small Seed Magazine in 2012 and Okayafrica in 2014, the following years saw music journalist, media strategist and curator Shiba Melissa Mazaza building an interest in the machinations of the music industry at large -- and how African sociologies impact our continent’s creative expression. Since then she has penned investigative pieces for platforms such as mixmag, DJ Mag, Resident Advisor, okayafrica and Afropunk, and worked on dynamic teams representing groundbreaking artists such as Gqom pioneer DJ Lag at Black Major, along with managing amapiano star Aymos as well as  working on campaigns for PLATOON in the New Music Africa division. Also a freelance curator for Apple Music's dance-centric playlists, she has managed stages at, and programmed festivals at Design Indaba, Encounters International Film Festival, Cape Town Electronic Music Festival and Littlegig, as well as the hands-on task of discovering new talent for Afropunk. Simultaneously, she enjoys a fruitful voice over career for hundreds of clients from Woolworths to Volkswagen and Emirates. Presently, she is working on a research team for Spotify Global as Editorial Coordinator at Ask One Question.`,
       imgPath: shibaMelisaMazazaProfilePic,
     },
     {
@@ -764,7 +778,7 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: null,
       country: "Denmark",
       category: "international",
-      description: null,
+      description: `I've been working as a project manager at Tempi for 3 years. With our new strategy my field of work changed to mainly focus on social sustainability such as equality and mental health within art and culture - with the use of training of our unconscious biases, education and knowledge.`,
       imgPath: sofieHolstHansenProfilePic,
     },
     {
@@ -801,11 +815,11 @@ export const delegatesList: delegatesListInterface = {
       firstName: "Yara",
       lastName: "Mrad",
       organization: "Beirut & Beyond",
-      jobPositionTitle: null,
+      jobPositionTitle: "Program Manager",
       country: "Lebanon",
       category: "international",
-      description: null,
-      imgPath: null,
+      description: `Yara joined the B&B team in November 2020 when Amani snatched her away from Anghami where Yara was working as a Conceptual Writer. Besides her personal love for local music, Yara was a Writer and Content & Community Manager at Revolver, the leading music website in the Middle East, from October 2018 till September 2020 when the platform bid farewell to its public. On the academic side of things, Yara has an MA in Critical and Creative Analysis from Goldsmiths, University of London; her dissertation was a social study of the music scene in Lebanon. She also has a B.A in English Language from Notre Dame University - Louaize (NDU) and she spent her undergraduate years working as a Research Assistant at the Institute of Lebanese Thought.`,
+      imgPath: yaraProfilePic,
     },
     {
       firstName: "Luis",
@@ -856,8 +870,18 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: null,
       country: "Spain",
       category: "international",
-      description: null,
-      imgPath: null,
+      description: `Manager of Raül Refree`,
+      imgPath: marGironaProfilePic,
+    },
+    {
+      firstName: "Raul",
+      lastName: "Refrëe",
+      organization: "Artist",
+      jobPositionTitle: null,
+      country: "Spain",
+      category: "international",
+      description: `Raül Refree is one of the most acclaimed Spanish producers of the last decade. He posts alongside experimenters like Lee Ranaldo of Sonic Youth. He reviews the fados of Amália Rodrigues with Lina. He has worked with innovative artists such as Rosalía or El Niño de Elche, thus being inadvertently at the forefront of the so-called "new flamenco" movement and in the recovery of root music. But Raül's musical life doesn't stop there. He is also a noted songwriter and musician who has released 9 albums under his most personal project, Refree; acclaimed film soundtracks and a brimming discography of projects without genre corsets. Raül only understands music as an exercise in creation and research in freedom.`,
+      imgPath: raulRefreeProfilePic,
     },
   ],
 };
