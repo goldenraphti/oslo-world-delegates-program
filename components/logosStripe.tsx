@@ -15,9 +15,10 @@ export const LogosStripe = () => {
     <ul className={styles.logosContainer}>
       <li className={styles.partnersLogoContainer}>
         <Image
-          src={talentNorgeLogo}
-          alt='Talent Norge logo'
+          src={musicNorwayLogo}
+          alt='Music Norway logo'
           height={100}
+          width={150}
           placeholder='blur'
           priority={false}
           className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
@@ -47,10 +48,20 @@ export const LogosStripe = () => {
       </li>
       <li className={styles.partnersLogoContainer}>
         <Image
+          src={talentNorgeLogo}
+          alt='Talent Norge logo'
+          height={100}
+          placeholder='blur'
+          priority={false}
+          className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
+        />
+      </li>
+      <li className={styles.partnersLogoContainer}>
+        <Image
           src={keyChangeLogo}
           alt='Key Change logo'
-          height={100}
-          width={500}
+          height={50}
+          width={300}
           placeholder='blur'
           priority={false}
           className={styles.partnersLogo}
@@ -60,8 +71,8 @@ export const LogosStripe = () => {
         <Image
           src={saunaLogo}
           alt='Oslo Badstuforening logo'
-          height={100}
-          width={150}
+          height={50}
+          width={100}
           placeholder='blur'
           priority={false}
           className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
@@ -71,22 +82,11 @@ export const LogosStripe = () => {
         <Image
           src={goetheLogo}
           alt='Goethe Institut logo'
-          height={100}
-          width={150}
+          height={50}
+          width={90}
           placeholder='blur'
           priority={false}
           className={`${styles.partnersLogo} ${styles.logoContrast}`}
-        />
-      </li>
-      <li className={styles.partnersLogoContainer}>
-        <Image
-          src={musicNorwayLogo}
-          alt='Music Norway logo'
-          height={100}
-          width={150}
-          placeholder='blur'
-          priority={false}
-          className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
         />
       </li>
     </ul>
