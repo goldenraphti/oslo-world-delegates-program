@@ -11,10 +11,10 @@ import { EventCard } from "../../components/eventCard";
 
 const ScheduleDay: NextPageWithLayout = () => {
   const router = useRouter();
-  const { scheduleDayJSON } = router.query;
+  const { scheduleDayURL } = router.query;
 
   const scheduleDay = Object.values(schedule).find(
-    (day) => new Date(day.dayStringForDate).toJSON() === scheduleDayJSON
+    (day) => day.dayStringForDate === scheduleDayURL
   );
 
   const scheduleDate = scheduleDay

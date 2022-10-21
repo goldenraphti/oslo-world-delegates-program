@@ -29,9 +29,7 @@ const SchedulePage: NextPageWithLayout = () => {
         <ul className={styles.scheduleList}>
           {schedule.map((day) => (
             <li className={styles.cardShell} key={day.day}>
-              <Link
-                href={`/schedule/${new Date(day.dayStringForDate).toJSON()}`}
-              >
+              <Link href={`/schedule/${day.dayStringForDate}`}>
                 <a className={styles.cardLink}>{day.day}</a>
               </Link>
             </li>

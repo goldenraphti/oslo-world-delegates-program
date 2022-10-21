@@ -3,8 +3,7 @@ import { dayInterface } from "../interfaces";
 export const schedule: dayInterface[] = [
   {
     day: "Monday 31st of October",
-    dayStringForDate:
-      "Mon Oct 31 2022 00:00:00 GMT+0100 (Central European Standard Time)",
+    dayStringForDate: "2022-10-31",
     events: [
       {
         startTime: "13.30",
@@ -47,8 +46,7 @@ export const schedule: dayInterface[] = [
   },
   {
     day: "Tuesday 1st of November",
-    dayStringForDate:
-      "Tue Nov 01 2022 00:00:00 GMT+0100 (Central European Standard Time)",
+    dayStringForDate: "2022-11-01",
     events: [
       {
         startTime: "10.00",
@@ -124,8 +122,7 @@ export const schedule: dayInterface[] = [
   },
   {
     day: "Wednesday 2nd of November",
-    dayStringForDate:
-      "Wed Nov 02 2022 00:00:00 GMT+0100 (Central European Standard Time)",
+    dayStringForDate: "2022-11-02",
     events: [
       {
         startTime: "16.00",
@@ -188,8 +185,7 @@ export const schedule: dayInterface[] = [
   },
   {
     day: "Thursday 3rd of November",
-    dayStringForDate:
-      "Thu Nov 03 2022 00:00:00 GMT+0100 (Central European Standard Time)",
+    dayStringForDate: "2022-11-03",
     events: [
       {
         startTime: "10.00",
@@ -310,8 +306,7 @@ export const schedule: dayInterface[] = [
   },
   {
     day: "Friday 4. november",
-    dayStringForDate:
-      "Fri Nov 04 2022 00:00:00 GMT+0100 (Central European Standard Time)",
+    dayStringForDate: "2022-11-04",
     events: [
       {
         startTime: "11.00",
@@ -431,8 +426,7 @@ export const schedule: dayInterface[] = [
   },
   {
     day: "Saturday 5. november",
-    dayStringForDate:
-      "Sat Nov 05 2022 00:00:00 GMT+0100 (Central European Standard Time)",
+    dayStringForDate: "2022-11-05",
     events: [
       {
         startTime: "13.00",
@@ -539,8 +533,7 @@ export const schedule: dayInterface[] = [
   },
   {
     day: "Sunday 06. November",
-    dayStringForDate:
-      "Sun Nov 06 2022 00:00:00 GMT+0100 (Central European Standard Time)",
+    dayStringForDate: "2022-11-06",
     events: [
       {
         startTime: "15.00",
