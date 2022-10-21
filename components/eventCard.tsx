@@ -34,11 +34,13 @@ export const EventCard = ({ event }: Props) => {
         </p>
       )}
       {event.description && (
-        <p className={styles.description}>
-          <b>speakers</b>: {event.description}
+        <p className={styles.description}>{event.description}</p>
+      )}
+      {event.speakers && (
+        <p className={styles.speakers}>
+          <b>speakers</b>: {event.speakers}
         </p>
       )}
-      {event.speakers && <p className={styles.speakers}>{event.speakers}</p>}
       {event.moderators && (
         <p className={styles.moderators}>
           <b>moderators</b>: {event.moderators}

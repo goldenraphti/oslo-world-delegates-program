@@ -55,7 +55,7 @@ export const schedule: dayInterface[] = [
           "Safemuse & Hvitsten Salongprat Art, archives and why it matters to history",
         venue: "Melahuset",
         language: "English",
-        description: `Brief content : Belarus is one of the many countries where government authorities in recent years have tightened their grip on artistic freedom of expression.
+        description: `Belarus is one of the many countries where government authorities in recent years have tightened their grip on artistic freedom of expression.
         What happens to art history when regimes change and the role of archiving in preventing pieces of history are lost?`,
         speakers: `Stina Högkvist (National Museum), Arnt Fredheim (art historian and curator), and Zhanna Gladko (Belarusian visual artist)
         Moderator: Celina Jerman Bright-Taylor (Safemuse)`,
@@ -471,12 +471,6 @@ export const schedule: dayInterface[] = [
         startTime: "20.00",
         title: "Cherie Mwangi @ Parkteatret",
         venue: "Parkteatret",
-        isNightProgram: true,
-      },
-      {
-        startTime: "20.00",
-        title: "Artist talk: Sergé Aime Coulibaly @ Dansens Hus",
-        venue: "Dansens Hus",
         isNightProgram: true,
       },
       {
