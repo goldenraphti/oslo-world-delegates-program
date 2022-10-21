@@ -33,7 +33,8 @@ const ScheduleDay: NextPageWithLayout = () => {
       </Head>
 
       <h1 className={styles.title}>
-        {scheduleDate?.toLocaleDateString(undefined, {
+        {scheduleDate?.toLocaleString(undefined, {
+          timeZone: "CET",
           weekday: "long",
           year: "numeric",
           month: "long",
