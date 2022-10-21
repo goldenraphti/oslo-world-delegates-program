@@ -204,7 +204,7 @@ export const schedule: dayInterface[] = [
         description: `Sauna is a great equalizer. It represents the non-hierarchical nature of Nordic society. The saunas at Sukkerbiten will rise above 80 degrees to host professionals from the cultural sector and music enthusiasts to discuss ideas to have a more sustainable and diverse cultural sector.
         Oslo World has invited key professionals around the globe to highlight inspiring cases of study that are leading the way to build a more fair and sustainable cultural sector.
         This event is connected with the three editions of the Utopian Manifesto, which gather more and more voices with signatories from all around the globe.`,
-        speakers: `Mia Ternström (Keychange, Sweden), Natalia San Juan (Femnøise, Spain/Uruguay), Guillerme Tavares & Amanda Bittar (Favela Sounds/ Brazil), Shiba Melisa Mazaza (Music journalist, South Africa), Fabio Scopino & Davide Mastropaolo (Music Connects & Italian Music Beat, Italy), Linnéa Elisabeth Svensson (Green operations Europe, Norway), Jonathan Campbell (Small Toronto, Canada), Vemund Hareide (Oslo Badstueforening, Norway), Nora Paynter Gundersen (Flott Gjort , Norway).`,
+        speakers: `Mia Ternström (Keychange, Sweden), Natalia San Juan (Femnøise, Spain/Uruguay), Guillerme Tavares & Amanda Bittar (Favela Sounds/ Brazil), Shiba Melisa Mazaza (Music journalist, South Africa), Fabio Scopino & Davide Mastropaolo (Music Connects & Italian Music Beat, Italy), Linnéa Elisabeth Svensson (Green operations Europe, Norway), Jonathan Campbell (Small Toronto, Canada).`,
         obligatoryTarget: "all",
       },
       {
@@ -212,6 +212,7 @@ export const schedule: dayInterface[] = [
         endTime: "15.00",
         title: "Delegates lunch + Concert",
         description: `Hosted by Music Norway
+
         Highlight: “Terra Incognita”
         Artist performance Inger Hannisdal`,
         obligatoryTarget: "all",
@@ -231,7 +232,7 @@ export const schedule: dayInterface[] = [
         startTime: "17.45",
         endTime: "19.30",
         title: "Delegates Dinner @ Mengelsgården",
-        venue: "Mengelsgården",
+        venue: "Melun",
         description: "Hosted by Ministry of Foreign affairs",
         obligatoryTarget: "all",
       },

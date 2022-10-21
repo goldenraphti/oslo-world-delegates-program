@@ -58,4 +58,5 @@
 .description {
   grid-area: description;
   max-width: 800px;
+  white-space: pre-line;
 }

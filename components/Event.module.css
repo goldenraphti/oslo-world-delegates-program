@@ -60,6 +60,10 @@
   border-color: rgb(var(--pink-regular));
 }
 
+.description {
+  white-space: pre-line;
+}
+
 @media (min-width: 500px) {
   .card {
     width: 100%;
