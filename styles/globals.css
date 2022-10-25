@@ -51,15 +51,6 @@ a:hover {
   --pink-regular: 202, 62, 93;
 }
 
-.venue-list li {
-  padding-bottom: 25px;
-}
-
-.venue-name {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .screen-reader {
   visibility: hidden;
   width: 1px;

@@ -54,143 +54,148 @@ const CommonInfosPage: NextPageWithLayout = () => {
           will do our best to secure your entrance.
         </p>
         <h2>FESTIVAL VENUES</h2>
-        <ul className='venue-list'>
-          <li>
-            <span className='venue-name'>Blå</span>
+        <ul className={styles.venueList}>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Blå</span>
             <br />
-            <span className='venue-address'>Brenneriveien 9C</span>
+            <span className={styles.venueAddress}>Brenneriveien 9C</span>
           </li>
-          <li>
-            <span className='venue-name'>Cosmopolite</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Cosmopolite</span>
             <br />
-            <span className='venue-address'>Vogts gate 64</span>
+            <span className={styles.venueAddress}>Vogts gate 64</span>
           </li>
-          <li>
-            <span className='venue-name'>Dansens Hus</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Dansens Hus</span>
             <br />
-            <span className='venue-address'>Vulkan 1</span>
+            <span className={styles.venueAddress}>Vulkan 1</span>
           </li>
-          <li>
-            <span className='venue-name'>Den Norske Opera & Ballett</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Den Norske Opera & Ballett</span>
             <br />
-            <span className='venue-address'>Kirsten Flagstads Plass</span>
+            <span className={styles.venueAddress}>Kirsten Flagstads Plass</span>
           </li>
-          <li>
-            <span className='venue-name'>Vigelandsmuseet</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Vigelandsmuseet</span>
             <br />
-            <span className='venue-address'>Nobels gate 32</span>
+            <span className={styles.venueAddress}>Nobels gate 32</span>
           </li>
-          <li>
-            <span className='venue-name'>Grønland kulturstasjon</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Grønland kulturstasjon</span>
             <br />
-            <span className='venue-address'>Tøyenbekken 5</span>
+            <span className={styles.venueAddress}>Tøyenbekken 5</span>
           </li>
-          <li>
-            <span className='venue-name'>Jaeger</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Jaeger</span>
             <br />
-            <span className='venue-address'>Grensen 9</span>
+            <span className={styles.venueAddress}>Grensen 9</span>
           </li>
-          <li>
-            <span className='venue-name'>Kulturkirken Jakob</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Kulturkirken Jakob</span>
             <br />
-            <span className='venue-address'>Hausmanns gate 14</span>
+            <span className={styles.venueAddress}>Hausmanns gate 14</span>
           </li>
-          <li>
-            <span className='venue-name'>Munch Museum</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Munch Museum</span>
             <br />
-            <span className='venue-address'>Edvard Munchs Plass 1</span>
+            <span className={styles.venueAddress}>Edvard Munchs Plass 1</span>
           </li>
-          <li>
-            <span className='venue-name'>Internasjonalen</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Internasjonalen</span>
             <br />
-            <span className='venue-address'>Youngstorget 2</span>
+            <span className={styles.venueAddress}>Youngstorget 2</span>
           </li>
-          <li>
-            <span className='venue-name'>Feber (Festivalkontor)</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Feber (Festivalkontor)</span>
             <br />
-            <span className='venue-address'>Youngstorget 6</span>
+            <span className={styles.venueAddress}>Youngstorget 6</span>
           </li>
-          <li>
-            <span className='venue-name'>Nobels fredssenter</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Nobels fredssenter</span>
             <br />
-            <span className='venue-address'>Brynjulf Buls plass 1</span>
+            <span className={styles.venueAddress}>Brynjulf Buls plass 1</span>
           </li>
-          <li>
-            <span className='venue-name'>Sentralen</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Sentralen</span>
             <br />
-            <span className='venue-address'>Øvre Slottsgate 3</span>
+            <span className={styles.venueAddress}>Øvre Slottsgate 3</span>
           </li>
-          <li>
-            <span className='venue-name'>Becco</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Becco</span>
             <br />
-            <span className='venue-address'>Kristian Augusts gate 11</span>
+            <span className={styles.venueAddress}>
+              Kristian Augusts gate 11
+            </span>
           </li>
-          <li>
-            <span className='venue-name'>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>
               Nordic Black Theatre & Cafeteatret
             </span>
-            <br />
-            <span className='venue-address'>Hollendergata 8</span>
+            <span className={styles.venueAddress}>Hollendergata 8</span>
           </li>
-          <li>
-            <span className='venue-name'>Oslo Konserthus</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Oslo Konserthus</span>
             <br />
-            <span className='venue-address'>Munkedamsveien 14</span>
+            <span className={styles.venueAddress}>Munkedamsveien 14</span>
           </li>
-          <li>
-            <span className='venue-name'>Parkteatret</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Parkteatret</span>
             <br />
-            <span className='venue-address'>Olaf Ryes plass 11</span>
+            <span className={styles.venueAddress}>Olaf Ryes plass 11</span>
           </li>
-          <li>
-            <span className='venue-name'>Riksscenen</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Riksscenen</span>
             <br />
-            <span className='venue-address'>Trondheimsveien 2</span>
+            <span className={styles.venueAddress}>Trondheimsveien 2</span>
           </li>
-          <li>
-            <span className='venue-name'>Rockefeller Music Hall</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Rockefeller Music Hall</span>
             <br />
-            <span className='venue-address'>Badstugata 2</span>
+            <span className={styles.venueAddress}>Badstugata 2</span>
           </li>
-          <li>
-            <span className='venue-name'>Sentrum Scene</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Sentrum Scene</span>
             <br />
-            <span className='venue-address'>Arbeidersamfunnets plass 1</span>
+            <span className={styles.venueAddress}>
+              Arbeidersamfunnets plass 1
+            </span>
           </li>
-          <li>
-            <span className='venue-name'>Victoria Nasjonal Jazzscene</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>
+              Victoria Nasjonal Jazzscene
+            </span>
             <br />
-            <span className='venue-address'>Karl Johans gate 35</span>
+            <span className={styles.venueAddress}>Karl Johans gate 35</span>
           </li>
-          <li>
-            <span className='venue-name'>Hærverk</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Hærverk</span>
             <br />
-            <span className='venue-address'>Hausmanns gate 34</span>
+            <span className={styles.venueAddress}>Hausmanns gate 34</span>
           </li>
-          <li>
-            <span className='venue-name'>Trekanten</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Trekanten</span>
             <br />
-            <span className='venue-address'>St. Olavs Plass 5</span>
+            <span className={styles.venueAddress}>St. Olavs Plass 5</span>
           </li>
-          <li>
-            <span className='venue-name'>Pressens Hus</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Pressens Hus</span>
             <br />
-            <span className='venue-address'>Skippergata 24</span>
+            <span className={styles.venueAddress}>Skippergata 24</span>
           </li>
-          <li>
-            <span className='venue-name'>Melahuset</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Melahuset</span>
             <br />
-            <span className='venue-address'>Mariboes gate 8</span>
+            <span className={styles.venueAddress}>Mariboes gate 8</span>
           </li>
-          <li>
-            <span className='venue-name'>Asylet</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Asylet</span>
             <br />
-            <span className='venue-address'>Grønland 28</span>
+            <span className={styles.venueAddress}>Grønland 28</span>
           </li>
-          <li>
-            <span className='venue-name'>Hammerhai</span>
+          <li className={styles.venue}>
+            <span className={styles.venueName}>Hammerhai</span>
             <br />
-            <span className='venue-address'>Opergata 77</span>
+            <span className={styles.venueAddress}>Opergata 77</span>
           </li>
         </ul>
       </div>

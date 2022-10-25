@@ -10,6 +10,31 @@
   align-items: center;
 }
 
+.venueList {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.venue {
+  padding-bottom: 25px;
+  border: 1px solid rgba(0 0 0 / 0.5);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.venueName {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 @media (min-width: 600px) {
 
+}
+
+@media (prefers-color-scheme: dark) {
+  .venue {
+    border-color: rgba(255 255 255 / 0.5);
+  }
 }
