@@ -32,6 +32,15 @@ import solviLienProfilePic from "../public/photos/norwegian-delegates-pictures/S
 import ericaBerthelsenProfilePic from "../public/photos/norwegian-delegates-pictures/ERICA.jpeg";
 import anneMobergProfilePic from "../public/photos/norwegian-delegates-pictures/ANNE MOBERG.jpg";
 import nassimaDzairProfilePic from "../public/photos/norwegian-delegates-pictures/Nassima.jpeg";
+import oyvindLarsenProfilePic from "../public/photos/norwegian-delegates-pictures/oyvind larsen.jpg";
+import toneOsterdalProfilePic from "../public/photos/norwegian-delegates-pictures/ToneOsterdal_MN_FotoHelgeBrekke.jpg";
+import tinaBrodalProfilePic from "../public/photos/norwegian-delegates-pictures/Tina.jpg";
+import heleneBrochProfilePic from "../public/photos/norwegian-delegates-pictures/Helene.jpg";
+import rozaTaslimiProfilePic from "../public/photos/norwegian-delegates-pictures/Roza.jpg";
+import siriKvambeProfilePic from "../public/photos/norwegian-delegates-pictures/Siri_Kvambe.jpg";
+import trineMjolhusProfilePic from "../public/photos/norwegian-delegates-pictures/Trine.jpg";
+import nedjaBouzaidaProfilePic from "../public/photos/norwegian-delegates-pictures/NEDJA.jpeg";
+import maleneCaeProfilePic from "../public/photos/norwegian-delegates-pictures/Malene.jpeg";
 
 import victoriaLoteroProfilePic from "../public/photos/international-delegates-pictures/Victoria_Lotero.jpg";
 import amandaBittarProfilePic from "../public/photos/international-delegates-pictures/AmandaBittar_Foto_Romulo.png";
@@ -435,6 +444,96 @@ export const delegatesList: delegatesListInterface = {
       category: "norwegian",
       description: `Nassima Dzair is the founder and CEO of InterBridge, a social startup that provides leadership trainings. A niche focus is Gen-Z insights provided to companies and governments through workshops with youth that have been educated to be Impact agents. She is a social innovator that is passionate about working for positive social impact and a more just sustainable future. Her dedication is building bridges between people, cultures, and generations. As a global citizen, Nassima has traveled the world avidly, speaks five languages fluently, relates to different cultures and has acquired knowledge across disciplines. She has a unique interdisciplinary background bridging health and peace including matters of global health, development, security, international conflict and human rights. Nassima is also an accomplished public speaker, trainer and moderator.`,
       imgPath: nassimaDzairProfilePic,
+    },
+    {
+      firstName: "Øyvind",
+      lastName: "Larsen",
+      organization: "Oslo Jazz Festival",
+      jobPositionTitle: "Director",
+      country: "Norway",
+      category: "norwegian",
+      description: `Øyvind Larsen is the artistic and managing director of Oslo Jazzfestival. He is a writer for Jazznytt magazine and member of the Europe Jazz Network board.`,
+      imgPath: oyvindLarsenProfilePic,
+    },
+    {
+      firstName: "Tone",
+      lastName: "Østerdal",
+      organization: "Music Norway",
+      jobPositionTitle: "Incoming General Director",
+      country: "Norway",
+      category: "norwegian",
+      description: `Tone Østerdal is the incoming General Director for Music Norway. She has previously been General Manager for Norwegian Live Music Association, an NGO representing more than 460 venues and festivals, as well as being Head of arts and culture in Akershus County Municipality. She holds several board positions in the arts sector, and has been on the working committee of the Norwegian Music Business Council. She’s been a juror at the Norwegian Grammys for several years. Tone holds a masters degree in cultural studies from the University of South-Eastern Norway, and has further studies in Audience Development as well as Business Process Management.`,
+      imgPath: toneOsterdalProfilePic,
+    },
+    {
+      firstName: "Tina",
+      lastName: "Brodal",
+      organization: "Music Norway",
+      jobPositionTitle: "International PR Manager",
+      country: "Norway",
+      category: "norwegian",
+      description: `International Public Relations Manager for Music Norway, the Norwegian Music Export Office. Works closely with media and PR contacts internationally, as well as reports on news stories from Norwegian artists and the music industry.`,
+      imgPath: tinaBrodalProfilePic,
+    },
+    {
+      firstName: "Helene",
+      lastName: "Broch",
+      organization: "Music Norway",
+      jobPositionTitle: "Senior Advisor",
+      country: "Norway",
+      category: "norwegian",
+      description: `Music Norway’s mission is to facilitate growth in interest, and use, of Norwegian music of all genres. Addressing the needs of the music industry, artists, ensembles and organisations, Music Norway offers grant schemes, competence building, facilitation of networking arenas, and counselling. The organisation develops programs that are adapted to a digital and global music industry, based on data retrieval, analysis and music export statistics.`,
+      imgPath: heleneBrochProfilePic,
+    },
+    {
+      firstName: "Roza",
+      lastName: "Taslimi",
+      organization: "Music Norway",
+      jobPositionTitle: null,
+      country: "Norway",
+      category: "norwegian",
+      description: `Roza coordinates projects in Music Norway. She closely monitors our international market supervisors, and ensures that Music Norway's tools and methods are connected to the Norwegian music industry. Roza makes sure that Music Norway's content reaches new users, educational institutions and relevant arenas across the country. In addition, she is involved in all competence programs, assists in implementation, and particularly follows up Keychange and the Change Agents, Music Norway's council for multicultural diversity in the music industry. Here Roza creates both meeting places, organizes network gatherings, and holds workshops for other organizations on diversity. Roza often moderate conversations or give lectures on diversity, inclusion and equality. Furthermore, she likes to attend conferences and is always involved when Music Norway creates events. Roza has an education in Film and TV from the University of the Arts London, and back in Oslo she has solid experience from film and TV productions as, among other things, coordinator and casting manager. Roza is the founder of the club concept Sweetcheeksxyou.`,
+      imgPath: rozaTaslimiProfilePic,
+    },
+    {
+      firstName: "Siri",
+      lastName: "Kvambe",
+      organization: "Samspill International Music Network",
+      jobPositionTitle: "General Manager",
+      country: "Norway",
+      category: "norwegian",
+      description: `Samspill International Music Network is an organisation working with and for professional and international musicians based in Norway. Our aim is to promote diversity in music and related artistic expressions, and represent the artists themselves. Samspill offers guidance in career development and professionalisation. Samspill arranges national and international concerts in collaboration with our members and relevant organisers. Further, we act as a link between artists, promoters, festivals, organisations and funders.`,
+      imgPath: siriKvambeProfilePic,
+    },
+    {
+      firstName: "Trine",
+      lastName: "Mjølhus Jacobsen",
+      organization: "NOPA",
+      jobPositionTitle: "Medlemsansvarlig",
+      country: "Norway",
+      category: "norwegian",
+      description: `Member manager in NOPA (Norwegian society of composers and lyricists).`,
+      imgPath: trineMjolhusProfilePic,
+    },
+    {
+      firstName: "Nedja",
+      lastName: "Bouzaida",
+      organization: "Keychange artist",
+      jobPositionTitle: null,
+      country: "Norway",
+      category: "norwegian",
+      description: `Nedja is a 25 year old Norwegian-Tunisian singer/songwriter/producer based in Oslo. Her sound is a merge of RnB, Arab electro and UK Garage/Drum and Bass. She has done some exciting things this year, starter off by being selected as one of the participants representing Norway in the Keychange program. Earlier this year she produced a short sound clip for the first Global H&M Eid-campaign. In august she played her first show abroad, at Way Out West in Gothenburg and is currently in the process of producing and writing her first EP (Which will include producers such as Jerry Folk, Cheb Runner, Bendik HK and Heine Aabø).`,
+      imgPath: nedjaBouzaidaProfilePic,
+    },
+    {
+      firstName: "Malene",
+      lastName: "Cae",
+      organization: "shesaid.so Norway",
+      jobPositionTitle: null,
+      country: "Norway",
+      category: "norwegian",
+      description: `Malene previously worked as a PR & Marketing manager for indie label MTG Music for four years. She has a bachelors degree in media studies including subjects in music studies and copyright. After her bachelor she completed a masters degree in journalism. The master thesis discussed editorial content on Spotify and alternative music journalism in music forums such as Genius.com.`,
+      imgPath: maleneCaeProfilePic,
     },
   ],
   international: [
