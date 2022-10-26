@@ -3,6 +3,7 @@ import styles from "../styles/CommonInfos.module.css";
 import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
+import Link from "next/link";
 
 const CommonInfosPage: NextPageWithLayout = () => {
   return (
@@ -34,10 +35,25 @@ const CommonInfosPage: NextPageWithLayout = () => {
         <br />
         Opening hours festival office:
         <ul>
-          <li>Monday: 10:00- 20:00</li>
+          <li>Monday: 10:00- 17:00</li>
           <li>Tuesday- Friday: 10:00- 18:00</li>
           <li>Saturday: 10:00- 15:00</li>
         </ul>
+        <h2>Food</h2>
+        <p>
+          Thanks to the Ministry of Foreign Affairs, Music Norway and the
+          Diversity network we will host special networking dinners (on Tuesday
+          and Thursday) and lunches (Thursday and Friday). Check the schedule
+          for more information.
+        </p>
+        <p>
+          In addition, delegates will get discount from:
+          <br /> 15% at{" "}
+          <Link href='https://vinvinoslo.no/'>
+            <a>Vin Vin</a>
+          </Link>{" "}
+          (Torggata 18, Entrance at Badstugata 0181 Oslo)
+        </p>
         <h2>CONCERTS</h2>
         <p>
           You will get the Delegates wristband and name badge upon registration.

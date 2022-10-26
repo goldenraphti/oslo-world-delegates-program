@@ -148,7 +148,7 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Adviser",
       country: "Norway",
       category: "norwegian",
-      description: `If possible, maybe you can just use the same text and photo as last year? :) I don't remember exactly what was written, but I don't think much has changed since then. If you send it to me by email, I can double check the info.`,
+      description: null,
       imgPath: akariIzumeProfilePic,
     },
     {
