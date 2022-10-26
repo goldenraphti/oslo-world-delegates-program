@@ -1,4 +1,5 @@
 import { ImageProps, StaticImageData } from "next/image";
+import { UrlWithStringQuery } from "url";
 
 export interface dayInterface {
   day: string;
@@ -55,4 +56,11 @@ export interface staffCategoryInterface {
   id: staffCategoryType;
   order: number;
   title: null | string;
+}
+
+export interface venueInterface {
+  name: string;
+  address: string;
+  googleMapsURL: string | null;
+  website: string | null;
 }

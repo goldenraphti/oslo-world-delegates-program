@@ -4,6 +4,8 @@ import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import Link from "next/link";
+import { venueList } from "../assets/venue-list";
+import { VenueCard } from "../components/venueCard";
 
 const CommonInfosPage: NextPageWithLayout = () => {
   return (
@@ -71,148 +73,10 @@ const CommonInfosPage: NextPageWithLayout = () => {
         </p>
         <h2>FESTIVAL VENUES</h2>
         <ul className={styles.venueList}>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Blå</span>
-            <br />
-            <span className={styles.venueAddress}>Brenneriveien 9C</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Cosmopolite</span>
-            <br />
-            <span className={styles.venueAddress}>Vogts gate 64</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Dansens Hus</span>
-            <br />
-            <span className={styles.venueAddress}>Vulkan 1</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Den Norske Opera & Ballett</span>
-            <br />
-            <span className={styles.venueAddress}>Kirsten Flagstads Plass</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Vigelandsmuseet</span>
-            <br />
-            <span className={styles.venueAddress}>Nobels gate 32</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Grønland kulturstasjon</span>
-            <br />
-            <span className={styles.venueAddress}>Tøyenbekken 5</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Jaeger</span>
-            <br />
-            <span className={styles.venueAddress}>Grensen 9</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Kulturkirken Jakob</span>
-            <br />
-            <span className={styles.venueAddress}>Hausmanns gate 14</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Munch Museum</span>
-            <br />
-            <span className={styles.venueAddress}>Edvard Munchs Plass 1</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Internasjonalen</span>
-            <br />
-            <span className={styles.venueAddress}>Youngstorget 2</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Feber (Festivalkontor)</span>
-            <br />
-            <span className={styles.venueAddress}>Youngstorget 6</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Nobels fredssenter</span>
-            <br />
-            <span className={styles.venueAddress}>Brynjulf Buls plass 1</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Sentralen</span>
-            <br />
-            <span className={styles.venueAddress}>Øvre Slottsgate 3</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Becco</span>
-            <br />
-            <span className={styles.venueAddress}>
-              Kristian Augusts gate 11
-            </span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>
-              Nordic Black Theatre & Cafeteatret
-            </span>
-            <span className={styles.venueAddress}>Hollendergata 8</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Oslo Konserthus</span>
-            <br />
-            <span className={styles.venueAddress}>Munkedamsveien 14</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Parkteatret</span>
-            <br />
-            <span className={styles.venueAddress}>Olaf Ryes plass 11</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Riksscenen</span>
-            <br />
-            <span className={styles.venueAddress}>Trondheimsveien 2</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Rockefeller Music Hall</span>
-            <br />
-            <span className={styles.venueAddress}>Badstugata 2</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Sentrum Scene</span>
-            <br />
-            <span className={styles.venueAddress}>
-              Arbeidersamfunnets plass 1
-            </span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>
-              Victoria Nasjonal Jazzscene
-            </span>
-            <br />
-            <span className={styles.venueAddress}>Karl Johans gate 35</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Hærverk</span>
-            <br />
-            <span className={styles.venueAddress}>Hausmanns gate 34</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Trekanten</span>
-            <br />
-            <span className={styles.venueAddress}>St. Olavs Plass 5</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Pressens Hus</span>
-            <br />
-            <span className={styles.venueAddress}>Skippergata 24</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Melahuset</span>
-            <br />
-            <span className={styles.venueAddress}>Mariboes gate 8</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Asylet</span>
-            <br />
-            <span className={styles.venueAddress}>Grønland 28</span>
-          </li>
-          <li className={styles.venue}>
-            <span className={styles.venueName}>Hammerhai</span>
-            <br />
-            <span className={styles.venueAddress}>Opergata 77</span>
-          </li>
+          {venueList &&
+            venueList.map((venue) => (
+              <VenueCard venue={venue} key={venue.name} />
+            ))}
         </ul>
       </div>
     </div>

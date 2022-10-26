@@ -1,0 +1,30 @@
+
+.venue {
+  padding-bottom: 25px;
+  border: 1px solid rgba(0 0 0 / 0.5);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.venueName {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.linksContainer {
+  display: flex;
+}
+
+.linkIcon {
+  display: block;
+  padding: 10px;
+}
+
+@media (min-width: 500px) {
+}
+
+@media (prefers-color-scheme: dark) {
+  .venue {
+    border-color: rgba(255 255 255 / 0.5);
+  }
+}
