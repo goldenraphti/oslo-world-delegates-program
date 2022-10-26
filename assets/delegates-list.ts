@@ -41,6 +41,11 @@ import siriKvambeProfilePic from "../public/photos/norwegian-delegates-pictures/
 import trineMjolhusProfilePic from "../public/photos/norwegian-delegates-pictures/Trine.jpg";
 import nedjaBouzaidaProfilePic from "../public/photos/norwegian-delegates-pictures/NEDJA.jpeg";
 import maleneCaeProfilePic from "../public/photos/norwegian-delegates-pictures/Malene.jpeg";
+import ashleyShiriProfilePic from "../public/photos/norwegian-delegates-pictures/ashley.jpg";
+import ariGautierProfilePic from "../public/photos/norwegian-delegates-pictures/ARI.jpeg";
+import audDigernesProfilePic from "../public/photos/norwegian-delegates-pictures/AUD.jpg";
+import karsteinGronnesbyProfilePic from "../public/photos/norwegian-delegates-pictures/Karstein-gronnesby.jpg";
+import eiraEdwardsProfilePic from "../public/photos/norwegian-delegates-pictures/Eira.jpg";
 
 import victoriaLoteroProfilePic from "../public/photos/international-delegates-pictures/Victoria_Lotero.jpg";
 import amandaBittarProfilePic from "../public/photos/international-delegates-pictures/AmandaBittar_Foto_Romulo.png";
@@ -148,7 +153,7 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Adviser",
       country: "Norway",
       category: "norwegian",
-      description: null,
+      description: `Akari works as an adviser in Safemuse, a Norway-based non-profit organisation dedicated to the fight for artistic freedom. She holds a BA in political science from the University of British Columbia in Canada and a MSc in international relations from the Norwegian University of Life Sciences. Her master thesis explored the nexus between international border politics, aesthetics and creative resistance. Currently, she is also enrolled in part-time studies in art film. Over the years, Akari has been involved in a number of NGOs and grassroot or cultural initiatives, such as No to Nuclear Weapons Norway (Nei til Atomvåpen), ICAN Norway, Oslo World festival and the youth empowerment project Ezinne Athletics.`,
       imgPath: akariIzumeProfilePic,
     },
     {
@@ -534,6 +539,56 @@ export const delegatesList: delegatesListInterface = {
       category: "norwegian",
       description: `Malene previously worked as a PR & Marketing manager for indie label MTG Music for four years. She has a bachelors degree in media studies including subjects in music studies and copyright. After her bachelor she completed a masters degree in journalism. The master thesis discussed editorial content on Spotify and alternative music journalism in music forums such as Genius.com.`,
       imgPath: maleneCaeProfilePic,
+    },
+    {
+      firstName: "Ashley",
+      lastName: "Shiri",
+      organization: "Mela",
+      jobPositionTitle: "Producer",
+      country: "Norway",
+      category: "norwegian",
+      description: `Producer & Booking for Melafestival & Melahuset`,
+      imgPath: ashleyShiriProfilePic,
+    },
+    {
+      firstName: "Ari",
+      lastName: "Gautier",
+      organization: "Mela",
+      jobPositionTitle: null,
+      country: "Norway",
+      category: "norwegian",
+      description: `Curator and project leader`,
+      imgPath: ariGautierProfilePic,
+    },
+    {
+      firstName: "Aud",
+      lastName: "Digernes",
+      organization: "Mela",
+      jobPositionTitle: "Head of administration",
+      country: "Norway",
+      category: "norwegian",
+      description: null,
+      imgPath: audDigernesProfilePic,
+    },
+    {
+      firstName: "Karstein",
+      lastName: "Grønnesby",
+      organization: "Samspill International Music Network",
+      jobPositionTitle: "Project manager",
+      country: "Norway",
+      category: "norwegian",
+      description: `Creative jack of all trades with a bachelor of music and MA in musicology, now working with project management at Samspill International Music Network and Norsk Viseforum.`,
+      imgPath: karsteinGronnesbyProfilePic,
+    },
+    {
+      firstName: "Eira",
+      lastName: "Edwards",
+      organization: "Talent Norge",
+      jobPositionTitle: "Project manager",
+      country: "Norway",
+      category: "norwegian",
+      description: `Project manager in Talent Norge, which is an organization established by the Ministry of Culture in 2015 that supports talent programs within art and culture in collaboration with private contributors across the country. We emphasize the exchange of expertise across disciplines and the core of our philosophy is to contribute to artistic development and mastery, through a long-term and holistic approach of the artists and their careers.`,
+      imgPath: eiraEdwardsProfilePic,
     },
   ],
   international: [
