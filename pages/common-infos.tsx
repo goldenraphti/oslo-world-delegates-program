@@ -36,8 +36,11 @@ const CommonInfosPage: NextPageWithLayout = () => {
           <a
             className={styles.feberLinks}
             href={
-              venueList.find((venue) => venue.name.includes("Feber"))
-                ?.googleMapsURL
+              venueList.find(
+                (venue) =>
+                  venue.name.includes("Feber") &&
+                  venue.address.includes("Youngstorget 6")
+              )?.googleMapsURL
             }
             target='_blank'
             rel='noreferrer'
