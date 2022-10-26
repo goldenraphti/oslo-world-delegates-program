@@ -23,7 +23,12 @@ const SchedulePage: NextPageWithLayout = () => {
         <h1 className={styles.title}>Schedule</h1>
 
         <p className={styles.description}>
-          Schedule for the delegates attending the Oslo World Delegates Program
+          This is your schedule for the festival week. We strongly encourage you
+          to follow the entirety of the day program (except the events in a
+          language you do not understand 😉).
+          <br />
+          We have highlighted the activities you should <i>definitely</i> not
+          miss.
         </p>
 
         <ul className={styles.scheduleList}>
