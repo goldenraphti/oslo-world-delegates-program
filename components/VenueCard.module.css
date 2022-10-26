@@ -4,6 +4,17 @@
   border: 1px solid rgba(0 0 0 / 0.5);
   border-radius: 6px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.venue:has(.linksContainer) {
+  padding-bottom: 5px;
+}
+
+.textContent {
+  margin: 0;
 }
 
 .venueName {
