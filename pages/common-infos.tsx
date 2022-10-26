@@ -30,17 +30,30 @@ const CommonInfosPage: NextPageWithLayout = () => {
           events, please let us know as soon as possible.
         </p>
         <h2>FESTIVAL HUB</h2>
-        Even if Oslo World will take over venues all around the city, during the
-        day the festival HUB will be located at the heart of Oslo: FEBER
-        (Youngstorget 6). Feel free to visit and meet the Oslo World Team, to
-        share a smile during the hectic days.
-        <br />
-        Opening hours festival office:
-        <ul>
-          <li>Monday: 10:00- 17:00</li>
-          <li>Tuesday- Friday: 10:00- 18:00</li>
-          <li>Saturday: 10:00- 15:00</li>
-        </ul>
+        <p>
+          Even if Oslo World will take over venues all around the city, during
+          the day the festival HUB will be located at the heart of Oslo: FEBER (
+          <a
+            className={styles.feberLinks}
+            href={
+              venueList.find((venue) => venue.name.includes("Feber"))
+                ?.googleMapsURL
+            }
+            target='_blank'
+            rel='noreferrer'
+          >
+            Youngstorget 6
+          </a>
+          ). Feel free to visit and meet the Oslo World Team, to share a smile
+          during the hectic days.
+          <br />
+          Opening hours festival office:
+          <ul>
+            <li>Monday: 10:00- 17:00</li>
+            <li>Tuesday- Friday: 10:00- 18:00</li>
+            <li>Saturday: 10:00- 15:00</li>
+          </ul>
+        </p>
         <h2>Food</h2>
         <p>
           Thanks to the Ministry of Foreign Affairs, Music Norway and the

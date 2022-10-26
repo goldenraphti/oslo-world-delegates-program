@@ -61,6 +61,6 @@ export interface staffCategoryInterface {
 export interface venueInterface {
   name: string;
   address: string;
-  googleMapsURL: string | null;
-  website: string | null;
+  googleMapsURL: string;
+  website: string;
 }
