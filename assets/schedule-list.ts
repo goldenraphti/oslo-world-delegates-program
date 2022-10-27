@@ -320,8 +320,7 @@ export const schedule: dayInterface[] = [
       {
         startTime: "13.00",
         endTime: "14.30",
-        title:
-          "Networking Lunch- Gender equality.  with I need Spain + Talent Norge +Music norway",
+        title: "Networking Lunch- Gender equality. hosted by Music Norway",
         obligatoryTarget: "all",
       },
       {
