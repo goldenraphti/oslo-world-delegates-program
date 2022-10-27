@@ -29,6 +29,13 @@
 .linkIcon {
   display: block;
   padding: 10px;
+  border-radius: 4px;
+  color: rgb(var(--pink-regular));
+}
+
+.linkIcon:hover {
+  background: rgba(var(--blue-link) / 0.1);
+  color: revert;
 }
 
 @media (min-width: 500px) {
@@ -37,5 +44,9 @@
 @media (prefers-color-scheme: dark) {
   .venue {
     border-color: rgba(255 255 255 / 0.5);
+  }
+
+  .linkIcon:hover {
+  background: rgba(var(--blue-link) / 0.3);
   }
 }

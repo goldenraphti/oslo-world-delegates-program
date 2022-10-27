@@ -48,7 +48,8 @@ a:hover {
 
 :root {
   --pink-light-1: 245 160 179;
-  --pink-regular: 202, 62, 93;
+  --pink-regular: 202 62 93;
+  --blue-link: 0 102 204;
 }
 
 .screen-reader {
