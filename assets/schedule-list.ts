@@ -90,9 +90,10 @@ export const schedule: dayInterface[] = [
       {
         startTime: "17.00",
         endTime: "18.40",
-        title: "Delegates dinner with Mangfoldsnettverket",
+        title: "Networking delegates dinner with Mangfoldsnettverket",
         description: `Hosted by the Diversity Network.`,
         obligatoryTarget: "all",
+        venue: "Vin Vin",
       },
       {
         startTime: "19.00",
@@ -322,6 +323,7 @@ export const schedule: dayInterface[] = [
         endTime: "14.30",
         title: "Networking Lunch- Gender equality. hosted by Music Norway",
         obligatoryTarget: "all",
+        venue: "Melahuset",
       },
       {
         startTime: "15.30",
