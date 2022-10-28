@@ -13,8 +13,36 @@
   margin: 10px 0;
 }
 
+.greenRiderLink {
+  color: rgb(var(--emerald-darker-2));
+  border: 1px solid rgba(var(--emerald-darker-1) / 0.8);
+  padding: 10px 20px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.greenRiderLink:hover {
+  color: rgb(255 255 255);
+  border-color: rgb(var(--emerald-darker-1));
+  background-color: rgba(var(--emerald-darker-1) / 0.5);
+  text-decoration: none;
+}
+
+.linkIcon {
+  margin-right: 6px;
+  opacity: 0.8;
+}
+
 @media (prefers-color-scheme: dark) {
   .footer {
     border-color: #222;
+  }
+
+  .greenRiderLink {
+    color: rgb(var(--emerald-light-1));
   }
 }

@@ -50,6 +50,10 @@ a:hover {
   --pink-light-1: 245 160 179;
   --pink-regular: 202 62 93;
   --blue-link: 0 102 204;
+  --emerald-light-1: 94 234 212;
+  --emerald: 45 212 191;
+  --emerald-darker-1: 20 184 166;
+  --emerald-darker-2: 0 160 146;
 }
 
 .screen-reader {
