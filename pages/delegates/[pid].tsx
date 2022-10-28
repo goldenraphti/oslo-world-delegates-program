@@ -19,7 +19,7 @@ const DelegateProfile: NextPageWithLayout = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Delegate at Oslo World Delegates Program</title>
+        <title>{`${delegate?.firstName} ${delegate?.lastName}, participant of the Oslo World Delegates Program`}</title>
         <meta
           name='description'
           content={`profile page of ${delegate?.firstName} ${delegate?.lastName}, one of the brilliant delegates attending the Oslo World Delegates Program`}
