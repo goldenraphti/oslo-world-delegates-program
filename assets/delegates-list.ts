@@ -46,6 +46,7 @@ import ariGautierProfilePic from "../public/photos/norwegian-delegates-pictures/
 import audDigernesProfilePic from "../public/photos/norwegian-delegates-pictures/AUD.jpg";
 import karsteinGronnesbyProfilePic from "../public/photos/norwegian-delegates-pictures/Karstein-gronnesby.jpg";
 import eiraEdwardsProfilePic from "../public/photos/norwegian-delegates-pictures/Eira.jpg";
+import nizamNajjarProfilePic from "../public/photos/norwegian-delegates-pictures/Nizam.jpg";
 
 import victoriaLoteroProfilePic from "../public/photos/international-delegates-pictures/Victoria_Lotero.jpg";
 import amandaBittarProfilePic from "../public/photos/international-delegates-pictures/AmandaBittar_Foto_Romulo.png";
@@ -589,6 +590,16 @@ export const delegatesList: delegatesListInterface = {
       category: "norwegian",
       description: `Project manager in Talent Norge, which is an organization established by the Ministry of Culture in 2015 that supports talent programs within art and culture in collaboration with private contributors across the country. We emphasize the exchange of expertise across disciplines and the core of our philosophy is to contribute to artistic development and mastery, through a long-term and holistic approach of the artists and their careers.`,
       imgPath: eiraEdwardsProfilePic,
+    },
+    {
+      firstName: "Nizam",
+      lastName: "Najjar",
+      organization: "Urtegata.Co",
+      jobPositionTitle: "Founder and production manager in Uretegata.co arena",
+      country: "Norway",
+      category: "norwegian",
+      description: `Founder and production manager in Uretegata.co arena`,
+      imgPath: nizamNajjarProfilePic,
     },
   ],
   international: [
