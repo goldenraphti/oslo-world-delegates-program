@@ -87,6 +87,8 @@ import natashaPadabedProfilePic from "../public/photos/international-delegates-p
 import marGironaProfilePic from "../public/photos/international-delegates-pictures/mar girona.jpg";
 import raulRefreeProfilePic from "../public/photos/international-delegates-pictures/Raul refree.jpg";
 import yaraProfilePic from "../public/photos/international-delegates-pictures/yara.jpg";
+import derekDebruProfilePic from "../public/photos/international-delegates-pictures/derek-debru-cropped.jpg";
+import sharminSultanaProfilePic from "../public/photos/international-delegates-pictures/Sharmin_sultana.jpeg";
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
 export const delegatesList: delegatesListInterface = {
@@ -1047,6 +1049,26 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       description: `Raül Refree is one of the most acclaimed Spanish producers of the last decade. He posts alongside experimenters like Lee Ranaldo of Sonic Youth. He reviews the fados of Amália Rodrigues with Lina. He has worked with innovative artists such as Rosalía or El Niño de Elche, thus being inadvertently at the forefront of the so-called "new flamenco" movement and in the recovery of root music. But Raül's musical life doesn't stop there. He is also a noted songwriter and musician who has released 9 albums under his most personal project, Refree; acclaimed film soundtracks and a brimming discography of projects without genre corsets. Raül only understands music as an exercise in creation and research in freedom.`,
       imgPath: raulRefreeProfilePic,
+    },
+    {
+      firstName: "Sharmin",
+      lastName: "Sultana",
+      organization: "Salt Creatives and Events Limited",
+      jobPositionTitle: null,
+      country: "Bangladesh",
+      category: "international",
+      description: `The founding member of the renowned Global Bangladeshi Folk Rock band Chirkutt, Sharmin Sultana is a skilled vocalist, a prolific lyricist and composer, and producer. With over twenty years of musical experience under her belt, Sumi is not just an inspiration to young musicians, but also a proud ambassador of Bangladeshi music worldwide, having performed with her band at concerts and high-profile music festivals like SXSW in many countries. With her charismatic and warm personality both on and off the stage, Sumi holds a uniquely memorable position in her fans' hearts. She is also the founder and CEO of Salt Creatives, a rising creative advertising agency of Bangladesh with an impressive repertoire of creations. She has received numerous awards and accolades for her achievements and is one of the most prominent faces to represent Bangladesh in international circles.`,
+      imgPath: sharminSultanaProfilePic,
+    },
+    {
+      firstName: "Derek",
+      lastName: "Debru",
+      organization: "Nyege Nyege",
+      jobPositionTitle: null,
+      country: "Uganda",
+      category: "international",
+      description: `Derek Debru is one of the founders of Nyege Nyege collective which originated as a nightclub in Kampala where local East African DJs, musicians and artists could risk playing a wide range of sounds in a safe and supportive environment. With the intention of taking nightlife and forming a community around it, they have created multiple projects, including a music festival, a professional and community recording studio, a residency space, an agency and two record labels. All integrated into a holistic incubation platform to support the underground community, using their collective expertise to produce, programme and curate. Nyege Nyege focuses on exploring new avenues to champion an emerging generation of artists.`,
+      imgPath: derekDebruProfilePic,
     },
   ],
 };
