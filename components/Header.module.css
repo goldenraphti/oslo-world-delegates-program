@@ -8,8 +8,9 @@
   flex-direction: column;
 }
 
-.header nav a img {
+.header nav a svg {
   min-width: 100px;
+  fill: currentColor;
 }
 
 .header nav ul {
@@ -25,7 +26,7 @@
   list-style-type: none;
 }
 
-.header nav ul li a {
+.header nav  a {
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;

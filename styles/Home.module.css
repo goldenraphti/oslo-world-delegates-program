@@ -10,6 +10,13 @@
   align-items: center;
 }
 
+.main > svg {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    fill: currentColor;
+  }
+
 .title a {
   color: #0070f3;
   text-decoration: none;

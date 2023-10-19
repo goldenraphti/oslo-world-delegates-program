@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./Header.module.css";
 import { useThemeDetector } from "../hooks/getDarkTheme";
-import Image from "next/image";
+import { LogoOsloWorld } from "./LogoOsloWorld";
 
 export default function Header() {
   return (
@@ -10,16 +10,7 @@ export default function Header() {
         <Link href='/'>
           <a>
             <span className='screen-reader'>homepage</span>
-            <Image
-              src={
-                useThemeDetector()
-                  ? "/oslo-world-logo-white.svg"
-                  : "/oslo-world-logo.svg"
-              }
-              alt='Oslo World Logo'
-              width={200}
-              height={100}
-            />
+            <LogoOsloWorld />
           </a>
         </Link>
         <ul>

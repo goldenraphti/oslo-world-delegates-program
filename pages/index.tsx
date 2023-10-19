@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { useThemeDetector } from "../hooks/getDarkTheme";
@@ -8,6 +7,7 @@ import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import { LogosStripe } from "../components/logosStripe";
 import { Info, Plane, CalendarDays, Contact, Star } from "lucide-react";
+import { LogoOsloWorld } from "../components/LogoOsloWorld";
 
 const Home: NextPageWithLayout = () => {
   return (
@@ -19,16 +19,7 @@ const Home: NextPageWithLayout = () => {
       </Head>
 
       <div className={styles.main}>
-        <Image
-          src={
-            useThemeDetector()
-              ? "/oslo-world-logo-white.svg"
-              : "/oslo-world-logo.svg"
-          }
-          alt='Oslo World Logo'
-          width={400}
-          height={200}
-        />
+        <LogoOsloWorld />
         <h1 className={styles.title}>Delegates Program</h1>
 
         <div className={styles.grid}>

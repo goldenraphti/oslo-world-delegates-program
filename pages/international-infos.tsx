@@ -50,7 +50,7 @@ const InternationalInfosPage: NextPageWithLayout = () => {
             </p>
             <p>
               <Tag size={15} className={styles.icon} />
-              210 NOK
+              230 NOK
             </p>
             <p>
               The train departs every 10 minutes (and every 20 minutes on
@@ -75,7 +75,7 @@ const InternationalInfosPage: NextPageWithLayout = () => {
             </p>
             <p>
               <Tag size={15} className={styles.icon} />
-              114 NOK
+              118 NOK
             </p>
             <p>The journey takes 25 minutes</p>
             <p>
@@ -127,9 +127,9 @@ const InternationalInfosPage: NextPageWithLayout = () => {
       </p>
 
       <p>
-        The price for one ticket is 39 NOK (lasts one hour) . You can buy it via
+        The price for one ticket is 40 NOK (lasts one hour) . You can buy it via
         the Ruter app, or at 7-Eleven, Narvesen, Deli de Luca or on the ticket
-        vending machines. 24h tickets cost 117 NOK and 7 days tickets cost 323
+        vending machines. 24h tickets cost 121 NOK and 7 days tickets cost 335
         NOK.
       </p>
 
