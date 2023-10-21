@@ -29,7 +29,6 @@ export interface delegateInterface {
   category: "norwegian" | "international";
   firstName: string;
   lastName: string;
-  email?: string;
   organization: string;
   jobPositionTitle: string | null;
   country: string;
