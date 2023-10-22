@@ -24,18 +24,21 @@ export const venueList: venueInterface[] = [
     address: "Kirsten Flagstads Plass",
     googleMapsURL: "https://goo.gl/maps/3Mu6Yi7L4cZ9GprF6",
     website: "http://operaen.no/",
+    hidden: true,
   },
   {
     name: "Vigelandsmuseet",
     address: "Nobels gate 32",
     googleMapsURL: "https://g.page/Vigelandmuseet?share",
     website: "http://www.vigeland.museum.no/",
+    hidden: true,
   },
   {
     name: "Grønland kulturstasjon",
     address: "Tøyenbekken 5",
     googleMapsURL: "https://goo.gl/maps/jmRoq87BRCoMu3jk6",
     website: "http://oslo.kommune.no/kulturskolen",
+    hidden: true,
   },
   {
     name: "Jaeger",
@@ -54,10 +57,11 @@ export const venueList: venueInterface[] = [
     address: "Edvard Munchs Plass 1",
     googleMapsURL: "https://goo.gl/maps/xUvNtYQsA3SSR1j27",
     website: "http://munchmuseet.no/",
+    hidden: true,
   },
   {
     name: "Internasjonalen",
-    address: "Youngstorget 2",
+    address: "Youngstorget 2A",
     googleMapsURL: "https://goo.gl/maps/sWmPMuHLzX5C5Rd37",
     website: "http://www.internasjonalen.no/",
   },
@@ -66,12 +70,14 @@ export const venueList: venueInterface[] = [
     address: "Youngstorget 6",
     googleMapsURL: "https://g.page/feberoslo?share",
     website: "https://www.facebook.com/feberoslo/",
+    hidden: true,
   },
   {
     name: "Nobels fredssenter",
     address: "Brynjulf Buls plass 1",
     googleMapsURL: "https://g.page/Nobelpeacecenter?share",
     website: "http://www.nobelpeacecenter.org/",
+    hidden: true,
   },
   {
     name: "Sentralen",
@@ -84,6 +90,7 @@ export const venueList: venueInterface[] = [
     address: "Kristian Augusts gate 11",
     googleMapsURL: "https://goo.gl/maps/oKeKf3g4GUFNqyzF7",
     website: "https://becco.no/",
+    hidden: true,
   },
   {
     name: "Nordic Black Theatre & Cafeteatret",
@@ -138,12 +145,14 @@ export const venueList: venueInterface[] = [
     address: "St. Olavs Plass 5",
     googleMapsURL: "https://goo.gl/maps/zZow3qwE253oHzaRA",
     website: "http://www.trekantenoslo.no/",
+    hidden: true,
   },
   {
     name: "Pressens Hus",
     address: "Skippergata 24",
     googleMapsURL: "https://goo.gl/maps/J5De2DPPRKNT7CDF9",
     website: "http://pressenshus.no/",
+    hidden: true,
   },
   {
     name: "Melahuset",
@@ -156,11 +165,34 @@ export const venueList: venueInterface[] = [
     address: "Grønland 28",
     googleMapsURL: "https://goo.gl/maps/Jps8Wecf6Q9yc6JM6",
     website: "http://www.asylet.no/",
+    hidden: true,
   },
   {
     name: "Hammerhai",
     address: "Opergata 77",
     googleMapsURL: "https://goo.gl/maps/c9Jpo2bD4hUv7bfY6",
     website: "https://www.instagram.com/hammerhaibar/",
+    hidden: true,
+  },
+  // Baba bar
+  {
+    name: "Baba bar",
+    address: "Hausmanns gate 8",
+    googleMapsURL: "https://maps.app.goo.gl/VCFsZdmr2nXvDoX2A",
+    website: "https://www.instagram.com/bababar_oslo/",
+  },
+  // Dunk
+  {
+    name: "Dunk",
+    address: "Bernt Ankers gate 21",
+    googleMapsURL: "https://maps.app.goo.gl/NK16RrmEZAFkHhZb9",
+    website: "http://www.dunkoslo.no/",
+  },
+  // Fotogalleriet
+  {
+    name: "Fotogalleriet",
+    address: "Møllergata 34",
+    googleMapsURL: "https://maps.app.goo.gl/sAKnKB8sqZPT6tDm7",
+    website: "https://www.fotogalleriet.no/",
   },
 ];

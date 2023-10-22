@@ -66,4 +66,5 @@ export interface venueInterface {
   address: string;
   googleMapsURL: string;
   website: string;
+  hidden?: boolean;
 }
