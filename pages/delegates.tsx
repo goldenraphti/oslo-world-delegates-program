@@ -30,7 +30,7 @@ const DelegatesPage: NextPageWithLayout = () => {
         <h2>International delegates</h2>
         <ul className={styles.delegatesList}>
           {delegatesList.international
-            .filter((delegate) => !delegate?.hidden)
+            .filter((delegate) => delegate?.displayed)
             .sort(sortDelegateObjectsAlphabetically)
             .map((delegate, i) => (
               <DelegateComponent
@@ -43,7 +43,7 @@ const DelegatesPage: NextPageWithLayout = () => {
         <h2>Norwegian delegates</h2>
         <ul className={styles.delegatesList}>
           {delegatesList.norway
-            .filter((delegate) => !delegate?.hidden)
+            .filter((delegate) => delegate?.displayed)
             .sort(sortDelegateObjectsAlphabetically)
             .map((delegate, i) => (
               <DelegateComponent
