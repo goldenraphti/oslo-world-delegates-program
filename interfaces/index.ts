@@ -1,6 +1,8 @@
 import { ImageProps, StaticImageData } from "next/image";
 import { UrlWithStringQuery } from "url";
+import { venueList } from "../assets/venue-list";
 
+type VenueName = (typeof venueList)[number]["name"];
 export interface dayInterface {
   day: string;
   dayStringForDate: string;
@@ -11,12 +13,13 @@ export interface eventInterface {
   startTime: string;
   endTime?: string;
   title: string;
-  venue?: string;
+  venue: VenueName;
   language?:
     | "English"
     | "Norwegian"
     | "English / Arabic / Norwegian"
-    | "Arabic";
+    | "Arabic"
+    | "English / Norwegian";
   description?: string;
   speakers?: string;
   moderators?: string;

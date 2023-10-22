@@ -75,11 +75,11 @@ li {
 
 /* style external links */
 
-a[href^='http'] {
+a[href^='http']:not(:has(span.screen-reader)) {
   padding-right: 1.25em;
 }
 
-a[href^='http']::after {
+a[href^='http']:not(:has(span.screen-reader))::after {
   position: absolute;
   content: '';
   display: inline-block;

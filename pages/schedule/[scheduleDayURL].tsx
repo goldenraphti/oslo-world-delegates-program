@@ -56,7 +56,7 @@ const ScheduleDay: NextPageWithLayout = () => {
         scheduleDay?.events?.filter((event) => event.isNightProgram)?.length >
           0 && (
           <div className={styles.nightProgram}>
-            <h2 className={styles.nightTitle}>Night program</h2>
+            <h2 className={styles.nightTitle}>Concerts / Night program</h2>
             <ul className={styles.eventsList}>
               {scheduleDay?.events
                 .filter((event) => event.isNightProgram)
