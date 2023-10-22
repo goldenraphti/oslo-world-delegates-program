@@ -21,7 +21,10 @@ export const EventCard = ({ event }: Props) => {
         )}
       </p>
 
-      <p className={styles.title}>{event.title}</p>
+      <p className={styles.title}>
+        {event.title}
+        {event.venue && event.isNightProgram && ` @ ${event.venue}`}
+      </p>
 
       {(event.venue || event.language) && (
         <p className={styles.venueLanguageContainer}>
