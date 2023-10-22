@@ -32,6 +32,7 @@ export interface delegateInterface {
   organization: string;
   jobPositionTitle: string | null;
   country: string;
+  displayed: boolean;
   description: string | null;
   imgPath: StaticImageData | null;
 }
