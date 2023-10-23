@@ -16,8 +16,13 @@ export const EventCard = ({ event }: Props) => {
       <p className={styles.time}>
         {event.startTime}
         {event.endTime ? " - " + event.endTime : ""}
-        {event.obligatoryTarget && (
+        {event.obligatoryTarget && event.obligatoryTarget === "all" && (
           <span className={styles.obligatory}>attendance expected</span>
+        )}
+        {event.obligatoryTarget && event.obligatoryTarget === "keychange" && (
+          <span className={styles.obligatory}>
+            Obligatory for keychange participant
+          </span>
         )}
       </p>
 

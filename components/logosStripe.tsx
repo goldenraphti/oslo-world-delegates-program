@@ -78,17 +78,6 @@ export const LogosStripe = () => {
           className={`${styles.partnersLogo} ${styles.logoLowIntensity}`}
         />
       </li>
-      <li className={styles.partnersLogoContainer}>
-        <Image
-          src={goetheLogo}
-          alt='Goethe Institut logo'
-          height={50}
-          width={90}
-          placeholder='blur'
-          priority={false}
-          className={`${styles.partnersLogo} ${styles.logoContrast}`}
-        />
-      </li>
     </ul>
   );
 };

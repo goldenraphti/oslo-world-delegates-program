@@ -54,6 +54,7 @@ export const schedule: dayInterface[] = [
         title: "Workshop: Music and climate justice",
         venue: "Melahuset",
         language: "English",
+        obligatoryTarget: "all",
         description: `An interactive workshop discussing sustainable music industry practices and climate action within the cultural sector, and specially the festival context.`,
       },
       {
@@ -62,6 +63,7 @@ export const schedule: dayInterface[] = [
         title: "The Rise of indigenous Pop music",
         venue: "Melahuset",
         language: "English",
+        obligatoryTarget: "all",
         description: `A global wave of indigenous influence in popular culture is upon us – from Black Panther and How to Blow Up a Pipeline to the Norwegian Let the River Flow and numerous young Sámi artists on the rise. How to reach bigger audiences and highlight uniqueness, without stereotyping or appropriating.`,
         speakers:
           "Ella Marie Haætta Isaksen, Stephen Budd, Tone Østerdal, Sofie Søndervik Sæther.",
@@ -107,6 +109,7 @@ export const schedule: dayInterface[] = [
         title: "Networking lunch",
         venue: "Melacafe",
         language: "English",
+        obligatoryTarget: "all",
         description: `Hosted by the Diversity Network. Connect with the members of the Diversity Network and enjoy the showcase concert of  the brainchild of the Mexican percussionist, singer, composer and DJ Paulina Sotomayor. With four EPs under her belt, she has become recognized as a Mexican pioneer of alternative electronic folk music,  with deep roots in the tradition and a keen ear for the current trends in global Latin rhythms.`,
       },
     ],
@@ -139,6 +142,7 @@ export const schedule: dayInterface[] = [
         title: "Networking lunch SWANA region",
         venue: "Tukthuset",
         language: "English",
+        obligatoryTarget: "all",
         description: `An engaging lunch session that celebrates a decade of SWANA and Nordic cross-regional collaborations. This event welcomes Norwegian and international delegates to network and engage in informal conversations. Short presentations will highlight the impactful collaborations between Oslo World and partners from the SWANA region, including Amman Music Talk, Beirut & Beyond, and Visa for Music.`,
         speakers:
           "Tom Knappskog, (Director, Section for Culture and Creative Businesses, MFA), Alexandra Archetti Stølen (Oslo World),  Stephen Budd (Stephen Budd Music Ltd, the OneFest Festival UK), Amani Semaan (Director, Beirut and Beyond International Music Festival), Rita Furuseth Sandberg (Former Minister Counsellor, Royal Norwegian Embassy in Amman, MFA), Lama Hazboun (Director Amman Jazz Festival, Jordan), Marwane Fachane (Executive Director of Hiba Foundation/ Visa For Music)Laia Canals (Director TEMPI, Danmark)",
@@ -149,6 +153,7 @@ export const schedule: dayInterface[] = [
         title: "Keychange take-over",
         venue: "Byens Tak",
         language: "English",
+        obligatoryTarget: "all",
         description: `Step into the future of music equality at the Keychange Pledge and Action Plan Launch Event in Norway. This momentous occasion is a resounding call for global gender balance in the music industry.Guided by the esteemed Christina Hazboun, the Keychange Pledge and Action Plan, informed by over 200 international signatories, offers a visionary roadmap for authentic and lasting change in all music sectors.Connect with the Safemuse Female Network, dedicated to supporting at-risk creators, and be inspired by thought-provoking discussions led by industry luminaries, including Silje Larsen Borgan, Erik Egenes, Gina Périer, and Claudia Pereira among others. Don't miss captivating performances by artists from Norway, France, and Italy, and savor the rich flavors of Taiwanese cuisine, including the exquisite "guabao" from PÁ-Smaken av Taiwan.`,
         speakers:
           "Silje Riise Næss (Talent Norge), Linda Eng Strand (Norsk Tipping), Christina Hazboun (Keychange), Erik Egenes (by:Larm, Norway), Gina Périer (Lapee, France), Claudia Pereira of CHILEAN WEY and Somos Fuego (Chile),  Silje Larsen Borgan (Little Big Sister, Norway, Keychange Inspiration Award Winner 2022), Solveig Riiser of (Miniøya, Norway), Altyn Kapalova (Museum of Feminist and Queer Art, Kyrgyzstan). CONCERT: Kamara (Norway), Brö (France) IRuna (Italy)",
@@ -159,7 +164,6 @@ export const schedule: dayInterface[] = [
         title: "Silent film concert: The thief of Bagdad",
         venue: "Cinemateket",
         description: `Cinemateket invites you to a unique silent film concert. "The Thief from Baghdad" (1924) is a captivating Hollywood adventure, inspired by "One Thousand and One Nights," Kjetil Schjander Luhr, a renowned silent film musician, sought to provide a fresh cultural perspective for the film. Partnering with Saleh Mahfoud, a Syrian multi-instrumentalist and composer, they crafted a new musical ensemble that blends Hollywood clichés with authentic Arabic music. This concert promises to entertain and enlighten a contemporary audience, 99 years after the film's debut.`,
-        isNightProgram: true,
       },
       {
         startTime: "19.30",
@@ -205,6 +209,7 @@ export const schedule: dayInterface[] = [
           "Group Coaching session for Keychange participants: Mastering Music Conferences, Markets, and Festivals with Kea Ostovany",
         venue: "Opera",
         language: "English",
+        obligatoryTarget: "keychange",
         description: `A captivating Group Coaching session tailored for Keychange participants. Are you a music industry enthusiast eager to unlock the full potential of music conferences, markets, and festivals? Delve into the secrets of navigating these dynamic arenas with Kea Ostovany, an accomplished executive coach, consultant, speaker, and lecturer, boasting over 18 years of experience. Norge, specializing in nurturing top talents and leaders across various domains, including CEOs, major artists, champion athletes, and TED Talk speakers. Her international work spans diverse sectors, from multinational corporations to media, creative industries, and educational institutions.`,
         speakers: "Kea Ostovany",
       },
@@ -220,6 +225,7 @@ export const schedule: dayInterface[] = [
         title: "We don't talk about oil",
         venue: "Melahuset",
         language: "English",
+        obligatoryTarget: "all",
         description: `This panel explores Norway's relationship with oil, its cultural implications, and the challenges of discussing this sensitive topic while receiving public funding.`,
         speakers:
           "Julie Forchhammer (Co-founder / partner Klimakultur SA),  Khalid Albaih (Sudanese political cartoonist and civil rights activist), Calum Macintyre (Stopp Oljeletinga)  Silje Ask Lundberg (Oil Change international)",
@@ -231,6 +237,7 @@ export const schedule: dayInterface[] = [
           "Seen and heard echoes of Vietnam: Who defines how we are represented?",
         venue: "Internasjonalen",
         language: "English",
+        obligatoryTarget: "all",
         description: `Step into a world where echoes of Vietnam resound, where stories are shaped and redefined, and where the power of representation takes center stage.`,
         speakers: "Susanne Xin, Zach Sch, Jung Buffalo, Chi Ton",
       },
@@ -240,6 +247,7 @@ export const schedule: dayInterface[] = [
         title: "Disappearing Soundscapes",
         venue: "Fotogalleriet",
         language: "English",
+        obligatoryTarget: "all",
         description: `In a world increasingly endangered by climate injustice and people's forced exile, how can we collect sounds and, therefore, stories otherwise threatened to disappear?How can art bear witness to multifaceted and complex realities while preserving disappearing communities and other spaces? What's the role sound plays in it?`,
         speakers:
           "Andrea Laumont (Sound Earth Legacy), Christina Hazboun (Keychange/ The Sonic Agent), Bente Geving (Artist), Antonio Cataldo (Fotogalleriet)",
@@ -260,6 +268,7 @@ export const schedule: dayInterface[] = [
         title: "Music and Spaces: A love-hate story in Beirut",
         venue: "Byens tak",
         language: "English",
+        obligatoryTarget: "all",
         description: `The conversation looks at how culture can persevere through adversity, using their unique circumstances to shape their soundscapes. What is the evolving role of architecture in shaping the sonic experiences of audiences and artists alike?`,
         speakers:
           "Mayssa Jallad, Anthony Tawil, Synne Bergby, Amani Semaan, Yara Mrad",
@@ -342,6 +351,7 @@ export const schedule: dayInterface[] = [
         language: "English",
         description: `A guided workshop with Sam Rise tailored for Keychange participants only.`,
         speakers: "Sam Rise",
+        obligatoryTarget: "keychange",
       },
     ],
   },
@@ -363,6 +373,7 @@ export const schedule: dayInterface[] = [
         title: "The Power of Music and Advocacy",
         venue: "Internasjonalen",
         language: "English",
+        obligatoryTarget: "all",
         description: `An exclusive artist talk with the legendary Greek artist, George Dalaras!`,
         speakers: "Theodoros Rakopoulos, George Dalaras",
       },
@@ -372,6 +383,7 @@ export const schedule: dayInterface[] = [
         title: "Moroccan Soundscapes Shifting Norwegian Paradigms",
         venue: "Baba Bar",
         language: "English",
+        obligatoryTarget: "all",
         description: `An exploration of the evolving Moroccan music panorama and its dynamic convergence with the Norwegian soundscape.`,
         speakers: "Manal, Royane, Nassima Dzair",
       },
@@ -496,6 +508,7 @@ export const schedule: dayInterface[] = [
         title: "Afro-centred future:  Faizal Mostrixx and Ghetto Kumbé",
         venue: "Melahuset",
         language: "English",
+        obligatoryTarget: "all",
         description: `Embark on a captivating journey into Afrofuturism, where African identities are reinvented through groundbreaking music. How does Afrofuturism bridge the gap between traditional sounds and the possibilities of new technologies? How does music empower individuals and communities to reclaim their identities?  How can art and music shed light on environmental challenges?`,
         speakers:
           "Edgardo Garcés (Ghetto Kumbé), Faizal Mostrixx, Angelica Balanta (Miss Balanta)",
@@ -524,6 +537,7 @@ export const schedule: dayInterface[] = [
         title: "Music, Social Agency and Stage Arts",
         venue: "Dansens Hus",
         language: "English",
+        obligatoryTarget: "all",
         description: `This talk will explore the power of dance and performativity as a medium for social expression, the blending of diverse dance styles and cultural influences, and the role of music in inspiring movement. The panelists will share their creative processes and how dance can be a transformative force for both performers and audiences.`,
         speakers:
           "Desire Marea, Thomas Talawa Prestø, Buru Isaac Mohlabane, Jessica Lauren Elizabeth Taylor.",
@@ -534,6 +548,7 @@ export const schedule: dayInterface[] = [
         title: "Musikkreisen Live",
         venue: "Internasjonalen",
         language: "English / Norwegian",
+        obligatoryTarget: "all",
         description: `Meet Oslo World's artists in an intimate setting at Internasjonalen, when NRK P2's Musikkreisen - formerly known as Jungetelegrafen - invites you to a live broadcast with the audience.`,
       },
       {
