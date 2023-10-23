@@ -31,6 +31,7 @@ import sajjeSolbakkProfilePic from "../public/photos/norwegian-delegates-picture
 import gabrielCorreaProfilePic from "../public/photos/norwegian-delegates-pictures/gabriel-correa.jpg";
 import theaFaerdenBringsvaerdProfilePic from "../public/photos/norwegian-delegates-pictures/thea-faerden-bringsvaerd.jpg";
 import tuvaSvellandProfilePic from "../public/photos/norwegian-delegates-pictures/tuva-svelland.jpg";
+import khalidAlbaihProfilePic from "../public/photos/norwegian-delegates-pictures/khalid-albaih.jpeg";
 
 import laiaProfilePic from "../public/photos/international-delegates-pictures/Laia.png";
 import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
@@ -422,7 +423,19 @@ export const delegatesList: delegatesListInterface = {
       description: `Tuva works as a project coordinator for NOPA. She has a background in tourism management, as well as a masters degree in Project Management for Music and Stage from the University of Agder.`,
       imgPath: tuvaSvellandProfilePic,
     },
+    {
+      firstName: "Khalid",
+      lastName: "Albaih",
+      organization: "Artist",
+      jobPositionTitle: "Artist",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Romanian-born artist raised in Qatar, based in Oslo. Founder of getfadaa.com, Sudan Artist Fund, and Sudan Art and Design Library. Commentary on CNN, The Guardian, Aljazeera. Authored "Khartoon!" and "Sudan Retold." Recent work: 9-meter tunnel Sound installation at Documenta15.`,
+      imgPath: khalidAlbaihProfilePic,
+    },
   ],
+  // international delegates
   international: [
     {
       firstName: "Soudabeh",
