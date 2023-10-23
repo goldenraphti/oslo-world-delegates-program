@@ -133,7 +133,9 @@ export const schedule: dayInterface[] = [
         venue: "Oslo Badstue Forening - Sukkerbiten",
         language: "English",
         description: `Sauna is a great equalizer. It represents the non-hierarchical nature of Nordic society. The saunas at Sukkerbiten will rise above 80 degrees to host professionals from the cultural sector and music enthusiasts to discuss ideas. . Away from the real world, muscles relaxing, core temperature rising, we will share strategies to work together against systemic discrimination, gender inequality and racism.
+
         This event is connected with the three editions of the Utopian Manifesto that gather more and more voices with signatories from all around the globe.
+
         Swimsuits are required. Bring your own towel.`,
       },
       {
@@ -154,7 +156,11 @@ export const schedule: dayInterface[] = [
         venue: "Byens Tak",
         language: "English",
         obligatoryTarget: "all",
-        description: `Step into the future of music equality at the Keychange Pledge and Action Plan Launch Event in Norway. This momentous occasion is a resounding call for global gender balance in the music industry.Guided by the esteemed Christina Hazboun, the Keychange Pledge and Action Plan, informed by over 200 international signatories, offers a visionary roadmap for authentic and lasting change in all music sectors.Connect with the Safemuse Female Network, dedicated to supporting at-risk creators, and be inspired by thought-provoking discussions led by industry luminaries, including Silje Larsen Borgan, Erik Egenes, Gina Périer, and Claudia Pereira among others. Don't miss captivating performances by artists from Norway, France, and Italy, and savor the rich flavors of Taiwanese cuisine, including the exquisite "guabao" from PÁ-Smaken av Taiwan.`,
+        description: `Step into the future of music equality at the Keychange Pledge and Action Plan Launch Event in Norway. This momentous occasion is a resounding call for global gender balance in the music industry. Guided by the esteemed Christina Hazboun, the Keychange Pledge and Action Plan, informed by over 200 international signatories, offers a visionary roadmap for authentic and lasting change in all music sectors.
+
+        Connect with the Safemuse Female Network, dedicated to supporting at-risk creators, and be inspired by thought-provoking discussions led by industry luminaries, including Silje Larsen Borgan, Erik Egenes, Gina Périer, and Claudia Pereira among others.
+
+        Don't miss captivating performances by artists from Norway, France, and Italy, and savor the rich flavors of Taiwanese cuisine, including the exquisite "guabao" from PÁ-Smaken av Taiwan.`,
         speakers:
           "Silje Riise Næss (Talent Norge), Linda Eng Strand (Norsk Tipping), Christina Hazboun (Keychange), Erik Egenes (by:Larm, Norway), Gina Périer (Lapee, France), Claudia Pereira of CHILEAN WEY and Somos Fuego (Chile),  Silje Larsen Borgan (Little Big Sister, Norway, Keychange Inspiration Award Winner 2022), Solveig Riiser of (Miniøya, Norway), Altyn Kapalova (Museum of Feminist and Queer Art, Kyrgyzstan). CONCERT: Kamara (Norway), Brö (France) IRuna (Italy)",
       },

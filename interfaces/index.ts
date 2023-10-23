@@ -1,8 +1,8 @@
-import { ImageProps, StaticImageData } from "next/image";
-import { UrlWithStringQuery } from "url";
+import { StaticImageData } from "next/image";
 import { venueList } from "../assets/venue-list";
 
 type VenueName = (typeof venueList)[number]["name"];
+
 export interface dayInterface {
   day: string;
   dayStringForDate: string;
