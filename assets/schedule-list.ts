@@ -101,6 +101,14 @@ export const schedule: dayInterface[] = [
         isNightProgram: true,
         description: "For delagates, artists and staff only",
       },
+      {
+        startTime: "13.00",
+        endTime: "14.00",
+        title: "Networking lunch",
+        venue: "Melacafe",
+        language: "English",
+        description: `Hosted by the Diversity Network. Connect with the members of the Diversity Network and enjoy the showcase concert of  the brainchild of the Mexican percussionist, singer, composer and DJ Paulina Sotomayor. With four EPs under her belt, she has become recognized as a Mexican pioneer of alternative electronic folk music,  with deep roots in the tradition and a keen ear for the current trends in global Latin rhythms.`,
+      },
     ],
   },
   {
@@ -133,7 +141,7 @@ export const schedule: dayInterface[] = [
         language: "English",
         description: `An engaging lunch session that celebrates a decade of SWANA and Nordic cross-regional collaborations. This event welcomes Norwegian and international delegates to network and engage in informal conversations. Short presentations will highlight the impactful collaborations between Oslo World and partners from the SWANA region, including Amman Music Talk, Beirut & Beyond, and Visa for Music.`,
         speakers:
-          "Tom Knappskog, (Director, Section for Culture and Creative Businesses, MFA), Alexandra Archetti Stølen (Oslo World),  Stephen Budd (Stephen Budd Music Ltd, the OneFest Festival UK), Amani Semaan (Director, Beirut and Beyond International Music Festival), Rita Furuseth Sandberg (Former Minister Counsellor, Royal Norwegian Embassy in Amman, MFA), Lama Hazboun (Director Amman Jazz Festival, Jordan), Marwane Fachane (Executive Director of Hiba Foundation/ Visa For Music)Laia Canals (Director TEMPI, Danmark)",
+          "Tom Knappskog, (Director, Section for Culture and Creative Businesses, MFA), Alexandra Archetti Stølen (Oslo World),  Stephen Budd (Stephen Budd Music Ltd, the OneFest Festival UK), Amani Semaan (Director, Beirut and Beyond International Music Festival), Rita Furuseth Sandberg (Former Minister Counsellor, Royal Norwegian Embassy in Amman, MFA), Lama Hazboun (Director Amman Jazz Festival, Jordan), Marwane Fachane (Executive Director of Hiba Foundation/ Visa For Music)Laia Canals (Director TEMPI, Danmark)",
       },
       {
         startTime: "15.00",
@@ -143,7 +151,7 @@ export const schedule: dayInterface[] = [
         language: "English",
         description: `Step into the future of music equality at the Keychange Pledge and Action Plan Launch Event in Norway. This momentous occasion is a resounding call for global gender balance in the music industry.Guided by the esteemed Christina Hazboun, the Keychange Pledge and Action Plan, informed by over 200 international signatories, offers a visionary roadmap for authentic and lasting change in all music sectors.Connect with the Safemuse Female Network, dedicated to supporting at-risk creators, and be inspired by thought-provoking discussions led by industry luminaries, including Silje Larsen Borgan, Erik Egenes, Gina Périer, and Claudia Pereira among others. Don't miss captivating performances by artists from Norway, France, and Italy, and savor the rich flavors of Taiwanese cuisine, including the exquisite "guabao" from PÁ-Smaken av Taiwan.`,
         speakers:
-          "Silje Riise Næss (Talent Norge), Linda Eng Strand (Norsk Tipping), Christina Hazboun (Keychange), Erik Egenes (by:Larm, Norway), Gina Périer (Lapee, France), Claudia Pereira of CHILEAN WEY and Somos Fuego (Chile),  Silje Larsen Borgan (Little Big Sister, Norway, Keychange Inspiration Award Winner 2022), Solveig Riiser of (Miniøya, Norway), Altyn Kapalova (Museum of Feminist and Queer Art, Kyrgyzstan). CONCERT: Kamara (Norway), Brö (France) IRuna (Italy)",
+          "Silje Riise Næss (Talent Norge), Linda Eng Strand (Norsk Tipping), Christina Hazboun (Keychange), Erik Egenes (by:Larm, Norway), Gina Périer (Lapee, France), Claudia Pereira of CHILEAN WEY and Somos Fuego (Chile),  Silje Larsen Borgan (Little Big Sister, Norway, Keychange Inspiration Award Winner 2022), Solveig Riiser of (Miniøya, Norway), Altyn Kapalova (Museum of Feminist and Queer Art, Kyrgyzstan). CONCERT: Kamara (Norway), Brö (France) IRuna (Italy)",
       },
       {
         startTime: "18.00",
@@ -168,7 +176,7 @@ export const schedule: dayInterface[] = [
       },
       {
         startTime: "20.30",
-        title: "Jazz Ain’t Nothing but Soul - Tabanka Dance Ensemble",
+        title: "Jazz Ain't Nothing but Soul - Tabanka Dance Ensemble",
         venue: "Riksscenen",
         isNightProgram: true,
       },
@@ -190,6 +198,16 @@ export const schedule: dayInterface[] = [
         venue: "Jæger",
         isNightProgram: true,
       },
+      {
+        startTime: "09.30",
+        endTime: "10.45",
+        title:
+          "Group Coaching session for Keychange participants: Mastering Music Conferences, Markets, and Festivals with Kea Ostovany",
+        venue: "Opera",
+        language: "English",
+        description: `A captivating Group Coaching session tailored for Keychange participants. Are you a music industry enthusiast eager to unlock the full potential of music conferences, markets, and festivals? Delve into the secrets of navigating these dynamic arenas with Kea Ostovany, an accomplished executive coach, consultant, speaker, and lecturer, boasting over 18 years of experience. Norge, specializing in nurturing top talents and leaders across various domains, including CEOs, major artists, champion athletes, and TED Talk speakers. Her international work spans diverse sectors, from multinational corporations to media, creative industries, and educational institutions.`,
+        speakers: "Kea Ostovany",
+      },
     ],
   },
   {
@@ -204,7 +222,7 @@ export const schedule: dayInterface[] = [
         language: "English",
         description: `This panel explores Norway's relationship with oil, its cultural implications, and the challenges of discussing this sensitive topic while receiving public funding.`,
         speakers:
-          "Julie Forchhammer (Co-founder / partner Klimakultur SA),  Khalid Albaih (Sudanese political cartoonist and civil rights activist), Calum Macintyre (Stopp Oljeletinga)  Silje Ask Lundberg (Oil Change international)",
+          "Julie Forchhammer (Co-founder / partner Klimakultur SA),  Khalid Albaih (Sudanese political cartoonist and civil rights activist), Calum Macintyre (Stopp Oljeletinga)  Silje Ask Lundberg (Oil Change international)",
       },
       {
         startTime: "16.00",
@@ -222,7 +240,7 @@ export const schedule: dayInterface[] = [
         title: "Disappearing Soundscapes",
         venue: "Fotogalleriet",
         language: "English",
-        description: `In a world increasingly endangered by climate injustice and people’s forced exile, how can we collect sounds and, therefore, stories otherwise threatened to disappear?How can art bear witness to multifaceted and complex realities while preserving disappearing communities and other spaces? What’s the role sound plays in it?`,
+        description: `In a world increasingly endangered by climate injustice and people's forced exile, how can we collect sounds and, therefore, stories otherwise threatened to disappear?How can art bear witness to multifaceted and complex realities while preserving disappearing communities and other spaces? What's the role sound plays in it?`,
         speakers:
           "Andrea Laumont (Sound Earth Legacy), Christina Hazboun (Keychange/ The Sonic Agent), Bente Geving (Artist), Antonio Cataldo (Fotogalleriet)",
       },
@@ -232,7 +250,7 @@ export const schedule: dayInterface[] = [
         title: "Vernissage: Relentless Flow of Time",
         venue: "Brugata 15",
         language: "English",
-        description: `In RELENTLESS FLOW OF TIME the artist is interested in the phenomenon of information deformation in the post-truth era, when information flow is characterized by the layering, distortion and devaluation of meanings.An art exhibition curated by Safemuse at Brugata 15 during the Oslo World festival week.`,
+        description: `In RELENTLESS FLOW OF TIME the artist is interested in the phenomenon of information deformation in the post-truth era, when information flow is characterized by the layering, distortion and devaluation of meanings.An art exhibition curated by Safemuse at Brugata 15 during the Oslo World festival week.`,
         speakers:
           "Zhanna Gladko, a brilliant contemporary artist hailing from Belarus. Presently situated in Oslo as an integral part of the Safemuse Artistic Residency's Oslo Safe Artistic Haven program.",
       },
@@ -244,7 +262,7 @@ export const schedule: dayInterface[] = [
         language: "English",
         description: `The conversation looks at how culture can persevere through adversity, using their unique circumstances to shape their soundscapes. What is the evolving role of architecture in shaping the sonic experiences of audiences and artists alike?`,
         speakers:
-          "Mayssa Jallad, Anthony Tawil, Synne Bergby, Amani Semaan, Yara Mrad",
+          "Mayssa Jallad, Anthony Tawil, Synne Bergby, Amani Semaan, Yara Mrad",
       },
       {
         startTime: "20.00",
@@ -312,8 +330,18 @@ export const schedule: dayInterface[] = [
         title: "Vernissage Khartoon Deconstructed",
         venue: "Baba Bar",
         language: "English",
-        description: `Khartoon Deconstructed is an exhibition where political cartoonist Khalid Albaih extracts isolated components from his cartoons, presenting them as standalone, larger-than-life prints. This intentional detachment invites audiences to engage with these fragments devoid of their original contexts. Even though each piece looks complete, they are not. This creative endeavour draws a compelling parallel to the contemporary landscape shaped by the "filter bubble" and "fast news" world. A reevaluation of the puzzle pieces where in most cases the viewer wouldn't know there is a puzzle to begin with.`,
+        description: `Khartoon Deconstructed is an exhibition where political cartoonist Khalid Albaih extracts isolated components from his cartoons, presenting them as standalone, larger-than-life prints. This intentional detachment invites audiences to engage with these fragments devoid of their original contexts. Even though each piece looks complete, they are not. This creative endeavour draws a compelling parallel to the contemporary landscape shaped by the "filter bubble" and "fast news" world. A reevaluation of the puzzle pieces where in most cases the viewer wouldn't know there is a puzzle to begin with.`,
         speakers: "Khalid Albaih",
+      },
+      // 02.11	10:00	12:00	Creative Labs Keychange	Event starts		Melahuset					A guided workshop with Sam Rise tailored for Keychange participants only.
+      {
+        startTime: "10.00",
+        endTime: "12.00",
+        title: "Creative Labs Keychange",
+        venue: "Melahuset",
+        language: "English",
+        description: `A guided workshop with Sam Rise tailored for Keychange participants only.`,
+        speakers: "Sam Rise",
       },
     ],
   },
@@ -327,7 +355,7 @@ export const schedule: dayInterface[] = [
         title: "Masterclass with Huun-Huur-Tu",
         venue: "Norges musikk­høgskole",
         language: "English",
-        description: `Experience the mesmerizing traditional laryngeal singing of Huun-Huur-Tu in a two-hour masterclass.`,
+        description: `Experience the mesmerizing traditional laryngeal singing of Huun-Huur-Tu in a two-hour masterclass.`,
       },
       {
         startTime: "16.30",
@@ -335,7 +363,7 @@ export const schedule: dayInterface[] = [
         title: "The Power of Music and Advocacy",
         venue: "Internasjonalen",
         language: "English",
-        description: `An exclusive artist talk with the legendary Greek artist, George Dalaras!`,
+        description: `An exclusive artist talk with the legendary Greek artist, George Dalaras!`,
         speakers: "Theodoros Rakopoulos, George Dalaras",
       },
       {
@@ -468,7 +496,7 @@ export const schedule: dayInterface[] = [
         title: "Afro-centred future:  Faizal Mostrixx and Ghetto Kumbé",
         venue: "Melahuset",
         language: "English",
-        description: `Embark on a captivating journey into Afrofuturism, where African identities are reinvented through groundbreaking music. How does Afrofuturism bridge the gap between traditional sounds and the possibilities of new technologies? How does music empower individuals and communities to reclaim their identities?  How can art and music shed light on environmental challenges?`,
+        description: `Embark on a captivating journey into Afrofuturism, where African identities are reinvented through groundbreaking music. How does Afrofuturism bridge the gap between traditional sounds and the possibilities of new technologies? How does music empower individuals and communities to reclaim their identities?  How can art and music shed light on environmental challenges?`,
         speakers:
           "Edgardo Garcés (Ghetto Kumbé), Faizal Mostrixx, Angelica Balanta (Miss Balanta)",
       },
@@ -496,7 +524,7 @@ export const schedule: dayInterface[] = [
         title: "Music, Social Agency and Stage Arts",
         venue: "Dansens Hus",
         language: "English",
-        description: `This talk will explore the power of dance and performativity as a medium for social expression, the blending of diverse dance styles and cultural influences, and the role of music in inspiring movement. The panelists will share their creative processes and how dance can be a transformative force for both performers and audiences.`,
+        description: `This talk will explore the power of dance and performativity as a medium for social expression, the blending of diverse dance styles and cultural influences, and the role of music in inspiring movement. The panelists will share their creative processes and how dance can be a transformative force for both performers and audiences.`,
         speakers:
           "Desire Marea, Thomas Talawa Prestø, Buru Isaac Mohlabane, Jessica Lauren Elizabeth Taylor.",
       },
@@ -521,7 +549,7 @@ export const schedule: dayInterface[] = [
           "BAD HABITS: Nightlife entrepreneurs the most underrated stars of the show",
         venue: "Baba Bar",
         language: "English",
-        description: `The DJs need you to shine, the artist needs you for clout, the city needs you to fill up the space. In this talk Perosh QaderA.K.A. Queer Baba founder of Bad Habits Oslo, invites a curated list of his guests to join him in a conversation about curating nightlife culture and the challenges that are met with it.`,
+        description: `The DJs need you to shine, the artist needs you for clout, the city needs you to fill up the space. In this talk Perosh QaderA.K.A. Queer Baba founder of Bad Habits Oslo, invites a curated list of his guests to join him in a conversation about curating nightlife culture and the challenges that are met with it.`,
       },
       //       20:00		Yendry			Parkteatret
       {
@@ -621,16 +649,16 @@ export const schedule: dayInterface[] = [
     day: "Sunday 5. november",
     dayStringForDate: "2023-11-05",
     events: [
-      // 15:00	16:00	Afro dance class with CAK			Melahuset					The African Cultural Institute, CAK, is a miniature Africa in Oslo, and for 45 years it has been a key feature of the Norwegian cultural landscape. During Oslo World, CAK has curated a unique Afro dance class. We work with different movements and techniques, and we learn traditional dances that are accompanied by live drumming. Come as you are and experience the joy of African dance, get rid of tension and achieve high cardio and psychomotor gains with live drum rhythms!	Teacher: Koffi Anselme Konan, Ivory Coast.  He will be accompanied by two master drummers, Bacary Sagna from Senegal and Egole Oulai, from the Ivory Coast.
+      // 15:00	16:00	Afro dance class with CAK			Melahuset					The African Cultural Institute, CAK, is a miniature Africa in Oslo, and for 45 years it has been a key feature of the Norwegian cultural landscape. During Oslo World, CAK has curated a unique Afro dance class. We work with different movements and techniques, and we learn traditional dances that are accompanied by live drumming. Come as you are and experience the joy of African dance, get rid of tension and achieve high cardio and psychomotor gains with live drum rhythms!	Teacher: Koffi Anselme Konan, Ivory Coast.  He will be accompanied by two master drummers, Bacary Sagna from Senegal and Egole Oulai, from the Ivory Coast.
       {
         startTime: "15.00",
         endTime: "16.00",
         title: "Afro dance class with CAK",
         venue: "Melahuset",
         language: "English",
-        description: `The African Cultural Institute, CAK, is a miniature Africa in Oslo, and for 45 years it has been a key feature of the Norwegian cultural landscape. During Oslo World, CAK has curated a unique Afro dance class. We work with different movements and techniques, and we learn traditional dances that are accompanied by live drumming. Come as you are and experience the joy of African dance, get rid of tension and achieve high cardio and psychomotor gains with live drum rhythms!`,
+        description: `The African Cultural Institute, CAK, is a miniature Africa in Oslo, and for 45 years it has been a key feature of the Norwegian cultural landscape. During Oslo World, CAK has curated a unique Afro dance class. We work with different movements and techniques, and we learn traditional dances that are accompanied by live drumming. Come as you are and experience the joy of African dance, get rid of tension and achieve high cardio and psychomotor gains with live drum rhythms!`,
         speakers:
-          "Teacher: Koffi Anselme Konan, Ivory Coast.  He will be accompanied by two master drummers, Bacary Sagna from Senegal and Egole Oulai, from the Ivory Coast.",
+          "Teacher: Koffi Anselme Konan, Ivory Coast.  He will be accompanied by two master drummers, Bacary Sagna from Senegal and Egole Oulai, from the Ivory Coast.",
       },
       // 20:00		Closing concert: Mariza			Sentrum scene
       {
