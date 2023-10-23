@@ -54,6 +54,7 @@ export interface staffMemberInterface {
   img: StaticImageData | null;
   category: staffCategoryType;
   hidden?: boolean;
+  phoneNumber?: string;
 }
 
 export interface staffCategoryInterface {

@@ -50,6 +50,7 @@ export const staff: staffMemberInterface[] = [
     img: lauraCamachoProfilePic,
     category: "main contacts",
     hidden: false,
+    phoneNumber: "+47 98199502",
   },
   {
     firstName: "Miriam",
@@ -58,6 +59,7 @@ export const staff: staffMemberInterface[] = [
     img: miriamNabunyaProfilePic,
     category: "main contacts",
     hidden: false,
+    phoneNumber: "+47 93086968",
   },
   {
     firstName: "Maria",

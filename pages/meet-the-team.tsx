@@ -56,6 +56,11 @@ const MeetTheTeamPage: NextPageWithLayout = () => {
                           {member.firstName} {member.lastName}
                         </h3>
                         <p className={styles.position}>{member.position}</p>
+                        {member?.phoneNumber && (
+                          <p className={styles.position}>
+                            {member.phoneNumber}
+                          </p>
+                        )}
                       </div>
                     </li>
                   ))}
