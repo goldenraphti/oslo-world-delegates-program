@@ -725,8 +725,8 @@ export const delegatesList: delegatesListInterface = {
       imgPath: petraHradilovaProfilePic,
     },
     {
-      firstName: "Julia",
-      lastName: "Lozano",
+      firstName: "Gela",
+      lastName: "",
       organization: "Keychange",
       jobPositionTitle: "Artist",
       country: "Spain",
