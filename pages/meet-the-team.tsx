@@ -27,7 +27,10 @@ const MeetTheTeamPage: NextPageWithLayout = () => {
               {category.title && <h2>{category.title}</h2>}
               <ul className={styles.staffList}>
                 {staff
-                  .filter((member) => member.category === category.id)
+                  .filter(
+                    (member) =>
+                      !member?.hidden && member.category === category.id
+                  )
                   .map((member) => (
                     <li
                       className={styles.staffCard}

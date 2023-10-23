@@ -56,6 +56,13 @@ const CommonInfosPage: NextPageWithLayout = () => {
             <li>Tuesday- Friday: 10:00- 18:00</li>
             <li>Saturday: 10:00- 15:00</li>
           </ul>
+          The festival hub will also serve as the central hub for all things
+          Keychange during the festival. You can connect with the Keychange
+          project managers and engage with the chosen Keychange participants. In
+          this designated Keychange space, you can gather, collaborate, and
+          socialize. Whether you want to meet the Keychange team, connect with
+          fellow delegates, or set up your workspace with your laptop, this area
+          is designed to accommodate all your needs.
         </p>
         <h2>Food</h2>
         <p>

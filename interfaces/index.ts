@@ -53,6 +53,7 @@ export interface staffMemberInterface {
   position: string;
   img: StaticImageData | null;
   category: staffCategoryType;
+  hidden?: boolean;
 }
 
 export interface staffCategoryInterface {

@@ -2,7 +2,6 @@ import { staffMemberInterface, staffCategoryInterface } from "../interfaces";
 
 import alexArchettiProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_LarsOpstad-alex.jpg";
 import lauraCamachoProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_LarsOpstad-laura.jpg";
-import katjaHardoyProfilePic from "../public/photos/staff-photos/katja.jpeg";
 import gunnarProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_LarsOpstad-gunnar.jpg";
 import filipProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_LarsOpstad-filip.jpg";
 import mariaProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022_LarsOpstad-maria.jpg";
@@ -36,30 +35,34 @@ export const staff: staffMemberInterface[] = [
   {
     firstName: "Alexandra",
     lastName: "Archetti  Stølen",
-    position: "Festival director",
+    position: "CEO / Festival director",
     img: alexArchettiProfilePic,
     category: "top",
+    hidden: false,
   },
   {
     firstName: "Laura",
     lastName: "Camacho Salgado",
-    position: "Head of international and seminar program ",
+    position: "Head of international, seminar and delegate program",
     img: lauraCamachoProfilePic,
     category: "main contacts",
+    hidden: false,
   },
   {
-    firstName: "Katja",
-    lastName: "Hardoy",
-    position: "Delegates and seminars assitant",
-    img: katjaHardoyProfilePic,
+    firstName: "Miriam",
+    lastName: "Nabunya",
+    position: "International seminar and delegate coordinator",
+    img: null,
     category: "main contacts",
+    hidden: false,
   },
   {
     firstName: "Maria",
     lastName: "Chrysostomidis",
-    position: "Production manager",
+    position: "Head of production",
     img: mariaProfilePic,
     category: "festival team",
+    hidden: false,
   },
   {
     firstName: "Mira",
@@ -67,6 +70,7 @@ export const staff: staffMemberInterface[] = [
     position: "Head of press and communications ",
     img: miraProfilePic,
     category: "festival team",
+    hidden: true,
   },
   {
     firstName: "Gunnar",
@@ -74,6 +78,7 @@ export const staff: staffMemberInterface[] = [
     position: "Barnas verdensdager / Vårt Nabolag",
     img: gunnarProfilePic,
     category: "festival team",
+    hidden: true,
   },
   {
     firstName: "Sergio",
@@ -81,6 +86,47 @@ export const staff: staffMemberInterface[] = [
     position: "Volunteers coordinator",
     img: sergioProfilePic,
     category: "festival team",
+    hidden: true,
+  },
+  {
+    firstName: "Henriette",
+    lastName: "Vold",
+    position: "Head of Oslo World Ung and volunteer team",
+    img: null,
+    category: "festival team",
+    hidden: false,
+  },
+  {
+    firstName: "Filip",
+    lastName: "Roshauw",
+    position: "Press and communications",
+    img: filipProfilePic,
+    category: "festival team",
+    hidden: false,
+  },
+  {
+    firstName: "Achy",
+    lastName: "Ouafik",
+    position: "Press and communications",
+    img: achyProfilePic,
+    category: "festival team",
+    hidden: false,
+  },
+  {
+    firstName: "Arnaud",
+    lastName: "Le Breton",
+    position: "Artist liaison",
+    img: null,
+    category: "festival team",
+    hidden: false,
+  },
+  {
+    firstName: "Joe",
+    lastName: "Le Nguyen",
+    position: "Festival Producer",
+    img: joeLeNguyenProfilePic,
+    category: "festival team",
+    hidden: false,
   },
   {
     firstName: "Samsaya",
@@ -88,26 +134,6 @@ export const staff: staffMemberInterface[] = [
     position: "Oslo World Ung coordinator",
     img: samsayaProfilePic,
     category: "festival team",
-  },
-  {
-    firstName: "Joe",
-    lastName: "Le Nguyen",
-    position: "Producer",
-    img: joeLeNguyenProfilePic,
-    category: "festival team",
-  },
-  {
-    firstName: "Filip",
-    lastName: "Roshauw",
-    position: "Press",
-    img: filipProfilePic,
-    category: "festival team",
-  },
-  {
-    firstName: "Achy",
-    lastName: "Ouafik",
-    position: "PR assistent",
-    img: achyProfilePic,
-    category: "festival team",
+    hidden: true,
   },
 ];
