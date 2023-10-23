@@ -10,6 +10,9 @@ import samsayaProfilePic from "../public/photos/staff-photos/OsloWorld_stab_2022
 import joeLeNguyenProfilePic from "../public/photos/staff-photos/joeLeNguyen.jpg";
 import achyProfilePic from "../public/photos/staff-photos/Achy.png";
 import sergioProfilePic from "../public/photos/staff-photos/sergio.jpg";
+import miriamNabunyaProfilePic from "../public/photos/staff-photos/miriam-nabunya.jpg";
+import henrietteVoldProfilePic from "../public/photos/staff-photos/henriette-vold.jpg";
+import arnaudLeBretonProfilePic from "../public/photos/staff-photos/arnaud-le-breton.jpg";
 
 // import ProfilePic from '../public/photos/staff-photos/
 
@@ -52,7 +55,7 @@ export const staff: staffMemberInterface[] = [
     firstName: "Miriam",
     lastName: "Nabunya",
     position: "International seminar and delegate coordinator",
-    img: null,
+    img: miriamNabunyaProfilePic,
     category: "main contacts",
     hidden: false,
   },
@@ -92,7 +95,7 @@ export const staff: staffMemberInterface[] = [
     firstName: "Henriette",
     lastName: "Vold",
     position: "Head of Oslo World Ung and volunteer team",
-    img: null,
+    img: henrietteVoldProfilePic,
     category: "festival team",
     hidden: false,
   },
@@ -116,7 +119,7 @@ export const staff: staffMemberInterface[] = [
     firstName: "Arnaud",
     lastName: "Le Breton",
     position: "Artist liaison",
-    img: null,
+    img: arnaudLeBretonProfilePic,
     category: "festival team",
     hidden: false,
   },
