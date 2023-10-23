@@ -54,6 +54,10 @@ import mohamedAlyAnsarProfilePic from "../public/photos/international-delegates-
 import sungchunLeeProfilePic from "../public/photos/international-delegates-pictures/sungchun-lee.jpeg";
 import habibAchourProfilePic from "../public/photos/international-delegates-pictures/habib-achour.jpg";
 import matyasHradilProfilePic from "../public/photos/international-delegates-pictures/matyas-hradil.jpg";
+import lidiaHinojoRojasProfilePic from "../public/photos/international-delegates-pictures/lidia-hinojo-rojas.jpg";
+import ginaPerierProfilePic from "../public/photos/international-delegates-pictures/gina-perier.png";
+import juliaLozanoProfilePic from "../public/photos/international-delegates-pictures/julia-lozano.jpg";
+import ireneMontesiProfilePic from "../public/photos/international-delegates-pictures/irene-montesi.jpg";
 
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
@@ -638,7 +642,7 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       displayed: true,
       description: `Since 2007, Lidia Hinojo has been working at the Fira Mediterrània de Manresa where she currently is the executive manager. Fira Mediterrània de Manresa is the strategic fair for artistic proposals which use root sources, tradition and popular culture as the drivers of creativity.`,
-      imgPath: null,
+      imgPath: lidiaHinojoRojasProfilePic,
     },
     {
       firstName: "Urszula",
@@ -673,7 +677,7 @@ export const delegatesList: delegatesListInterface = {
       description: `Gina Périer is the CEO and founder of Lapee, the revolutionary urinal for festivals and outdoor events.
       She founded Lapee together with Alexander when they were both working as architects for Roskilde Festival. Designing and building installations gave them a good insight to the logistics and handling behind the scenes of such a big festival. They became aware of the limited access to sanitation for women and the consequences of it.
       After some reflections involving the direction of  Roskilde Festival, a big toilet rental company and plenty of women, they came up with Lapee.  The product was launched with great success in 2019 and now is available in 16 countries, including Norway. Finally women and people who squat to pee can relief themselves quickly, safely and hygienically at events.`,
-      imgPath: null,
+      imgPath: ginaPerierProfilePic,
     },
     {
       firstName: "Gonçalo",
@@ -716,7 +720,7 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       displayed: true,
       description: `Devourer of sounds, restless DJ and a unique voice on the Spanish scene, Gela’s musical journey has been continually imbued with the musical influences of the different corners of the world to which she’s travelled. It’s no wonder disco, cosmic funk, Brazilian music, acid house, dark 80s new wave, low bpm techno, electro, ambient and 90s breaks all co-inhabit in her sets. Gradually, Gela has carved out a well-deserved place in the Spanish club scene and in recent months she’s greatly expanded playing out in several places around Europe as well as international festivals such as Sónar in 2022.`,
-      imgPath: null,
+      imgPath: juliaLozanoProfilePic,
     },
     {
       firstName: "Irene (IRuna)",
@@ -727,9 +731,8 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       displayed: true,
       description: `Italian-Latin American Songwriter, musician and producer based in Rome. Since 2018 active in the independent Italian music scene with a contaminated and cross-genre sound and style.
-      With a sustainable development background, she advocates for social and environmental justice also through her conscious and ironic lyrics. Active and interested in mental health awareness and co-op music labels and bottom- up collaborative approaches in the music industry.
-      `,
-      imgPath: null,
+      With a sustainable development background, she advocates for social and environmental justice also through her conscious and ironic lyrics. Active and interested in mental health awareness and co-op music labels and bottom- up collaborative approaches in the music industry.`,
+      imgPath: ireneMontesiProfilePic,
     },
     {
       firstName: "Ansar",
