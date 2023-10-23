@@ -26,6 +26,11 @@ import sofieSondervikSaetherProfilePic from "../public/photos/norwegian-delegate
 import julieForchhammerProfilePic from "../public/photos/norwegian-delegates-pictures/julie-forchhammer.jpg";
 import ingerBratenProfilePic from "../public/photos/norwegian-delegates-pictures/inger-braten.jpg";
 import mikkelRasmussenHofplassProfilePic from "../public/photos/norwegian-delegates-pictures/mikkel-rasmussen-hofplass.jpeg";
+import einarEidsvaagProfilePic from "../public/photos/norwegian-delegates-pictures/einar-eidsvaag.jpg";
+import sajjeSolbakkProfilePic from "../public/photos/norwegian-delegates-pictures/sajje-solbakk.jpg";
+import gabrielCorreaProfilePic from "../public/photos/norwegian-delegates-pictures/gabriel-correa.jpg";
+import theaFaerdenBringsvaerdProfilePic from "../public/photos/norwegian-delegates-pictures/thea-faerden-bringsvaerd.jpg";
+import tuvaSvellandProfilePic from "../public/photos/norwegian-delegates-pictures/tuva-svelland.jpg";
 
 import laiaProfilePic from "../public/photos/international-delegates-pictures/Laia.png";
 import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
@@ -46,6 +51,9 @@ import petraHradilovaProfilePic from "../public/photos/international-delegates-p
 import ansarBakirProfilePic from "../public/photos/international-delegates-pictures/ansar-bakir.jpg";
 import marwaneFachaneProfilePic from "../public/photos/international-delegates-pictures/marwane-fachane.jpeg";
 import mohamedAlyAnsarProfilePic from "../public/photos/international-delegates-pictures/mohamed-aly-ansar.jpeg";
+import sungchunLeeProfilePic from "../public/photos/international-delegates-pictures/sungchun-lee.jpeg";
+import habibAchourProfilePic from "../public/photos/international-delegates-pictures/habib-achour.jpg";
+import matyasHradilProfilePic from "../public/photos/international-delegates-pictures/matyas-hradil.jpg";
 
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
@@ -69,8 +77,9 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Director",
       country: "Norway",
       category: "norwegian",
-      displayed: false,
-      description: `Zeina Bali is the co-founding director of the Oslo-based Masahat for Arab Culture in Exile. Prior to this, she has done research and worked with the development and humanitarian sector in Turkey, Syria, Norway and Switzerland. Zeina has a MSc in International Development and Management from Lund University.`,
+      displayed: true,
+      description: `Zeina Bali is the Director of the Oslo-based organization Masahat for Arab Culture in Exile: https://masahat.no/
+      Established in 2015 in Norway, Masahat works on curating and presenting knowledge, history, art and culture from the Middle East and North Africa with a special focus on the Arab world. Our yearly highlight event is Masahat festival for Arab Arts and Culture. `,
       imgPath: zeinaBaliProfilePic,
     },
     {
@@ -155,27 +164,14 @@ export const delegatesList: delegatesListInterface = {
       imgPath: johanaAlemProfilePic,
     },
     {
-      firstName: "Erik",
-      lastName: "Egenes",
-      organization: "by:Larm",
-      jobPositionTitle: "Head of press and international",
-      country: "Norway",
-      category: "norwegian",
-      displayed: false,
-      description: `by:Larm in Oslo is the premier showcase festival in the Nordics, and has been held annually since 1998.
-
-      by:Larm consists of two parts: a festival and a conference. The conference is a meeting place for the Nordic and international music industries. A series of lectures, seminars and debates are held during the day. The festival concerts take place at night and are open to the public. The main focus is to present artists that are on the verge of success, either in their homelands or internationally.`,
-      imgPath: erikEgenesProfilePic,
-    },
-    {
       firstName: "Tine",
       lastName: "Tangestuen",
-      organization: "NOPA Norwegian Society of Composers and Songwriters",
+      organization: "NOPA Norwegian Society of Composers and Lyricists",
       jobPositionTitle: "Executive Manager",
       country: "Norway",
       category: "norwegian",
-      displayed: false,
-      description: `Experience from management, administration, international projects and politics in organisations and pubic service. Certification in Diversity management, education in cultural management, administration and business.`,
+      displayed: true,
+      description: `Responsible for daily operations, personnel management and financial management and has overall responsibility for NOPA's activities and union representatives, in close connection with NOPAs chair and the board. She has has background from culture, project management, politics and international relations. NOPA has developed international cooperation within EEA grants. She has sertification in diversity management and education in cultural administration and business.`,
       imgPath: tineTangestuenProfilePic,
     },
     {
@@ -291,8 +287,7 @@ export const delegatesList: delegatesListInterface = {
       displayed: false,
       description: `Project manager in Talent Norge, which is an organization established by the Ministry of Culture in 2015 that supports talent programs within art and culture in collaboration with private contributors across the country. We emphasize the exchange of expertise across disciplines and the core of our philosophy is to contribute to artistic development and mastery, through a long-term and holistic approach of the artists and their careers.`,
       imgPath: eiraEdwardsProfilePic,
-    }, // Mikkel Rasmussen Hofplass	He	00 47 98899072	post@saanafest.com	Sånafest	Artistic director	Norway	Sånafest is an annual site-specific art festival in the small village of Hølen, Norway. It features a variety of art forms, including dance, performing arts, concerts and installation art. The festival emphasizes collaboration between the artists and the community, and all the artists are staying in private homes in the village. Through meetings, dialogue, and exploration, the festival aims to create unique art experiences that are both joyful, challenging and thought-provoking.	https://www.jotform.com/uploads/OsloWorld/232904409614354/5734705378012152580/C8E0132C-9105-4CD4-B256-53244A4CD9D0.jpeg
-
+    },
     {
       firstName: "Simon Alejandro",
       lastName: "Larsen",
@@ -356,6 +351,72 @@ export const delegatesList: delegatesListInterface = {
       displayed: true,
       description: `Sånafest is an annual site-specific art festival in the small village of Hølen, Norway. It features a variety of art forms, including dance, performing arts, concerts and installation art. The festival emphasizes collaboration between the artists and the community, and all the artists are staying in private homes in the village. Through meetings, dialogue, and exploration, the festival aims to create unique art experiences that are both joyful, challenging and thought-provoking.`,
       imgPath: mikkelRasmussenHofplassProfilePic,
+    },
+    {
+      firstName: "Erik",
+      lastName: "Egenes",
+      organization: "by:Larm",
+      jobPositionTitle: "General Manager",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `General Manager for by:Larm, the biggest showcase festival in the Nordics.`,
+      imgPath: erikEgenesProfilePic,
+    },
+    {
+      firstName: "Einar I Ø",
+      lastName: "Eidsvåg",
+      organization: "Holmlia Kulturhavn",
+      jobPositionTitle: "Project Manager",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Einar is project manager for Holmlia Kulturhavn whos target is to establish an arts scene and community house in Søndre Nordstrand in Oslo - a very diverse area in Oslo. On the way we do concerts and other cultural gatherings at diffrent places together with others. Einar is also a part owner + board member at the venue BLÅ in Oslo.`,
+      imgPath: einarEidsvaagProfilePic,
+    },
+    {
+      firstName: "Sajje",
+      lastName: "Solbakk",
+      organization: "Riddu Riđđu Festivála",
+      jobPositionTitle: "Festival director",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Sajje Solbakk is festival director for the international Indigenous festival Riddu Riđđu. Riddu Riđđu has a broad program over four days with concerts, courses, debates, seminars, film, dance, children's festival, youth programme, theater and art exhibitions. Each year, the festival presents self-produced commissioned works. In addition to the festival that is organized in July in Kåfjord, Riddu Riđđu works all year round to highlight Sami and indigenous art and culture both nationally and internationally. Solbakk has a background in journalism and is the host of the podcast, Gozuid alde, together with activist and artist, Ella Marie Hætta Isaksen.`,
+      imgPath: sajjeSolbakkProfilePic,
+    },
+    {
+      firstName: "Gabriel",
+      lastName: "Correa",
+      organization: "Melahuset",
+      jobPositionTitle: "Venue Manager",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Venue Manager at Melahuset`,
+      imgPath: gabrielCorreaProfilePic,
+    },
+    {
+      firstName: "Thea",
+      lastName: "Færden Bringsværd",
+      organization: "Sånafest",
+      jobPositionTitle: "Executive director",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Sånafest is an annual site-specific art festival in the small village of Hølen, Norway. It features a variety of art forms, including dance, performing arts, concerts and installation art. The festival emphasizes collaboration between the artists and the community, and all the artists are staying in private homes in the village. Through meetings, dialogue, and exploration, the festival aims to create unique art experiences that are both joyful, challenging and thought-provoking.`,
+      imgPath: theaFaerdenBringsvaerdProfilePic,
+    },
+    {
+      firstName: "Tuva",
+      lastName: "Svelland",
+      organization: "NOPA",
+      jobPositionTitle: "Prosjektkoordinator",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Tuva works as a project coordinator for NOPA. She has a background in tourism management, as well as a masters degree in Project Management for Music and Stage from the University of Agder.`,
+      imgPath: tuvaSvellandProfilePic,
     },
   ],
   international: [
@@ -734,6 +795,55 @@ export const delegatesList: delegatesListInterface = {
       displayed: true,
       description: `Amani Semaan is the co-founder and director of Beirut and Beyond, a Lebanese organization that promotes and develops  independent music from the MENA through a showcase festival, professional programs and European tours. Besides her work in music, Amani was a line producer and casting director for international non-scripted TV shows such as The Voice of Arabia. Currently based in Paris, she is also an independent consultant for arts & culture projects.`,
       imgPath: amaniSemaanProfilePic,
+    },
+    {
+      firstName: "Sungchun",
+      lastName: "Lee",
+      organization: "Seoul Music Week / Soundpuzzle",
+      jobPositionTitle:
+        "Administration manager & executive director / producer",
+      country: "South Korea",
+      category: "international",
+      displayed: true,
+      description: `Sungchun LEE is a producer based in Seoul, Korea. He is the chief producer of SoundPuzzle, an international agency and record label. He is also the Secretary General and Executive Director of Seoul Music Week, an international showcase festival. And he produces several festivals and music events in Korea. He continues to expand his network by participating in international music markets.`,
+      imgPath: sungchunLeeProfilePic,
+    },
+    {
+      firstName: "Claudia",
+      lastName: "Pereira",
+      organization: "Somos Fuego Music / Festival Chilean Wey",
+      jobPositionTitle: "Ceo & Founder",
+      country: "Chile",
+      category: "international",
+      displayed: true,
+      description: `Claudia Pereira studied Management and Communications of Cultural Enterprises in Paris and is an international developer of musical projects for artists, organisations and venues. She supports artists through touring and strategic positioning across various territories, and generates pan-national alliances and new business opportunities around North and South America and Europe as well as between different companies and institutions.
+
+  She has considerable experience in the production and artistic programming of festivals and in the development of catalogues for French touring agencies and recording companies. In 2013 she started “Somos Fuego”, an agency offering musical services featuring an eclectic, quality catalogue of artists from Europe, Canada and South America, and she also provides consulting services for a range of projects.
+
+  Currently she also is the Director of the Internationalization and Professionalization at Musap, an organisation which promotes Chilean music, and is a Keychange Latam ambassador. She is also the Official Representative in Chile of the BIME PRO Festival, International Delegate of Corriente, mercado internacional por la música in Perú,  and Director of the ChileanWey Festival in Chile and México.`,
+      imgPath: null,
+    },
+    {
+      firstName: "Habib",
+      lastName: "Achour",
+      organization: "SACEM",
+      jobPositionTitle: "Director of International Development",
+      country: "France",
+      category: "international",
+      displayed: true,
+      description: `Habib Achour has more than 25 years of experience in the music sector. He started his career at EMI, promoting labels such as Blue Note Records and Emi Arabia. Later, be it in his capacity as manager or booking agent, he has represented artists such as Erik Truffaz, Anouar Brahem and Dhafer Youssef, to name but a few. In addition, he has experience managing and/or programming festivals in Morocco, Lebanon and France (among which the Festival d´Île-de-France in Paris or Plage de Rock in Saint-Tropez). Following on from Marseille-Provence’s tenure as European Capital of Culture in 2013, for which Habib was Head of Music and Urban Cultures, he joined the New Morning in Paris as Deputy Director. Today, he is the Director of International Development at SACEM, one of the world’s leading Collective Management Organization. He particularly focuses on the development of Creative and Cultural Industries (CCI) and associated author’s rights legal framework in Africa and the MENA region.`,
+      imgPath: habibAchourProfilePic,
+    },
+    {
+      firstName: "Matyáš",
+      lastName: "Hradil",
+      organization: "Colour Production, spol. s r. o.",
+      jobPositionTitle: "Czech Music Crossroads production",
+      country: "Czech Republic",
+      category: "international",
+      displayed: true,
+      description: `Matyas is currently a student of Palacký University Olomouc, head of the production of Czech Music Crossroads, and a member of the production team of Festival in the Streets and Colours of Ostrava.`,
+      imgPath: matyasHradilProfilePic,
     },
   ],
 };
