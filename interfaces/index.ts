@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import { StaticImageData } from "next/legacy/image";
 import { venueList } from "../assets/venue-list";
 
 type VenuesName =

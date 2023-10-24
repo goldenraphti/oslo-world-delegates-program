@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/MeetTheTeam.module.css";
 import { Fragment, ReactElement } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import { staff, staffCategories } from "../assets/staff-list";

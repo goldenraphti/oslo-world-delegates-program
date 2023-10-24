@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import styles from "../../styles/DelegateProfilePage.module.css";
 import type { ReactElement } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Layout from "../../components/layout";
 import type { NextPageWithLayout } from "../_app";
 import { delegatesList } from "../../assets/delegates-list";

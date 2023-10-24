@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./LogosStripe.module.css";
 
 import talentNorgeLogo from "../public/logos/talent-norge.png";
