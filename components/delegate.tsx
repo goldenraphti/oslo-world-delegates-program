@@ -16,12 +16,12 @@ export const DelegateComponent = ({
     <li className={styles.delegate}>
       <Link
         href={`/delegates/${delegate.firstName}-${delegate.lastName}`}
-        className={styles.card}>
-
+        className={styles.card}
+      >
         <div className={styles.imgContainer}>
-          {delegate.imgPath ? (
+          {delegate?.imgPath ? (
             <Image
-              src={delegate.imgPath}
+              src={delegate?.imgPath}
               alt={`${delegate} profile picture`}
               width={150}
               height={150}
@@ -30,7 +30,7 @@ export const DelegateComponent = ({
               placeholder='blur'
             />
           ) : (
-            <div className={styles.imgPlaceolder}></div>
+            <div className={styles.imgPlaceholder}></div>
           )}
         </div>
         <p
@@ -39,7 +39,6 @@ export const DelegateComponent = ({
         <p className={styles.organization}>{delegate.organization}</p>
         <p className={styles.country}>{delegate.country}</p>
         <p className={styles.description}>{delegate.description}</p>
-
       </Link>
     </li>
   );

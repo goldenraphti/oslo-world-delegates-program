@@ -42,7 +42,7 @@ const DelegateProfile: NextPageWithLayout = () => {
             {delegate.firstName} {delegate.lastName}
           </h1>
           <div className={styles.imgContainer}>
-            {delegate.imgPath !== "" ? (
+            {delegate.imgPath ? (
               <Image
                 src={delegate.imgPath}
                 alt={`${delegate} profile picture`}
@@ -53,7 +53,7 @@ const DelegateProfile: NextPageWithLayout = () => {
                 placeholder='blur'
               />
             ) : (
-              <div className={styles.imgPlaceolder}></div>
+              <div className={styles.imgPlaceholder}></div>
             )}
           </div>
           <p className={styles.organization}>{delegate.organization}</p>
