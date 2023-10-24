@@ -7,35 +7,35 @@ export default function Header() {
     <header className={styles.header}>
       <nav>
         <Link href='/'>
-          <a>
-            <span className='screen-reader'>homepage</span>
-            <LogoOsloWorld />
-          </a>
+
+          <span className='screen-reader'>homepage</span>
+          <LogoOsloWorld />
+
         </Link>
         <ul>
           <li>
             <Link href='/common-infos'>
-              <a>Common info</a>
+              Common info
             </Link>
           </li>
           <li>
             <Link href='/international-infos'>
-              <a>International</a>
+              International
             </Link>
           </li>
           <li>
             <Link href='/delegates'>
-              <a>Delegates</a>
+              Delegates
             </Link>
           </li>
           <li>
             <Link href='/schedule'>
-              <a>Schedule</a>
+              Schedule
             </Link>
           </li>
           <li>
             <Link href='/meet-the-team'>
-              <a>Staff</a>
+              Staff
             </Link>
           </li>
         </ul>

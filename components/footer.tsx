@@ -5,11 +5,11 @@ import { Leaf } from "lucide-react";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <Link href='/green-rider'>
-        <a className={styles.greenRiderLink}>
-          <Leaf size={20} className={styles.linkIcon} />
-          <span>Proud supporter of the Green Rider</span>
-        </a>
+      <Link href='/green-rider' className={styles.greenRiderLink}>
+
+        <Leaf size={20} className={styles.linkIcon} />
+        <span>Proud supporter of the Green Rider</span>
+
       </Link>
       <p className={styles.linkLine}>
         From{" "}

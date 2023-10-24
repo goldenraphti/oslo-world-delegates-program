@@ -14,30 +14,32 @@ export const DelegateComponent = ({
 }: Props) => {
   return (
     <li className={styles.delegate}>
-      <Link href={`/delegates/${delegate.firstName}-${delegate.lastName}`}>
-        <a className={styles.card}>
-          <div className={styles.imgContainer}>
-            {delegate.imgPath ? (
-              <Image
-                src={delegate.imgPath}
-                alt={`${delegate} profile picture`}
-                width={150}
-                height={150}
-                className={styles.imgProfile}
-                priority={priorityImgLoading}
-                placeholder='blur'
-              />
-            ) : (
-              <div className={styles.imgPlaceolder}></div>
-            )}
-          </div>
-          <p
-            className={styles.name}
-          >{`${delegate.firstName} ${delegate.lastName}`}</p>
-          <p className={styles.organization}>{delegate.organization}</p>
-          <p className={styles.country}>{delegate.country}</p>
-          <p className={styles.description}>{delegate.description}</p>
-        </a>
+      <Link
+        href={`/delegates/${delegate.firstName}-${delegate.lastName}`}
+        className={styles.card}>
+
+        <div className={styles.imgContainer}>
+          {delegate.imgPath ? (
+            <Image
+              src={delegate.imgPath}
+              alt={`${delegate} profile picture`}
+              width={150}
+              height={150}
+              className={styles.imgProfile}
+              priority={priorityImgLoading}
+              placeholder='blur'
+            />
+          ) : (
+            <div className={styles.imgPlaceolder}></div>
+          )}
+        </div>
+        <p
+          className={styles.name}
+        >{`${delegate.firstName} ${delegate.lastName}`}</p>
+        <p className={styles.organization}>{delegate.organization}</p>
+        <p className={styles.country}>{delegate.country}</p>
+        <p className={styles.description}>{delegate.description}</p>
+
       </Link>
     </li>
   );

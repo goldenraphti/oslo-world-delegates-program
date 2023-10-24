@@ -22,54 +22,54 @@ const Home: NextPageWithLayout = () => {
         <h1 className={styles.title}>Delegates Program</h1>
 
         <div className={styles.grid}>
-          <Link href='/common-infos'>
-            <a className={styles.card}>
-              <h2>
-                <Info size={20} className={styles.iconLinkCard} />
-                Common Info &rarr;
-              </h2>
-              <p>Find general informations for delegates</p>
-            </a>
+          <Link href='/common-infos' className={styles.card}>
+
+            <h2>
+              <Info size={20} className={styles.iconLinkCard} />
+              Common Info &rarr;
+            </h2>
+            <p>Find general informations for delegates</p>
+
           </Link>
 
-          <Link href='/international-infos'>
-            <a className={styles.card}>
-              <h2>
-                <Plane size={20} className={styles.iconLinkCard} />
-                International Info &rarr;
-              </h2>
-              <p>For international delegates: Transport in Oslo, Hotel, ...</p>
-            </a>
+          <Link href='/international-infos' className={styles.card}>
+
+            <h2>
+              <Plane size={20} className={styles.iconLinkCard} />
+              International Info &rarr;
+            </h2>
+            <p>For international delegates: Transport in Oslo, Hotel, ...</p>
+
           </Link>
 
-          <Link href='/delegates'>
-            <a className={styles.card}>
-              <h2>
-                <Contact size={20} className={styles.iconLinkCard} />
-                Delegates &rarr;
-              </h2>
-              <p>Profile description of the full list of delegates</p>
-            </a>
+          <Link href='/delegates' className={styles.card}>
+
+            <h2>
+              <Contact size={20} className={styles.iconLinkCard} />
+              Delegates &rarr;
+            </h2>
+            <p>Profile description of the full list of delegates</p>
+
           </Link>
 
-          <Link href='/schedule'>
-            <a className={styles.card}>
-              <h2>
-                <CalendarDays size={20} className={styles.iconLinkCard} />
-                Schedule &rarr;
-              </h2>
-              <p>The festival&apos;s week program. Seminars, concerts, ..</p>
-            </a>
+          <Link href='/schedule' className={styles.card}>
+
+            <h2>
+              <CalendarDays size={20} className={styles.iconLinkCard} />
+              Schedule &rarr;
+            </h2>
+            <p>The festival&apos;s week program. Seminars, concerts, ..</p>
+
           </Link>
 
-          <Link href='/meet-the-team'>
-            <a className={styles.card}>
-              <h2>
-                <Star size={20} className={styles.iconLinkCard} />
-                Meet the team&rarr;
-              </h2>
-              <p>Meet the people behind the curtain, ..</p>
-            </a>
+          <Link href='/meet-the-team' className={styles.card}>
+
+            <h2>
+              <Star size={20} className={styles.iconLinkCard} />
+              Meet the team&rarr;
+            </h2>
+            <p>Meet the people behind the curtain, ..</p>
+
           </Link>
         </div>
         <LogosStripe />
