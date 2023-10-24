@@ -39,10 +39,11 @@
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px;
+  padding: 8px 10px 9px;
   border: 1px solid color-mix(in srgb, #FFFFFF , transparent 50% );
   width: fit-content;
   border-radius: 8px;
+  font-size: 0.8em;
 }
 
 .card a:last-child {
