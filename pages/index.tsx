@@ -14,7 +14,7 @@ const Home: NextPageWithLayout = () => {
       <Head>
         <title>Oslo World Delegates Program</title>
         <meta name='description' content='Oslo World Delegates Program' />
-        <link rel='icon' href='/oslo_world_favicon_2022.png' />
+        <link rel='icon' href='/oslo_world_favicon_2023.png' />
       </Head>
 
       <div className={styles.main}>
@@ -23,53 +23,43 @@ const Home: NextPageWithLayout = () => {
 
         <div className={styles.grid}>
           <Link href='/common-infos' className={styles.card}>
-
             <h2>
               <Info size={20} className={styles.iconLinkCard} />
               Common Info &rarr;
             </h2>
             <p>Find general informations for delegates</p>
-
           </Link>
 
           <Link href='/international-infos' className={styles.card}>
-
             <h2>
               <Plane size={20} className={styles.iconLinkCard} />
               International Info &rarr;
             </h2>
             <p>For international delegates: Transport in Oslo, Hotel, ...</p>
-
           </Link>
 
           <Link href='/delegates' className={styles.card}>
-
             <h2>
               <Contact size={20} className={styles.iconLinkCard} />
               Delegates &rarr;
             </h2>
             <p>Profile description of the full list of delegates</p>
-
           </Link>
 
           <Link href='/schedule' className={styles.card}>
-
             <h2>
               <CalendarDays size={20} className={styles.iconLinkCard} />
               Schedule &rarr;
             </h2>
             <p>The festival&apos;s week program. Seminars, concerts, ..</p>
-
           </Link>
 
           <Link href='/meet-the-team' className={styles.card}>
-
             <h2>
               <Star size={20} className={styles.iconLinkCard} />
               Meet the team&rarr;
             </h2>
             <p>Meet the people behind the curtain, ..</p>
-
           </Link>
         </div>
         <LogosStripe />

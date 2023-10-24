@@ -16,7 +16,7 @@ const DelegatesPage: NextPageWithLayout = () => {
           name='description'
           content='List of the delegates attending the Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2022.png' />
+        <link rel='icon' href='/oslo_world_favicon_2023.png' />
       </Head>
 
       <div className={styles.main}>

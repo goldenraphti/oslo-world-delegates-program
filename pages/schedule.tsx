@@ -15,7 +15,7 @@ const SchedulePage: NextPageWithLayout = () => {
           name='description'
           content='Schedule for the delegates attending the Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2022.png' />
+        <link rel='icon' href='/oslo_world_favicon_2023.png' />
       </Head>
 
       <div className={styles.main}>
@@ -33,7 +33,10 @@ const SchedulePage: NextPageWithLayout = () => {
         <ul className={styles.scheduleList}>
           {schedule.map((day) => (
             <li className={styles.cardShell} key={day.day}>
-              <Link href={`/schedule/${day.dayStringForDate}`} className={styles.cardLink}>
+              <Link
+                href={`/schedule/${day.dayStringForDate}`}
+                className={styles.cardLink}
+              >
                 {day.day}
               </Link>
             </li>

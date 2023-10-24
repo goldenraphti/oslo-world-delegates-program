@@ -28,7 +28,7 @@ const ScheduleDay: NextPageWithLayout = () => {
           name='description'
           content={`program for ${scheduleDay?.day} of the  Oslo World Delegates Program`}
         />
-        <link rel='icon' href='/oslo_world_favicon_2022.png' />
+        <link rel='icon' href='/oslo_world_favicon_2023.png' />
       </Head>
 
       <h1 className={styles.title}>

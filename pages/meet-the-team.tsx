@@ -15,7 +15,7 @@ const MeetTheTeamPage: NextPageWithLayout = () => {
           name='description'
           content='Team of Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2022.png' />
+        <link rel='icon' href='/oslo_world_favicon_2023.png' />
       </Head>
 
       <div className={styles.main}>

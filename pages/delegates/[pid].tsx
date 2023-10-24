@@ -24,7 +24,7 @@ const DelegateProfile: NextPageWithLayout = () => {
           name='description'
           content={`profile page of ${delegate?.firstName} ${delegate?.lastName}, one of the brilliant delegates attending the Oslo World Delegates Program`}
         />
-        <link rel='icon' href='/oslo_world_favicon_2022.png' />
+        <link rel='icon' href='/oslo_world_favicon_2023.png' />
       </Head>
 
       {delegate && (
