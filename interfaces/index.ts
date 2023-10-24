@@ -9,7 +9,7 @@ type VenuesName =
 export interface dayInterface {
   day: string;
   dayStringForDate: string;
-  events: eventInterface[];
+  events: readonly eventInterface[];
 }
 
 export interface eventInterface {
