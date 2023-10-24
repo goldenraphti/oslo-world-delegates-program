@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "./Header.module.css";
-import { useThemeDetector } from "../hooks/getDarkTheme";
 import { LogoOsloWorld } from "./LogoOsloWorld";
 
 export default function Header() {

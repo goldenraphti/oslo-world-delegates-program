@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { eventInterface } from "../interfaces";
 import styles from "./Event.module.css";
 

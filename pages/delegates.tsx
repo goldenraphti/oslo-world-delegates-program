@@ -45,7 +45,7 @@ const DelegatesPage: NextPageWithLayout = () => {
           {delegatesList.norway
             .filter((delegate) => delegate?.displayed)
             .sort(sortDelegateObjectsAlphabetically)
-            .map((delegate, i) => (
+            .map((delegate) => (
               <DelegateComponent
                 delegate={delegate}
                 key={`${delegate.firstName}-${delegate.lastName}`}

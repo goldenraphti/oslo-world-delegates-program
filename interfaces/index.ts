@@ -1,7 +1,10 @@
 import { StaticImageData } from "next/image";
 import { venueList } from "../assets/venue-list";
 
-type VenueName = (typeof venueList)[number]["name"];
+type VenuesName =
+  | (typeof venueList)[number]["name"]
+  | "Hotel lobby"
+  | "Rådhuset";
 
 export interface dayInterface {
   day: string;
@@ -13,7 +16,7 @@ export interface eventInterface {
   startTime: string;
   endTime?: string;
   title: string;
-  venue: VenueName;
+  venue: VenuesName;
   language?:
     | "English"
     | "Norwegian"
@@ -67,6 +70,6 @@ export interface venueInterface {
   name: string;
   address: string;
   googleMapsURL: string;
-  website: string;
-  hidden?: boolean;
+  website: string | null;
+  hidden: boolean;
 }

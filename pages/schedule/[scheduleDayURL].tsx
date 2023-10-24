@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import styles from "../../styles/ScheduleDayPage.module.css";
 import type { ReactElement } from "react";
-import Image from "next/image";
 import Layout from "../../components/layout";
 import type { NextPageWithLayout } from "../_app";
 import { schedule } from "../../assets/schedule-list";

@@ -3,7 +3,6 @@ import styles from "../styles/CommonInfos.module.css";
 import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
-import Link from "next/link";
 import { venueList } from "../assets/venue-list";
 import { VenueCard } from "../components/venueCard";
 

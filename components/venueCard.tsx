@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { venueInterface } from "../interfaces";
 import styles from "./VenueCard.module.css";
 import { Home, MapPin } from "lucide-react";

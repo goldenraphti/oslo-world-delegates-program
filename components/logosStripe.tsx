@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import styles from "./LogosStripe.module.css";
 
 import talentNorgeLogo from "../public/logos/talent-norge.png";
@@ -8,7 +7,6 @@ import frittOrdLogo from "../public/logos/fritt-ord-logo-svart-liggende-1000x456
 import keyChangeLogo from "../public/logos/Keychange and CE Lockup.jpg";
 import musicNorwayLogo from "../public/logos/music_norway_big.png";
 import saunaLogo from "../public/logos/SAUNA.png";
-import goetheLogo from "../public/logos/Logo_Goethe-Institut.png";
 
 export const LogosStripe = () => {
   return (

@@ -107,7 +107,7 @@ export const schedule: dayInterface[] = [
         startTime: "13.00",
         endTime: "14.00",
         title: "Networking lunch",
-        venue: "Melacafe",
+        venue: "Melahuset",
         language: "English",
         obligatoryTarget: "all",
         description: `Hosted by the Diversity Network. Connect with the members of the Diversity Network and enjoy the showcase concert of  the brainchild of the Mexican percussionist, singer, composer and DJ Paulina Sotomayor. With four EPs under her belt, she has become recognized as a Mexican pioneer of alternative electronic folk music,  with deep roots in the tradition and a keen ear for the current trends in global Latin rhythms.`,
@@ -130,7 +130,7 @@ export const schedule: dayInterface[] = [
         startTime: "11.00",
         endTime: "12.30",
         title: "Short talks at high temperatures",
-        venue: "Oslo Badstue Forening - Sukkerbiten",
+        venue: "Oslo Badstuforening - Sukkerbiten",
         language: "English",
         description: `Sauna is a great equalizer. It represents the non-hierarchical nature of Nordic society. The saunas at Sukkerbiten will rise above 80 degrees to host professionals from the cultural sector and music enthusiasts to discuss ideas. . Away from the real world, muscles relaxing, core temperature rising, we will share strategies to work together against systemic discrimination, gender inequality and racism.
 
@@ -213,7 +213,7 @@ export const schedule: dayInterface[] = [
         endTime: "10.45",
         title:
           "Group Coaching session for Keychange participants: Mastering Music Conferences, Markets, and Festivals with Kea Ostovany",
-        venue: "Opera",
+        venue: "Den Norske Opera & Ballett",
         language: "English",
         obligatoryTarget: "keychange",
         description: `A captivating Group Coaching session tailored for Keychange participants. Are you a music industry enthusiast eager to unlock the full potential of music conferences, markets, and festivals? Delve into the secrets of navigating these dynamic arenas with Kea Ostovany, an accomplished executive coach, consultant, speaker, and lecturer, boasting over 18 years of experience. Norge, specializing in nurturing top talents and leaders across various domains, including CEOs, major artists, champion athletes, and TED Talk speakers. Her international work spans diverse sectors, from multinational corporations to media, creative industries, and educational institutions.`,
@@ -272,7 +272,7 @@ export const schedule: dayInterface[] = [
         startTime: "19.00",
         endTime: "20.00",
         title: "Music and Spaces: A love-hate story in Beirut",
-        venue: "Byens tak",
+        venue: "Byens Tak",
         language: "English",
         obligatoryTarget: "all",
         description: `The conversation looks at how culture can persevere through adversity, using their unique circumstances to shape their soundscapes. What is the evolving role of architecture in shaping the sonic experiences of audiences and artists alike?`,
@@ -324,19 +324,19 @@ export const schedule: dayInterface[] = [
       {
         startTime: "20.00",
         title: "Beirut & Beyond: Walid Ben Selim",
-        venue: "Byens tak",
+        venue: "Byens Tak",
         isNightProgram: true,
       },
       {
         startTime: "21.00",
         title: "Beirut & Beyond: Mayssa Jallad",
-        venue: "Byens tak",
+        venue: "Byens Tak",
         isNightProgram: true,
       },
       {
         startTime: "22.00",
         title: "Beirut & Beyond: Ammar 808",
-        venue: "Byens tak",
+        venue: "Byens Tak",
         isNightProgram: true,
       },
       {
@@ -348,7 +348,6 @@ export const schedule: dayInterface[] = [
         description: `Khartoon Deconstructed is an exhibition where political cartoonist Khalid Albaih extracts isolated components from his cartoons, presenting them as standalone, larger-than-life prints. This intentional detachment invites audiences to engage with these fragments devoid of their original contexts. Even though each piece looks complete, they are not. This creative endeavour draws a compelling parallel to the contemporary landscape shaped by the "filter bubble" and "fast news" world. A reevaluation of the puzzle pieces where in most cases the viewer wouldn't know there is a puzzle to begin with.`,
         speakers: "Khalid Albaih",
       },
-      // 02.11	10:00	12:00	Creative Labs Keychange	Event starts		Melahuset					A guided workshop with Sam Rise tailored for Keychange participants only.
       {
         startTime: "10.00",
         endTime: "12.00",
@@ -369,7 +368,7 @@ export const schedule: dayInterface[] = [
         startTime: "13.00",
         endTime: "15.00",
         title: "Masterclass with Huun-Huur-Tu",
-        venue: "Norges musikk­høgskole",
+        venue: "Norges musikkhøgskole",
         language: "English",
         description: `Experience the mesmerizing traditional laryngeal singing of Huun-Huur-Tu in a two-hour masterclass.`,
       },
@@ -451,7 +450,7 @@ export const schedule: dayInterface[] = [
       {
         startTime: "22.00",
         title: "Bad Gyal",
-        venue: "Rockefeller",
+        venue: "Rockefeller Music Hall",
         isNightProgram: true,
       },
       {
@@ -572,91 +571,78 @@ export const schedule: dayInterface[] = [
         language: "English",
         description: `The DJs need you to shine, the artist needs you for clout, the city needs you to fill up the space. In this talk Perosh QaderA.K.A. Queer Baba founder of Bad Habits Oslo, invites a curated list of his guests to join him in a conversation about curating nightlife culture and the challenges that are met with it.`,
       },
-      //       20:00		Yendry			Parkteatret
       {
         startTime: "20.00",
         title: "Yendry",
         venue: "Parkteatret",
         isNightProgram: true,
       },
-      // 20:00		Unganisha			Dunk
       {
         startTime: "20.00",
         title: "Unganisha",
         venue: "Dunk",
         isNightProgram: true,
       },
-      // 20:00		Embla and the Karidotters			Riksscenen
       {
         startTime: "20.00",
         title: "Embla and the Karidotters",
         venue: "Riksscenen",
         isNightProgram: true,
       },
-      // 21:00		George Dalaras			Sentrum Scene
       {
         startTime: "21.00",
         title: "George Dalaras",
         venue: "Sentrum Scene",
         isNightProgram: true,
       },
-      // 21:00		DAGADANA			Cosmopolite
       {
         startTime: "21.00",
         title: "DAGADANA",
         venue: "Cosmopolite",
         isNightProgram: true,
       },
-      // 21:00		Kader Tarhanine			Kafé Hærverk
       {
         startTime: "21.00",
         title: "Kader Tarhanine",
         venue: "Kafé Hærverk",
         isNightProgram: true,
       },
-      // 21:30		Desire Marea 			The National Museum
       {
         startTime: "21.30",
         title: "Desire Marea",
         venue: "The National Museum",
         isNightProgram: true,
       },
-      // 21:00		Nasha + Dollx + Lena K. O.			Baba Bar
       {
         startTime: "21.00",
         title: "Nasha + Dollx + Lena K. O.",
         venue: "Baba Bar",
         isNightProgram: true,
       },
-      // 22:00		Pahua			Blå
       {
         startTime: "22.00",
         title: "Pahua",
         venue: "Blå",
         isNightProgram: true,
       },
-      // 23:00		Ghetto Kumbé			Blå
       {
         startTime: "23.00",
         title: "Ghetto Kumbé",
         venue: "Blå",
         isNightProgram: true,
       },
-      // 22:00		DJ Mitmitta & DJ Ramy			Kafé Hærverk
       {
         startTime: "22.00",
         title: "DJ Mitmitta & DJ Ramy",
         venue: "Kafé Hærverk",
         isNightProgram: true,
       },
-      // 22:00		Suchi, Nightflight X Det Gode Selskab, MC Kaman & Kash			Jæger
       {
         startTime: "22.00",
         title: "Suchi, Nightflight X Det Gode Selskab, MC Kaman & Kash",
         venue: "Jæger",
         isNightProgram: true,
       },
-      // 23:00		Tuvas Blodklubb: Rubinsztein/Karlsson + Kenneth Lien & Center of the Universe + Cheb Runner			Riksscenen
       {
         startTime: "23.00",
         title:
@@ -670,7 +656,6 @@ export const schedule: dayInterface[] = [
     day: "Sunday 5. november",
     dayStringForDate: "2023-11-05",
     events: [
-      // 15:00	16:00	Afro dance class with CAK			Melahuset					The African Cultural Institute, CAK, is a miniature Africa in Oslo, and for 45 years it has been a key feature of the Norwegian cultural landscape. During Oslo World, CAK has curated a unique Afro dance class. We work with different movements and techniques, and we learn traditional dances that are accompanied by live drumming. Come as you are and experience the joy of African dance, get rid of tension and achieve high cardio and psychomotor gains with live drum rhythms!	Teacher: Koffi Anselme Konan, Ivory Coast.  He will be accompanied by two master drummers, Bacary Sagna from Senegal and Egole Oulai, from the Ivory Coast.
       {
         startTime: "15.00",
         endTime: "16.00",
@@ -681,14 +666,12 @@ export const schedule: dayInterface[] = [
         speakers:
           "Teacher: Koffi Anselme Konan, Ivory Coast.  He will be accompanied by two master drummers, Bacary Sagna from Senegal and Egole Oulai, from the Ivory Coast.",
       },
-      // 20:00		Closing concert: Mariza			Sentrum scene
       {
         startTime: "20.00",
         title: "Closing concert: Mariza",
-        venue: "Sentrum scene",
+        venue: "Sentrum Scene",
         isNightProgram: true,
       },
-      // 05.11	21:30		Closing party + Photo booth med Dina Al Makhrami 			Baba Bar
       {
         startTime: "21.30",
         title: "Closing party + Photo booth med Dina Al Makhrami",
