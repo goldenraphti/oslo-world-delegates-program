@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../../styles/DelegateProfilePage.module.css";
 import type { ReactElement } from "react";
 import Image from "next/legacy/image";
@@ -7,6 +8,7 @@ import Layout from "../../components/layout";
 import type { NextPageWithLayout } from "../_app";
 import { delegatesList } from "../../assets/delegates-list";
 import { HeadCommon } from "../../components/HeadCommon";
+import { MoveLeft } from "lucide-react";
 
 const DelegateProfile: NextPageWithLayout = () => {
   const router = useRouter();
@@ -30,6 +32,12 @@ const DelegateProfile: NextPageWithLayout = () => {
 
       {delegate && (
         <main className={styles.main}>
+          <div className='back-link-row'>
+            <Link href={`/delegates`} className='back-link-button'>
+              <MoveLeft size={20} className={styles.iconLinkCard} />
+              Back to delegates list
+            </Link>
+          </div>
           <h1 className={styles.title}>
             {delegate.firstName} {delegate.lastName}
           </h1>

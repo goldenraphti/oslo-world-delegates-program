@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../../styles/ScheduleDayPage.module.css";
 import type { ReactElement } from "react";
 import Layout from "../../components/layout";
@@ -8,6 +9,7 @@ import { schedule } from "../../assets/schedule-list";
 import { sortEventByStartTime } from "../../utils/index";
 import { EventCard } from "../../components/eventCard";
 import { HeadCommon } from "../../components/HeadCommon";
+import { MoveLeft } from "lucide-react";
 
 const ScheduleDay: NextPageWithLayout = () => {
   const router = useRouter();
@@ -32,6 +34,12 @@ const ScheduleDay: NextPageWithLayout = () => {
         <HeadCommon />
       </Head>
 
+      <div className='back-link-row'>
+        <Link href={`/delegates`} className='back-link-button'>
+          <MoveLeft size={20} className={styles.iconLinkCard} />
+          Back to delegates list
+        </Link>
+      </div>
       <h1 className={styles.title}>
         {scheduleDate?.toLocaleString(undefined, {
           timeZone: "CET",
