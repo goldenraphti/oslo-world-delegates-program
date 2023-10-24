@@ -13,6 +13,8 @@ import sergioProfilePic from "../public/photos/staff-photos/sergio.jpg";
 import miriamNabunyaProfilePic from "../public/photos/staff-photos/miriam-nabunya.jpg";
 import henrietteVoldProfilePic from "../public/photos/staff-photos/henriette-vold.jpg";
 import arnaudLeBretonProfilePic from "../public/photos/staff-photos/arnaud-le-breton.jpg";
+import mubarakMuseProfilePic from "../public/photos/staff-photos/mubarak-muse.jpg";
+import lydiaTeferaProfilePic from "../public/photos/staff-photos/lydia-tefera.jpg";
 
 // import ProfilePic from '../public/photos/staff-photos/
 
@@ -96,7 +98,7 @@ export const staff: staffMemberInterface[] = [
   {
     firstName: "Henriette",
     lastName: "Vold",
-    position: "Head of Oslo World Ung and volunteer team",
+    position: "Head of Oslo World UNG and volunteer team",
     img: henrietteVoldProfilePic,
     category: "festival team",
     hidden: false,
@@ -136,9 +138,25 @@ export const staff: staffMemberInterface[] = [
   {
     firstName: "Samsaya",
     lastName: "Sharma",
-    position: "Oslo World Ung coordinator",
+    position: "Oslo World UNG coordinator",
     img: samsayaProfilePic,
     category: "festival team",
     hidden: true,
+  },
+  {
+    firstName: "Mubarak",
+    lastName: "Muse",
+    position: "Producer Oslo World UNG",
+    img: mubarakMuseProfilePic,
+    category: "festival team",
+    hidden: false,
+  },
+  {
+    firstName: "Lydia",
+    lastName: "Tefera",
+    position: "Producer Oslo World UNG",
+    img: lydiaTeferaProfilePic,
+    category: "festival team",
+    hidden: false,
   },
 ];
