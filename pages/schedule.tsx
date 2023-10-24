@@ -5,6 +5,7 @@ import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import { schedule } from "../assets/schedule-list";
+import { HeadCommon } from "../components/HeadCommon";
 
 const SchedulePage: NextPageWithLayout = () => {
   return (
@@ -15,7 +16,7 @@ const SchedulePage: NextPageWithLayout = () => {
           name='description'
           content='Schedule for the delegates attending the Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <div className={styles.main}>

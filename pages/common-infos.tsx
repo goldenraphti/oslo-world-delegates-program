@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import { venueList } from "../assets/venue-list";
 import { VenueCard } from "../components/venueCard";
+import { HeadCommon } from "../components/HeadCommon";
 
 const CommonInfosPage: NextPageWithLayout = () => {
   return (
@@ -15,7 +16,7 @@ const CommonInfosPage: NextPageWithLayout = () => {
           name='description'
           content='The common information regarding the Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <div className={styles.main}>

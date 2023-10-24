@@ -11,6 +11,7 @@ import {
   Camera,
   Tag,
 } from "lucide-react";
+import { HeadCommon } from "../components/HeadCommon";
 
 const InternationalInfosPage: NextPageWithLayout = () => {
   return (
@@ -21,7 +22,7 @@ const InternationalInfosPage: NextPageWithLayout = () => {
           name='description'
           content='Information for the international delegates attending the Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <div className={styles.main}>

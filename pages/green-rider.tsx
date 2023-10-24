@@ -4,6 +4,7 @@ import type { ReactElement } from "react";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import { Utensils, Trash2, Train, Leaf, Sprout } from "lucide-react";
+import { HeadCommon } from "../components/HeadCommon";
 
 const GreenRyderPage: NextPageWithLayout = () => {
   return (
@@ -14,7 +15,7 @@ const GreenRyderPage: NextPageWithLayout = () => {
           name='description'
           content='Oslo World Delegates Program proudly supports the "green rider"'
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <div className={styles.main}>

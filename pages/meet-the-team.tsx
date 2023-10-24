@@ -5,6 +5,7 @@ import Image from "next/legacy/image";
 import Layout from "../components/layout";
 import type { NextPageWithLayout } from "./_app";
 import { staff, staffCategories } from "../assets/staff-list";
+import { HeadCommon } from "../components/HeadCommon";
 
 const MeetTheTeamPage: NextPageWithLayout = () => {
   return (
@@ -15,7 +16,7 @@ const MeetTheTeamPage: NextPageWithLayout = () => {
           name='description'
           content='Team of Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <div className={styles.main}>

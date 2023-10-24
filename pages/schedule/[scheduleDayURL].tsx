@@ -7,6 +7,7 @@ import type { NextPageWithLayout } from "../_app";
 import { schedule } from "../../assets/schedule-list";
 import { sortEventByStartTime } from "../../utils/index";
 import { EventCard } from "../../components/eventCard";
+import { HeadCommon } from "../../components/HeadCommon";
 
 const ScheduleDay: NextPageWithLayout = () => {
   const router = useRouter();
@@ -28,7 +29,7 @@ const ScheduleDay: NextPageWithLayout = () => {
           name='description'
           content={`program for ${scheduleDay?.day} of the  Oslo World Delegates Program`}
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <h1 className={styles.title}>

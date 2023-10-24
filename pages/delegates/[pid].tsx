@@ -6,6 +6,7 @@ import Image from "next/legacy/image";
 import Layout from "../../components/layout";
 import type { NextPageWithLayout } from "../_app";
 import { delegatesList } from "../../assets/delegates-list";
+import { HeadCommon } from "../../components/HeadCommon";
 
 const DelegateProfile: NextPageWithLayout = () => {
   const router = useRouter();
@@ -24,7 +25,7 @@ const DelegateProfile: NextPageWithLayout = () => {
           name='description'
           content={`profile page of ${delegate?.firstName} ${delegate?.lastName}, one of the brilliant delegates attending the Oslo World Delegates Program`}
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       {delegate && (

@@ -6,6 +6,7 @@ import type { NextPageWithLayout } from "./_app";
 import { delegatesList } from "../assets/delegates-list";
 import { DelegateComponent } from "../components/delegate";
 import { sortDelegateObjectsAlphabetically } from "../utils/index";
+import { HeadCommon } from "../components/HeadCommon";
 
 const DelegatesPage: NextPageWithLayout = () => {
   return (
@@ -16,7 +17,7 @@ const DelegatesPage: NextPageWithLayout = () => {
           name='description'
           content='List of the delegates attending the Oslo World Delegates Program'
         />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <div className={styles.main}>

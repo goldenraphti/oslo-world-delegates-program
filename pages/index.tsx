@@ -7,6 +7,7 @@ import type { NextPageWithLayout } from "./_app";
 import { LogosStripe } from "../components/logosStripe";
 import { Info, Plane, CalendarDays, Contact, Star } from "lucide-react";
 import { LogoOsloWorld } from "../components/LogoOsloWorld";
+import { HeadCommon } from "../components/HeadCommon";
 
 const Home: NextPageWithLayout = () => {
   return (
@@ -14,7 +15,7 @@ const Home: NextPageWithLayout = () => {
       <Head>
         <title>Oslo World Delegates Program</title>
         <meta name='description' content='Oslo World Delegates Program' />
-        <link rel='icon' href='/oslo_world_favicon_2023.png' />
+        <HeadCommon />
       </Head>
 
       <div className={styles.main}>
