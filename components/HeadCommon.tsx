@@ -8,8 +8,6 @@ export const HeadCommon = () => {
         content='https://oslo-world-delegates-program.vercel.app/'
       />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Oslo World Delegates Program' />
-      <meta property='og:description' content='Oslo World Delegates Program' />
       <meta
         property='og:image'
         content='https://oslo-world-delegates-program.vercel.app/opengraph-image.png'
@@ -24,8 +22,6 @@ export const HeadCommon = () => {
         property='twitter:url'
         content='https://oslo-world-delegates-program.vercel.app/'
       />
-      <meta name='twitter:title' content='Oslo World Delegates Program' />
-      <meta name='twitter:description' content='Oslo World Delegates Program' />
       <meta
         name='twitter:image'
         content='https://oslo-world-delegates-program.vercel.app/opengraph-image.png'
