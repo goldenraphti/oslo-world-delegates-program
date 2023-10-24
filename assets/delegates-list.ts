@@ -32,8 +32,9 @@ import gabrielCorreaProfilePic from "../public/photos/norwegian-delegates-pictur
 import theaFaerdenBringsvaerdProfilePic from "../public/photos/norwegian-delegates-pictures/thea-faerden-bringsvaerd.jpg";
 import tuvaSvellandProfilePic from "../public/photos/norwegian-delegates-pictures/tuva-svelland.jpg";
 import khalidAlbaihProfilePic from "../public/photos/norwegian-delegates-pictures/khalid-albaih.jpeg";
+import lineJuulProfilePic from "../public/photos/norwegian-delegates-pictures/line-juul.jpg";
 
-import laiaProfilePic from "../public/photos/international-delegates-pictures/Laia.png";
+import laiaProfilePic from "../public/photos/international-delegates-pictures/laia-canals.png";
 import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
 import amaniSemaanProfilePic from "../public/photos/international-delegates-pictures/amani-semaan.jpg";
 import lamaHazbounProfilePic from "../public/photos/international-delegates-pictures/lama.jpg";
@@ -59,6 +60,9 @@ import lidiaHinojoRojasProfilePic from "../public/photos/international-delegates
 import ginaPerierProfilePic from "../public/photos/international-delegates-pictures/gina-perier.png";
 import juliaLozanoProfilePic from "../public/photos/international-delegates-pictures/julia-lozano.jpg";
 import ireneMontesiProfilePic from "../public/photos/international-delegates-pictures/irene-montesi.jpg";
+import elisaBrolliProfilePic from "../public/photos/international-delegates-pictures/elisa-brolli.jpg";
+import preethiNalluProfilePic from "../public/photos/international-delegates-pictures/preethi-nallu.jpg";
+import anthonyTawilProfilePic from "../public/photos/international-delegates-pictures/anthony-tawil.png";
 
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
@@ -434,6 +438,17 @@ export const delegatesList: delegatesListInterface = {
       description: `Romanian-born artist raised in Qatar, based in Oslo. Founder of getfadaa.com, Sudan Artist Fund, and Sudan Art and Design Library. Commentary on CNN, The Guardian, Aljazeera. Authored "Khartoon!" and "Sudan Retold." Recent work: 9-meter tunnel Sound installation at Documenta15.`,
       imgPath: khalidAlbaihProfilePic,
     },
+    {
+      firstName: "Line",
+      lastName: "Juul",
+      organization: "Oslo Jazzfestival",
+      jobPositionTitle: "Festival Director",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Line Juul is the new festival director for Oslo Jazz Festival. The festival takes place in August and is a contemporary jazz festival with a cutting edge program showcasing both international artists and the sought-after Norwegian jazz scene, presented at Oslo's finest venues. Before taking over Oslojazz, Line was the production manager at Nasjonal jazzscene (Norway's main jazz venue) for many years. She has a big heart for innovative music, gender balance and diversity.`,
+      imgPath: lineJuulProfilePic,
+    },
   ],
   // international delegates
   international: [
@@ -450,14 +465,17 @@ export const delegatesList: delegatesListInterface = {
     },
     {
       firstName: "Laia",
-      lastName: "Canals Kverneland",
-      organization: "Tempi",
-      jobPositionTitle: "International Projects Manager",
+      lastName: "Canals",
+      organization: "Roots Music Denmark :: Tempi",
+      jobPositionTitle: "Director",
       country: "Denmark",
       category: "international",
       displayed: true,
-      description: `Laia works as International Projects Manager at Tempi, handling the export activities of Danish Roots Music artists and industry, as well as being an advisor in internationalization strategies for artists, companies and governments.
-      Internationalization as a core, diversity as a motto, Laia’s work is behind projects all over the world, from Nordic parnerships to European projects, North America, South America, Australian and Asian initiatives. Aside, Laia participates in several Boards of Directors as The Nordic Folk Council, Nordic Folk Alliance and Lux Boreal Festival.`,
+      description: `Laia Canals is Tempi: Roots Music Denmark director whose primary objective is to promote Roots Music in Denmark and internationally.
+
+      Internationalization as a core, diversity as a motto, Laia’s work is behind projects all over the world, from Nordic partnerships such as the showcase conference Nordic Folk Alliance to European projects, North America, South America, Australian and Asian initiatives. Aside, Laia participates in several Boards of Directors as Folk Alliance USA, The Nordic Folk Council, Nordic Folk Alliance and Lux Boreal Festival.
+
+      Laia’s experience is vast in handling export activities for artists and industry, as well as being an advisor in internationalization strategies and project development for governments and companies.`,
       imgPath: laiaProfilePic,
     },
     {
@@ -860,6 +878,47 @@ export const delegatesList: delegatesListInterface = {
       displayed: true,
       description: `Matyas is currently a student of Palacký University Olomouc, head of the production of Czech Music Crossroads, and a member of the production team of Festival in the Streets and Colours of Ostrava.`,
       imgPath: matyasHradilProfilePic,
+    },
+    {
+      firstName: "Elisa",
+      lastName: "Brolli",
+      organization: "Keychange",
+      jobPositionTitle: "Artist",
+      country: "France",
+      category: "international",
+      displayed: true,
+      description: `Brö stands out and cultivates her singularity. On stage, she outclasses rappers in old-fashioned battles, a glass of chardonnay in her hand and a coat slung over her shoulders. On record, between singing and rapping, she evokes without complexity, her sexuality and woman desire. Elisa Brolli - her real name - likes to think outside the box.
+      "I’m making an effort not to define my style but rather be who I am, which is a mix of several identities". A Berber mother from Algeria, and an Italian and Savoyard father is what makes up the DNA of this young woman. With the heritage of the Mediterranean and the Alps, she has a burning heart and a cool head. A duality that we find in her texts, which mixes fear of love and carnal passions.
+      This is also one of Brö's specificities. Her crude writing using male codes describes her conquests and pleasures. If the tone is voluntarily cynical, Brö's universe is also full of humor. Holding a master's degree in law and criminology, Elisa enjoys flirting with morality and deconstructing good morals. To live freely, once again, and break the norms.`,
+      imgPath: elisaBrolliProfilePic,
+    },
+    {
+      firstName: "Preethi",
+      lastName: "Nallu",
+      organization: "Report for the World",
+      jobPositionTitle: "Executive Director",
+      country: "Global",
+      category: "international",
+      displayed: true,
+      description: `Preethi Nallu is the executive director of Report for the World. She is a writer, researcher, filmmaker and advocacy specialist from India. She was founding editor at Refugees Deeply. Born in Iran, raised in India, Preethi's career spans 14 countries across the global north and south. She has researched, reported and campaigned about humanitarian and media development issues. Her films and reports won two Webby awards, two Migration Media awards, and a Human Rights Press Award. Preethi has worked for mainstream media outlets such as Al Jazeera English and Foreign Policy, global think tanks such as Chatham House, and led multimedia campaigns for the UN and global NGOs such as the Norwegian Refugee Council. Preethi also practices Bharat Natyam, an Indian classical dance, and she has trained to teach yoga.`,
+      imgPath: preethiNalluProfilePic,
+    },
+    {
+      firstName: "Anthony",
+      lastName: "Tawil",
+      organization: "Beirut & Beyond International Music Festival",
+      jobPositionTitle: "",
+      country: "Lebanon",
+      category: "international",
+      displayed: true,
+      description: `Anthony Tawil is a Lebanese musician, creative director, and producer based in Beirut. His work explores the relationship between past and present by using memory and space to re-question identity and evoke a new understanding of history.
+
+      Currently, Anthony is producing a music film centered on the unfinished dome of the Rachid Karame International Fair in Tripoli. A remnant of the civil war, the film collaborates with artists to perform acoustic improvisations within the space, adapting their approach to suit its particularly long reverb, and in the process evoking similarities between the state of the dome and that of a Lebanon in crisis. The film is in post-production with a release expected in August 2024.
+
+      Additionally, and continuing with his interest in exploring the relationship between space, sound and identity, Anthony has developed his musical practice around improvising in abandoned man-made spaces that exist as a result of wars, or due to man-made consequences pertaining to socio-economic or political changes.
+
+      He is the producer and co-creator of "Maabar," a podcast docu-series that examines the Lebanese civil war through individual memories and personal testimonies, aiming to present a multi-perspective narrative of the conflict. Following the release of its first season in 2022, work is underway on two new mini-series set for November 2023, with a second season anticipated for fall 2024.`,
+      imgPath: anthonyTawilProfilePic,
     },
   ],
 };
