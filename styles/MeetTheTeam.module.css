@@ -50,6 +50,7 @@
   filter: grayscale();
   width: 150px;
   height: 150px;
+  clip-path: circle();
 }
 
 .imgPlaceholder {

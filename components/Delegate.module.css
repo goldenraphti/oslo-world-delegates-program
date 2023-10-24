@@ -34,6 +34,7 @@
   display: grid;
   place-items: center;
   filter: grayscale();
+  clip-path: circle();
 }
 
 .imgProfile {
