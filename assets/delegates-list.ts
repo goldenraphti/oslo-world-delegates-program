@@ -897,7 +897,7 @@ export const delegatesList: delegatesListInterface = {
       lastName: "Nallu",
       organization: "Report for the World",
       jobPositionTitle: "Executive Director",
-      country: "Global",
+      country: "Iran / India",
       category: "international",
       displayed: true,
       description: `Preethi Nallu is the executive director of Report for the World. She is a writer, researcher, filmmaker and advocacy specialist from India. She was founding editor at Refugees Deeply. Born in Iran, raised in India, Preethi's career spans 14 countries across the global north and south. She has researched, reported and campaigned about humanitarian and media development issues. Her films and reports won two Webby awards, two Migration Media awards, and a Human Rights Press Award. Preethi has worked for mainstream media outlets such as Al Jazeera English and Foreign Policy, global think tanks such as Chatham House, and led multimedia campaigns for the UN and global NGOs such as the Norwegian Refugee Council. Preethi also practices Bharat Natyam, an Indian classical dance, and she has trained to teach yoga.`,
