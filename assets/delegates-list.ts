@@ -33,6 +33,10 @@ import theaFaerdenBringsvaerdProfilePic from "../public/photos/norwegian-delegat
 import tuvaSvellandProfilePic from "../public/photos/norwegian-delegates-pictures/tuva-svelland.jpg";
 import khalidAlbaihProfilePic from "../public/photos/norwegian-delegates-pictures/khalid-albaih.jpeg";
 import lineJuulProfilePic from "../public/photos/norwegian-delegates-pictures/line-juul.jpg";
+import heleneBrochProfilePic from "../public/photos/norwegian-delegates-pictures/helene-broch.jpg";
+import sakibSaboorProfilePic from "../public/photos/norwegian-delegates-pictures/sakib-saboor.jpg";
+import fadumaMohamudProfilePic from "../public/photos/norwegian-delegates-pictures/faduma-mohamud.jpg";
+import tatijanaTodorovicProfilePic from "../public/photos/norwegian-delegates-pictures/tatijana-todorovic.jpg";
 
 import laiaProfilePic from "../public/photos/international-delegates-pictures/laia-canals.png";
 import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
@@ -63,6 +67,7 @@ import ireneMontesiProfilePic from "../public/photos/international-delegates-pic
 import elisaBrolliProfilePic from "../public/photos/international-delegates-pictures/elisa-brolli.jpg";
 import preethiNalluProfilePic from "../public/photos/international-delegates-pictures/preethi-nallu.jpg";
 import anthonyTawilProfilePic from "../public/photos/international-delegates-pictures/anthony-tawil.png";
+import liseLotteUttakleivDahlProfilePic from "../public/photos/international-delegates-pictures/lise-lotte-uttakleiv-dahl.jpg";
 
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
@@ -449,6 +454,53 @@ export const delegatesList: delegatesListInterface = {
       description: `Line Juul is the new festival director for Oslo Jazz Festival. The festival takes place in August and is a contemporary jazz festival with a cutting edge program showcasing both international artists and the sought-after Norwegian jazz scene, presented at Oslo's finest venues. Before taking over Oslojazz, Line was the production manager at Nasjonal jazzscene (Norway's main jazz venue) for many years. She has a big heart for innovative music, gender balance and diversity.`,
       imgPath: lineJuulProfilePic,
     },
+    {
+      firstName: "Helene",
+      lastName: "Broch",
+      organization: "Music Norway",
+      jobPositionTitle: "Head of International dep.",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Norwegian music industry’s export facilitator and promotional organisation`,
+      imgPath: heleneBrochProfilePic,
+    },
+    {
+      firstName: "Sakib",
+      lastName: "Saboor",
+      organization: "Transcultural Arts Productions - TrAP",
+      jobPositionTitle: "Communications advisor",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Sakib Saboor is a cultural worker and photographer. He has a BA in Digital marketing from Kristiania University College and works at TrAP (Transcultural Arts Productions) as a Communications consultant and project worker. Saboor has a background from the media industry, and also works as a Digital advisor and mediator at Fotogalleriet, along with freelance work within the arts and cultural world based in Oslo.
+
+      His work as a photographer consists of visual storytelling and exploration around identity, in addition to documentary in a combination of both digital and analogue photography.`,
+      imgPath: sakibSaboorProfilePic,
+    },
+    {
+      firstName: "Faduma",
+      lastName: "Mohamud",
+      organization: "TrAP",
+      jobPositionTitle: "Communication",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Faduma Mohamud (1996, Oslo)
+      Writer and journalist, working mainly within the field of arts and culture. By daytime Mohamud is a communication and event manager at TrAP and Fotogalleriet, combined with that she also goes by the name ASDFGHJKL, a sound explorative project that grew out of DJ-ing. ASDFGHJKL draws from a range of stylistic influences, with both her DJ sets and sound projects being confrontational and genre-crossing sound pieces that steer towards eclectic electronic music. She is also a member of the collective ONKOD, where she explores ideas around field recording.`,
+      imgPath: fadumaMohamudProfilePic,
+    },
+    {
+      firstName: "Tatijana",
+      lastName: "Todorovic",
+      organization: "The Orchard",
+      jobPositionTitle: "Artist Marketing Manager",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Works as a project manager at The Orchard in the Artist Services Nordics department. I do anything from release planning, strategy outlining, marketing plans and promo. We work a Nordic unit with artists from across the Nordic countries. I currently work with artists such as Delara, Jesse Markin, Ash Olsen, Salvatore Ganacci and B-Boy Myhre.`,
+      imgPath: tatijanaTodorovicProfilePic,
+    },
   ],
   // international delegates
   international: [
@@ -557,12 +609,12 @@ export const delegatesList: delegatesListInterface = {
       country: "United Kingdom",
       category: "international",
       displayed: true,
-      description: `Stephen Budd is a British music industry executive and artist manager based in London.
-      He is a director of artist and producer management company Stephen Budd Music Ltd, the OneFest Festival, of Damon Albarn's Africa Express project and is the co-founder of the NH7 Weekender festivals in India and helped create the DMZ Peace Train Festival in Korea.
+      description: `Stephen Budd is a British music industry executive and artist manager based in London.
+      He is a director of artist and producer management company Stephen Budd Music Ltd, the OneFest Festival, of Damon Albarn's Africa Express project and is the co-founder of the NH7 Weekender festivals in India and helped create the DMZ Peace Train Festival in Korea.
       Stephen is a recognised TV commentator on music industry issues, regularly appearing on a variety of British TV news shows.
-      He has created a variety of Charity projects including’ co-producing  Amnesty International and Sofar Sounds' ‘Give A Home’ global concert series for refugees and creating WarChild’s “Passport Back To The Bars" highly successful concert series for children affected by war. And in 2022 The Music Venues Trust "Passport Back To Our Roots" concert series to raise money for Covid-19 endangered live music venues.
-      In June 2017 he completed his 3-year term as co-chairman of the MMF (Music Managers Forum), the trade body for artist managers.
-      He is a fanatical vinyl collector and for fun, he DJ’s African music of the 1970’s on WordWide.FM radio as well as at festivals and clubs across the world. 
+      He has created a variety of Charity projects including' co-producing Amnesty International and Sofar Sounds' ‘Give A Home’ global concert series for refugees and creating WarChild’s “Passport Back To The Bars" highly successful concert series for children affected by war. And in 2022 The Music Venues Trust "Passport Back To Our Roots" concert series to raise money for Covid-19 endangered live music venues.
+      In June 2017 he completed his 3-year term as co-chairman of the MMF (Music Managers Forum), the trade body for artist managers.
+      He is a fanatical vinyl collector and for fun, he DJ's African music of the 1970’s on WordWide.FM radio as well as at festivals and clubs across the world.
       `,
       imgPath: stephenBuddProfilePic,
     },
@@ -919,6 +971,29 @@ export const delegatesList: delegatesListInterface = {
 
       He is the producer and co-creator of "Maabar," a podcast docu-series that examines the Lebanese civil war through individual memories and personal testimonies, aiming to present a multi-perspective narrative of the conflict. Following the release of its first season in 2022, work is underway on two new mini-series set for November 2023, with a second season anticipated for fall 2024.`,
       imgPath: anthonyTawilProfilePic,
+    },
+    {
+      firstName: "Andrea",
+      lastName: "Lamount",
+      organization: "Sound Earth Legacy",
+      jobPositionTitle: "CEO & Founder",
+      country: "Spain",
+      category: "international",
+      displayed: true,
+      description: `CEO & Founder of Sound Earth Legacy, a Sustainable Creative Agency aiming to preserve the sounds of the earth.`,
+      imgPath: null,
+    },
+    {
+      firstName: "Lise Lotte",
+      lastName: "Uttakleiv Dahl",
+      organization: "Lapee",
+      jobPositionTitle: "Head of Partnerships",
+      country: "Denmark",
+      category: "international",
+      displayed: true,
+      description: `Lise Lotte Uttakleiv Dahl is Head of Partnerships at Lapee, the revolutionary urinal for women and people who squat to pee.
+      With her experience in enterprising leadership, project management and sales, she has always been advocating for gender equality. Originally from Norway, Lise Lotte has a broad background from working in truly value-driven companies. Having worked in the field of sexual health, and the event and music-industry, she is now a vital part of Lapees mission to make the event industry more inclusive for everyone.`,
+      imgPath: liseLotteUttakleivDahlProfilePic,
     },
   ],
 };
