@@ -12,6 +12,8 @@ export interface dayInterface {
   events: readonly eventInterface[];
 }
 
+type urlStringType = `https://${string}`;
+
 export interface eventInterface {
   startTime: string;
   endTime?: string;
@@ -29,6 +31,7 @@ export interface eventInterface {
   facilitators?: string;
   obligatoryTarget?: null | "all" | "keychange";
   isNightProgram?: boolean;
+  eventPageURL: urlStringType | null;
 }
 
 export interface delegateInterface {

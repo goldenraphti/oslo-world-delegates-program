@@ -53,6 +53,16 @@ export const EventCard = ({ event }: Props) => {
           <b>moderators</b>: {event.moderators}
         </p>
       )}
+
+      {event.eventPageURL && (
+        <a
+          href={event.eventPageURL}
+          target='_blank'
+          className='no-external-link-icon'
+        >
+          🔗 Concert page
+        </a>
+      )}
     </li>
   );
 };

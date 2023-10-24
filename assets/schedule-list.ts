@@ -12,6 +12,7 @@ export const schedule = [
         language: "English",
         description: `Pick-up at the hotel Lobby and Walk together to the Opening Reception.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "17.00",
@@ -20,6 +21,7 @@ export const schedule = [
         language: "English",
         description: `Opening Reception at Oslo City Hall for the 30 years of the festivals. Delegates will be able to connect with other delegates and our local partners.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "19.30",
@@ -28,6 +30,7 @@ export const schedule = [
         language: "English",
         description: `Featuring Mari Boine, Bugge Wesseltoft, Oktan Gussiin Ella Marie Hætta Isaksen, and Oassi "Vástádus Eana"`,
         isNightProgram: false,
+        eventPageURL: null,
       },
     ],
   },
@@ -43,6 +46,7 @@ export const schedule = [
         language: "English",
         description: `This event is only for the Forum of Worldwide Music Festivals members.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "11.30",
@@ -52,6 +56,7 @@ export const schedule = [
         language: "Norwegian",
         description: `This event is only for the Diversity Network members.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "14.00",
@@ -62,6 +67,7 @@ export const schedule = [
         obligatoryTarget: "all",
         description: `An interactive workshop discussing sustainable music industry practices and climate action within the cultural sector, and specially the festival context.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "16.30",
@@ -74,12 +80,15 @@ export const schedule = [
         speakers:
           "Ella Marie Haætta Isaksen, Stephen Budd, Tone Østerdal, Sofie Søndervik Sæther.",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "18.00",
         title: "Les Mamans du congo",
         venue: "Cosmopolite",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/les-mamans-du-congo-rrobin",
       },
       {
         startTime: "18.30",
@@ -91,18 +100,23 @@ export const schedule = [
         speakers:
           "Mira Thiruchelvam, Marianna S. A. Røe, Thomas Kongshavn, Knut Reiersrud, Filip Roshauw.",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "21.00",
         title: "Nawar",
         venue: "Kafé Hærverk",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/nawar-alnaddaf",
       },
       {
         startTime: "21.00",
         title: "Hermanos Gutiérrez",
         venue: "Cosmopolite",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/hermanos-gutierrez",
       },
       {
         startTime: "22.30",
@@ -110,6 +124,7 @@ export const schedule = [
         venue: "Internasjonalen",
         description: "For delagates, artists and staff only",
         isNightProgram: true,
+        eventPageURL: null,
       },
       {
         startTime: "13.00",
@@ -120,6 +135,7 @@ export const schedule = [
         obligatoryTarget: "all",
         description: `Hosted by the Diversity Network. Connect with the members of the Diversity Network and enjoy the showcase concert of  the brainchild of the Mexican percussionist, singer, composer and DJ Paulina Sotomayor. With four EPs under her belt, she has become recognized as a Mexican pioneer of alternative electronic folk music,  with deep roots in the tradition and a keen ear for the current trends in global Latin rhythms.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
     ],
   },
@@ -135,6 +151,7 @@ export const schedule = [
         language: "English",
         description: `This event is only for the Forum of Worldwide Music Festivals members.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "11.00",
@@ -148,6 +165,7 @@ export const schedule = [
 
         Swimsuits are required. Bring your own towel.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "13.00",
@@ -160,6 +178,7 @@ export const schedule = [
         speakers:
           "Tom Knappskog, (Director, Section for Culture and Creative Businesses, MFA), Alexandra Archetti Stølen (Oslo World),  Stephen Budd (Stephen Budd Music Ltd, the OneFest Festival UK), Amani Semaan (Director, Beirut and Beyond International Music Festival), Rita Furuseth Sandberg (Former Minister Counsellor, Royal Norwegian Embassy in Amman, MFA), Lama Hazboun (Director Amman Jazz Festival, Jordan), Marwane Fachane (Executive Director of Hiba Foundation/ Visa For Music)Laia Canals (Director TEMPI, Danmark)",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "15.00",
@@ -176,6 +195,7 @@ export const schedule = [
         speakers:
           "Silje Riise Næss (Talent Norge), Linda Eng Strand (Norsk Tipping), Christina Hazboun (Keychange), Erik Egenes (by:Larm, Norway), Gina Périer (Lapee, France), Claudia Pereira of CHILEAN WEY and Somos Fuego (Chile),  Silje Larsen Borgan (Little Big Sister, Norway, Keychange Inspiration Award Winner 2022), Solveig Riiser of (Miniøya, Norway), Altyn Kapalova (Museum of Feminist and Queer Art, Kyrgyzstan). CONCERT: Kamara (Norway), Brö (France) IRuna (Italy)",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "18.00",
@@ -184,6 +204,7 @@ export const schedule = [
         venue: "Cinemateket",
         description: `Cinemateket invites you to a unique silent film concert. "The Thief from Baghdad" (1924) is a captivating Hollywood adventure, inspired by "One Thousand and One Nights," Kjetil Schjander Luhr, a renowned silent film musician, sought to provide a fresh cultural perspective for the film. Partnering with Saleh Mahfoud, a Syrian multi-instrumentalist and composer, they crafted a new musical ensemble that blends Hollywood clichés with authentic Arabic music. This concert promises to entertain and enlighten a contemporary audience, 99 years after the film's debut.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "19.30",
@@ -191,36 +212,47 @@ export const schedule = [
           "Mira Thiruchelvam & Vestnorsk Jazzensemble - Pantone 448c with Cumin",
         venue: "Victoria Nasjonal Jazzscene",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/mira-thiruchelvam",
       },
       {
         startTime: "20.00",
         title: "Bixiga 70",
         venue: "Parkteatret",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/bixiga-70",
       },
       {
         startTime: "20.30",
         title: "Jazz Ain't Nothing but Soul - Tabanka Dance Ensemble",
         venue: "Riksscenen",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/jazz-aint-nothing-but-soul",
       },
       {
         startTime: "19.30",
         title: "Maya Angelou: Black Woman Rising",
         venue: "Nordic Black Theatre",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/maya-angelou-black-woman-rising-2",
       },
       {
         startTime: "21.00",
         title: "Gaye Su Akyol",
         venue: "Cosmopolite",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/gaye-su-akyol",
       },
       {
         startTime: "22.00",
         title: "Nefertiti, Gela & Dara Woo",
         venue: "Jæger",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/nefertiti-gela-dara-woo",
       },
       {
         startTime: "09.30",
@@ -233,6 +265,7 @@ export const schedule = [
         description: `A captivating Group Coaching session tailored for Keychange participants. Are you a music industry enthusiast eager to unlock the full potential of music conferences, markets, and festivals? Delve into the secrets of navigating these dynamic arenas with Kea Ostovany, an accomplished executive coach, consultant, speaker, and lecturer, boasting over 18 years of experience. Norge, specializing in nurturing top talents and leaders across various domains, including CEOs, major artists, champion athletes, and TED Talk speakers. Her international work spans diverse sectors, from multinational corporations to media, creative industries, and educational institutions.`,
         speakers: "Kea Ostovany",
         isNightProgram: false,
+        eventPageURL: null,
       },
     ],
   },
@@ -251,6 +284,7 @@ export const schedule = [
         speakers:
           "Julie Forchhammer (Co-founder / partner Klimakultur SA),  Khalid Albaih (Sudanese political cartoonist and civil rights activist), Calum Macintyre (Stopp Oljeletinga)  Silje Ask Lundberg (Oil Change international)",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "16.00",
@@ -263,6 +297,7 @@ export const schedule = [
         description: `Step into a world where echoes of Vietnam resound, where stories are shaped and redefined, and where the power of representation takes center stage.`,
         speakers: "Susanne Xin, Zach Sch, Jung Buffalo, Chi Ton",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "18.00",
@@ -275,6 +310,7 @@ export const schedule = [
         speakers:
           "Andrea Laumont (Sound Earth Legacy), Christina Hazboun (Keychange/ The Sonic Agent), Bente Geving (Artist), Antonio Cataldo (Fotogalleriet)",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "18.00",
@@ -286,6 +322,7 @@ export const schedule = [
         speakers:
           "Zhanna Gladko, a brilliant contemporary artist hailing from Belarus. Presently situated in Oslo as an integral part of the Safemuse Artistic Residency's Oslo Safe Artistic Haven program.",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "19.00",
@@ -298,66 +335,85 @@ export const schedule = [
         speakers:
           "Mayssa Jallad, Anthony Tawil, Synne Bergby, Amani Semaan, Yara Mrad",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "20.00",
         title: "ONIPA",
         venue: "Victoria Nasjonal Jazzscene",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/onipa",
       },
       {
         startTime: "20.30",
         title: "Mellom fjell - Erlend Viken & Sanskriti Shrestha",
         venue: "Riksscenen",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/mellom-fjell-erlend-viken-sanskriti-shrestha",
       },
       {
         startTime: "21.00",
         title: "Roberto Fonseca",
         venue: "Cosmopolite",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/roberto-fonseca",
       },
       {
         startTime: "21.00",
         title: "Rắn Cạp Đuôi Collective",
         venue: "Kafé Hærverk",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/ran-cap-duoi-collective",
       },
       {
         startTime: "22.00",
         title: "Mamdouh",
         venue: "Kafé Hærverk",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/mamdouh",
       },
       {
         startTime: "22.00",
         title: "Nur Jaber, Soju Princess, Normann & Ole HK",
         venue: "Jæger",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/nur-jaber-soju-princess-normann-ole-hk",
       },
       {
         startTime: "19.00",
         title: "Duquende",
         venue: "Parkteatret",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/os-mutantes-2-2",
       },
       {
         startTime: "20.00",
         title: "Beirut & Beyond: Walid Ben Selim",
         venue: "Byens Tak",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/walid-ben-selim-ammar-808-mayssa-jalad",
       },
       {
         startTime: "21.00",
         title: "Beirut & Beyond: Mayssa Jallad",
         venue: "Byens Tak",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/walid-ben-selim-ammar-808-mayssa-jalad",
       },
       {
         startTime: "22.00",
         title: "Beirut & Beyond: Ammar 808",
         venue: "Byens Tak",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/walid-ben-selim-ammar-808-mayssa-jalad",
       },
       {
         startTime: "17.00",
@@ -368,6 +424,7 @@ export const schedule = [
         description: `Khartoon Deconstructed is an exhibition where political cartoonist Khalid Albaih extracts isolated components from his cartoons, presenting them as standalone, larger-than-life prints. This intentional detachment invites audiences to engage with these fragments devoid of their original contexts. Even though each piece looks complete, they are not. This creative endeavour draws a compelling parallel to the contemporary landscape shaped by the "filter bubble" and "fast news" world. A reevaluation of the puzzle pieces where in most cases the viewer wouldn't know there is a puzzle to begin with.`,
         speakers: "Khalid Albaih",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "10.00",
@@ -379,6 +436,7 @@ export const schedule = [
         speakers: "Sam Rise",
         obligatoryTarget: "keychange",
         isNightProgram: false,
+        eventPageURL: null,
       },
     ],
   },
@@ -394,6 +452,7 @@ export const schedule = [
         language: "English",
         description: `Experience the mesmerizing traditional laryngeal singing of Huun-Huur-Tu in a two-hour masterclass.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "16.30",
@@ -405,6 +464,7 @@ export const schedule = [
         description: `An exclusive artist talk with the legendary Greek artist, George Dalaras!`,
         speakers: "Theodoros Rakopoulos, George Dalaras",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "17.30",
@@ -416,18 +476,22 @@ export const schedule = [
         description: `An exploration of the evolving Moroccan music panorama and its dynamic convergence with the Norwegian soundscape.`,
         speakers: "Manal, Royane, Nassima Dzair",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "19.00",
         title: "Huun-Huur-Tu",
         venue: "Cosmopolite",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/huun-huur-tu",
       },
       {
         startTime: "19.00",
         title: "Via Injabulo - dansekompaniet Via Katlehong",
         venue: "Dansens Hus",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/via-katlehong",
       },
       {
         startTime: "19.30",
@@ -435,96 +499,123 @@ export const schedule = [
           "“Lullaby of the sea” - Solveig Slettahjell, Mahsa Vahdat, Tord Gustavsen og Sjur Miljeteig",
         venue: "Kulturkirken Jakob",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/lullaby-of-the-sea-solveig-slettahjell-mahsa-vahdat-tord-gustavsen-og-sjur-miljeteig",
       },
       {
         startTime: "21.00",
         title: "Exile and women rights in Iran",
         venue: "Kulturkirken Jakob",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/lullaby-of-the-sea-exile-and-womens-rights-in-iran",
       },
       {
         startTime: "19.30",
         title: "Oslo World UNG: Hillari",
         venue: "Deichman Bjørvika",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/hillari-rambow",
       },
       {
         startTime: "20.30",
         title: "Oslo World UNG: Rambow",
         venue: "Deichman Bjørvika",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/hillari-rambow",
       },
       {
         startTime: "20.00",
         title: "Almir & Daniel with A. Cissoko, M. Mortensson & S. Camara",
         venue: "Victoria Nasjonal Jazzscene",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/almir-daniel",
       },
       {
         startTime: "20.30",
         title: "Royane",
         venue: "Parkteatret",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/manal-supp-royane",
       },
       {
         startTime: "21.00",
         title: "Manal",
         venue: "Parkteatret",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/manal-supp-royane",
       },
       {
         startTime: "22.00",
         title: "Bad Gyal",
         venue: "Rockefeller Music Hall",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/bad-gyal",
       },
       {
         startTime: "21.00",
         title: "Gabriela Garrubo",
         venue: "Kafé Hærverk",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/gabriela-garrubo",
       },
       {
         startTime: "21.30",
         title: "Sara Parkman",
         venue: "Cosmopolite",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/sara-parkman",
       },
       {
         startTime: "20.30",
         title: "“Herifrå” - Erlend Apneseth",
         venue: "Riksscenen",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/erlend-apneseth",
       },
       {
         startTime: "22.00",
         title: "Fulu Miziki",
         venue: "Blå",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/fulu-miziki",
       },
       {
         startTime: "23.30",
         title: "Faizal Mostrixx",
         venue: "Blå",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/fulu-miziki",
       },
       {
         startTime: "22.00",
         title: "Gabriel Patås",
         venue: "Kafé Hærverk",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/gabriel-patas",
       },
       {
         startTime: "22.00",
         title: "Olga Korol, Per Hammar, Thomas Skjaerstad, G-HA & OLANSKII",
         venue: "Jæger",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/olga-korol-per-hammar-thomas-skjaerstad-g-ha-olanskii",
       },
       {
         startTime: "23.00",
         title: "Baba afterparty: Tunisianlvr + Leila Ajamay",
         venue: "Baba Bar",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/baba-nach-tunisianlvr-leila-ajamay",
       },
     ],
   },
@@ -543,6 +634,7 @@ export const schedule = [
         speakers:
           "Edgardo Garcés (Ghetto Kumbé), Faizal Mostrixx, Angelica Balanta (Miss Balanta)",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "12.30",
@@ -553,6 +645,7 @@ export const schedule = [
         description: `Unleash your artistic potential to advocate, subvert, facilitate, and heal, redefining activism with art. Join us for a two-hour session to learn innovative activism methods and create joyful, imaginative interventions for today's global challenges. All, whether artists, organizers, or curious minds, are welcome. Engage in dynamic movement, discussion, and artistry, accommodating diverse learning styles for an inclusive, enriching experience.`,
         speakers: "Sam Rise",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "15.00",
@@ -563,6 +656,7 @@ export const schedule = [
         description: `Explore satire, censorship, and misinformation in this interactive cartoon workshop. Led by acclaimed satirical cartoonist Khalid Albaih, discover the power of visual storytelling as a means of communication and expression. Enhance your cartooning skills and address pressing issues through your art, regardless of your prior experience. Unleash your creativity and open your mind to this transformative workshop.`,
         speakers: "Khalid Albaih",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "15.45",
@@ -575,6 +669,7 @@ export const schedule = [
         speakers:
           "Desire Marea, Thomas Talawa Prestø, Buru Isaac Mohlabane, Jessica Lauren Elizabeth Taylor.",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "17.00",
@@ -585,12 +680,15 @@ export const schedule = [
         obligatoryTarget: "all",
         description: `Meet Oslo World's artists in an intimate setting at Internasjonalen, when NRK P2's Musikkreisen - formerly known as Jungetelegrafen - invites you to a live broadcast with the audience.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "18.00",
         title: "Synnøve Brøndbo Plassen",
         venue: "Riksscenen",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/synnove-brondbo-plassen",
       },
       {
         startTime: "18.30",
@@ -601,78 +699,99 @@ export const schedule = [
         language: "English",
         description: `The DJs need you to shine, the artist needs you for clout, the city needs you to fill up the space. In this talk Perosh QaderA.K.A. Queer Baba founder of Bad Habits Oslo, invites a curated list of his guests to join him in a conversation about curating nightlife culture and the challenges that are met with it.`,
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "20.00",
         title: "Yendry",
         venue: "Parkteatret",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/yendry",
       },
       {
         startTime: "20.00",
         title: "Unganisha",
         venue: "Dunk",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/ungadisha",
       },
       {
         startTime: "20.00",
         title: "Embla and the Karidotters",
         venue: "Riksscenen",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/embla-and-the-karidotters",
       },
       {
         startTime: "21.00",
         title: "George Dalaras",
         venue: "Sentrum Scene",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/george-dalaras",
       },
       {
         startTime: "21.00",
         title: "DAGADANA",
         venue: "Cosmopolite",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/dagdana",
       },
       {
         startTime: "21.00",
         title: "Kader Tarhanine",
         venue: "Kafé Hærverk",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/festival-in-exile",
       },
       {
         startTime: "21.30",
         title: "Desire Marea",
         venue: "The National Museum",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/desire-marea",
       },
       {
         startTime: "21.00",
         title: "Nasha + Dollx + Lena K. O.",
         venue: "Baba Bar",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/nasha-dollx-lena-k-o",
       },
       {
         startTime: "22.00",
         title: "Pahua",
         venue: "Blå",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/ghetto-kumbe-pahua",
       },
       {
         startTime: "23.00",
         title: "Ghetto Kumbé",
         venue: "Blå",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/ghetto-kumbe-pahua",
       },
       {
         startTime: "22.00",
         title: "DJ Mitmitta & DJ Ramy",
         venue: "Kafé Hærverk",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/dj-mitmitta-dj-ramy",
       },
       {
         startTime: "22.00",
         title: "Suchi, Nightflight X Det Gode Selskab, MC Kaman & Kash",
         venue: "Jæger",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/suchi-nightflight-x-det-gode-selskab-mc-kaman-kash",
       },
       {
         startTime: "23.00",
@@ -680,6 +799,8 @@ export const schedule = [
           "Tuvas Blodklubb: Rubinsztein/Karlsson + Kenneth Lien & Center of the Universe + Cheb Runner",
         venue: "Riksscenen",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/tuvas-blodklubb",
       },
     ],
   },
@@ -697,18 +818,22 @@ export const schedule = [
         speakers:
           "Teacher: Koffi Anselme Konan, Ivory Coast.  He will be accompanied by two master drummers, Bacary Sagna from Senegal and Egole Oulai, from the Ivory Coast.",
         isNightProgram: false,
+        eventPageURL: null,
       },
       {
         startTime: "20.00",
         title: "Closing concert: Mariza",
         venue: "Sentrum Scene",
         isNightProgram: true,
+        eventPageURL: "https://www.osloworld.no/en/festival/event/mariza",
       },
       {
         startTime: "21.30",
         title: "Closing party + Photo booth med Dina Al Makhrami",
         venue: "Baba Bar",
         isNightProgram: true,
+        eventPageURL:
+          "https://www.osloworld.no/en/festival/event/avslutningsfest-photo-booth-med-dina-al-makhrami",
       },
     ],
   },
