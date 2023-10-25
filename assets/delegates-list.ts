@@ -70,6 +70,11 @@ import preethiNalluProfilePic from "../public/photos/international-delegates-pic
 import anthonyTawilProfilePic from "../public/photos/international-delegates-pictures/anthony-tawil.png";
 import liseLotteUttakleivDahlProfilePic from "../public/photos/international-delegates-pictures/lise-lotte-uttakleiv-dahl.jpg";
 import nickAndersonProfilePic from "../public/photos/international-delegates-pictures/nick-anderson.jpg";
+import claudiaPereiraProfilePic from "../public/photos/international-delegates-pictures/claudia-pereira.jpg";
+import patrickDanielProfilePic from "../public/photos/international-delegates-pictures/patrick-daniel.png";
+import andreaLamountProfilePic from "../public/photos/international-delegates-pictures/andrea-lamount.jpg";
+import ayaNabulsiProfilePic from "../public/photos/international-delegates-pictures/aya-nabulsi.jpg";
+import fabienLherissonProfilePic from "../public/photos/international-delegates-pictures/fabien-lherisson.jpg";
 
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
@@ -649,7 +654,7 @@ export const delegatesList: delegatesListInterface = {
       Aya previously held the position of Executive Director at the Al Balad Music Festival in Amman, Jordan, until it's last edition in 2019. Her contributions extend globally as she has participated as a music professional in numerous international festivals across various regions. Notably, she delivered a keynote address at Womex 2021 and moderated a panel during the Amman Music Talks in February 2023. Her panel discussions often revolve around topics such as women's roles in the music industry, gender equality, and freedom of expression.
       Aya's influence extends to the formulation of cultural policies, where she plays a pivotal role in shaping strategies. She maintains close collaboration with the Jordanian Ministry of Culture and other cultural institutions deeply invested in Jordan's cultural policies and strategies. Aya Nabulsi is a driving force in the world of cultural programming and festival management, constantly contributing to the enrichment of the global arts and music landscape.
       `,
-      imgPath: null,
+      imgPath: ayaNabulsiProfilePic,
     },
     {
       firstName: "Martin",
@@ -729,7 +734,7 @@ export const delegatesList: delegatesListInterface = {
 
       He has a degree in History and Geography from the University of Paris 8 (Regional Planning / Urban Planning and Internal Geopolitics), has been a lecturer on the Master's degree in Musicology - School Humanities, has worked as a music expert for the DRAC Ile-de-France - Ministry of Culture and has been a jury member for numerous national music competitions and springboards (Concours National Jazz à la Défense, Festivals Jazz en Avignon, Chorus des Hauts de Seine...).
     `,
-      imgPath: null,
+      imgPath: fabienLherissonProfilePic,
     },
     {
       firstName: "Lídia",
@@ -884,7 +889,7 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       displayed: true,
       description: `Patrick Daniel lives in Berlin and has been working in the music industry for 13 years, having previously completed a degree in sociology with a focus on gender studies as well as unconditional basic income. Label and artist management as well as festival social media and sponsorships were some of his stations. On the side, he has been volunteering in various social organisations e.g. SOFRA, a cooking and meeting group for female, trans and non-binary refugees as well as Kreuzberg Hilft and Berliner Tafel. He is also part of the diversity committee of the VUT (the German association of independent musicians and music companies), after having been in the project management team before of the so-called VUT Music Industry Women* Programme which has evolved into the MEWEM mentoring programme. For almost 5 years now he has been working for Reeperbahn Festival and Inferno Events, currently he is part of the following teams : Keychange, Reeperbahn Festival International, Partnerships & Sales, Wunderkinder – German Music Talent, B2B Matchmakings and he is part of the project team for Music Moves Europe - Strenghtening the dialogue on music as well as Music Moves Europe Awards and FOMC (Federation of Music Conferences).`,
-      imgPath: null,
+      imgPath: patrickDanielProfilePic,
     },
     {
       firstName: "Amani",
@@ -922,7 +927,7 @@ export const delegatesList: delegatesListInterface = {
   She has considerable experience in the production and artistic programming of festivals and in the development of catalogues for French touring agencies and recording companies. In 2013 she started “Somos Fuego”, an agency offering musical services featuring an eclectic, quality catalogue of artists from Europe, Canada and South America, and she also provides consulting services for a range of projects.
 
   Currently she also is the Director of the Internationalization and Professionalization at Musap, an organisation which promotes Chilean music, and is a Keychange Latam ambassador. She is also the Official Representative in Chile of the BIME PRO Festival, International Delegate of Corriente, mercado internacional por la música in Perú,  and Director of the ChileanWey Festival in Chile and México.`,
-      imgPath: null,
+      imgPath: claudiaPereiraProfilePic,
     },
     {
       firstName: "Habib",
@@ -996,7 +1001,7 @@ export const delegatesList: delegatesListInterface = {
       category: "international",
       displayed: true,
       description: `CEO & Founder of Sound Earth Legacy, a Sustainable Creative Agency aiming to preserve the sounds of the earth.`,
-      imgPath: null,
+      imgPath: andreaLamountProfilePic,
     },
     {
       firstName: "Lise Lotte",
