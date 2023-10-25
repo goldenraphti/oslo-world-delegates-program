@@ -44,7 +44,9 @@ const InternationalInfosPage: NextPageWithLayout = () => {
           (<i>also called Oslo S or Oslo Jernbanetorget</i>).
         </p>
         <p>You have 2 options:</p>
-        <ul className={`${styles.list} ${styles.transportOptionsList}`}>
+        <ul
+          className={`${styles.list} ${styles.transportOptionsList} dual-cards-responsive`}
+        >
           <li className={`${styles.listItem} ${styles.transportOptions}`}>
             <p>
               <b>FLYTOGET</b> (Airport Express)

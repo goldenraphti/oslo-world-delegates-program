@@ -79,7 +79,7 @@ li {
   display: flex;
   justify-content: flex-start;
 
-  a.back-link-button {
+  & a.back-link-button {
     color: color-mix(in oklab, var(--text-primary), transparent 25%);
     border: 1px solid transparent;
     padding: 20px 30px;
@@ -95,8 +95,27 @@ li {
       transition: border-color 0.2s ease-in-out;
     }
 
-    svg {
+    & svg {
       margin-right: 10px;
+    }
+  }
+}
+
+.dual-cards-responsive {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  container-type: inline-size;
+  justify-content: space-around;
+  width: 100%;
+
+  & > li {
+      width: 100%;
+  }
+
+  @container (min-width: 700px) {
+    & > li {
+    width: 45%;
     }
   }
 }

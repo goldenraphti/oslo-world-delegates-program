@@ -38,15 +38,9 @@
 .transportOptionsList {
   margin-left: 0;
   padding-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
 }
 
 .transportOptions {
-  width: 45%;
-  min-width: 300px;
   padding: 20px 30px;
   border: 1px solid rgba(0 0 0 / 1);
   border-radius: 6px;
