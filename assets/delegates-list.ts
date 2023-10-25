@@ -37,6 +37,7 @@ import heleneBrochProfilePic from "../public/photos/norwegian-delegates-pictures
 import sakibSaboorProfilePic from "../public/photos/norwegian-delegates-pictures/sakib-saboor.jpg";
 import fadumaMohamudProfilePic from "../public/photos/norwegian-delegates-pictures/faduma-mohamud.jpg";
 import tatijanaTodorovicProfilePic from "../public/photos/norwegian-delegates-pictures/tatijana-todorovic.jpg";
+import johannaAlemProfilePic from "../public/photos/norwegian-delegates-pictures/johanna-alem.jpg";
 
 import laiaProfilePic from "../public/photos/international-delegates-pictures/laia-canals.png";
 import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
@@ -68,6 +69,7 @@ import elisaBrolliProfilePic from "../public/photos/international-delegates-pict
 import preethiNalluProfilePic from "../public/photos/international-delegates-pictures/preethi-nallu.jpg";
 import anthonyTawilProfilePic from "../public/photos/international-delegates-pictures/anthony-tawil.png";
 import liseLotteUttakleivDahlProfilePic from "../public/photos/international-delegates-pictures/lise-lotte-uttakleiv-dahl.jpg";
+import nickAndersonProfilePic from "../public/photos/international-delegates-pictures/nick-anderson.jpg";
 
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
@@ -500,6 +502,19 @@ export const delegatesList: delegatesListInterface = {
       displayed: true,
       description: `Works as a project manager at The Orchard in the Artist Services Nordics department. I do anything from release planning, strategy outlining, marketing plans and promo. We work a Nordic unit with artists from across the Nordic countries. I currently work with artists such as Delara, Jesse Markin, Ash Olsen, Salvatore Ganacci and B-Boy Myhre.`,
       imgPath: tatijanaTodorovicProfilePic,
+    },
+    {
+      firstName: "Johanna",
+      lastName: "Alem",
+      organization: "Universal Music Norway",
+      jobPositionTitle: "Head of Island Records / Head of Promotion",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Johanna Alem, Head of Island Records & Head of Promotion at Universal Music Norway, has worked in music and entertainment for more than 10 years and has gained a wide range of industry experience. She has been working at the record label for the past four years, where her initial area of responsibility was working with PR for international artists.
+
+      She currently leads Island Records Norway (housing acts such as Astrid S, Alessandra & Emilie Nicolas) responsible for release strategies and new signings. She also leads the PR team with a main area of focus within communication, representing some of Norway’s biggest artists.`,
+      imgPath: johannaAlemProfilePic,
     },
   ],
   // international delegates
@@ -994,6 +1009,17 @@ export const delegatesList: delegatesListInterface = {
       description: `Lise Lotte Uttakleiv Dahl is Head of Partnerships at Lapee, the revolutionary urinal for women and people who squat to pee.
       With her experience in enterprising leadership, project management and sales, she has always been advocating for gender equality. Originally from Norway, Lise Lotte has a broad background from working in truly value-driven companies. Having worked in the field of sexual health, and the event and music-industry, she is now a vital part of Lapees mission to make the event industry more inclusive for everyone.`,
       imgPath: liseLotteUttakleivDahlProfilePic,
+    },
+    {
+      firstName: "Nick",
+      lastName: "Anderson",
+      organization: "Shubbak: A Window on Contemporary Arab Cultures",
+      jobPositionTitle: "Senior Producer",
+      country: "United Kingdom",
+      category: "international",
+      displayed: true,
+      description: `Nick Anderson is Senior Producer at Shubbak, which is the UK's largest festival of SWANA cultures. He has produced many performance, music and nightlife festivals for the last 12 years, on 3 continents, with a particular focus on creating new and more equitable modes of working in the sector.`,
+      imgPath: nickAndersonProfilePic,
     },
   ],
 };
