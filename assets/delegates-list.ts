@@ -43,7 +43,7 @@ import laiaProfilePic from "../public/photos/international-delegates-pictures/la
 import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
 import amaniSemaanProfilePic from "../public/photos/international-delegates-pictures/amani-semaan.jpg";
 import lamaHazbounProfilePic from "../public/photos/international-delegates-pictures/lama.jpg";
-import yaraProfilePic from "../public/photos/international-delegates-pictures/yara.jpg";
+import yaraProfilePic from "../public/photos/international-delegates-pictures/yara-mrad.jpg";
 import christinaHazbounProfilePic from "../public/photos/international-delegates-pictures/christina-hazboun.jpg";
 import stephenBuddProfilePic from "../public/photos/international-delegates-pictures/stephen-budd.png";
 import carlesSalaProfilePic from "../public/photos/international-delegates-pictures/carles-sala.jpg";
@@ -577,7 +577,7 @@ export const delegatesList: delegatesListInterface = {
       country: "Lebanon",
       category: "international",
       displayed: true,
-      description: `Yara joined the B&B team in November 2020 when Amani snatched her away from Anghami where Yara was working as a Conceptual Writer. Besides her personal love for local music, Yara was a Writer and Content & Community Manager at Revolver, the leading music website in the Middle East, from October 2018 till September 2020 when the platform bid farewell to its public. On the academic side of things, Yara has an MA in Critical and Creative Analysis from Goldsmiths, University of London; her dissertation was a social study of the music scene in Lebanon. She also has a B.A in English Language from Notre Dame University - Louaize (NDU) and she spent her undergraduate years working as a Research Assistant at the Institute of Lebanese Thought.`,
+      description: `Yara joined the Beirut and Beyond team in November 2020 when Amani (festival director) snatched her away from Anghami where Yara was working as a Conceptual Writer. Besides her full-time job, Yara works as a freelance Events & Outreach Consultant with ForumZFD, mainly on the Maabar podcast. Yara has also consulted on Factory People’s Friday Night Live and BBX projects as a Project Manager, worked as a Conceptual Writer at Anghami, and was a Writer and Content & Community Manager at Project Revolver. On the academic side of things, She has an MA in Critical and Creative Analysis from Goldsmiths, University of London; her dissertation was a social study of the music scene in Lebanon. She has a B.A in English Language from Notre Dame University - Louaize (NDU) and she spent her undergraduate years working as a Research Assistant at the Institute of Lebanese Thought.`,
       imgPath: yaraProfilePic,
     },
     {
