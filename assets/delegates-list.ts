@@ -309,7 +309,7 @@ export const delegatesList: delegatesListInterface = {
       jobPositionTitle: "Project manager",
       country: "Norway",
       category: "norwegian",
-      displayed: false,
+      displayed: true,
       description: `Project manager in Talent Norge, which is an organization established by the Ministry of Culture in 2015 that supports talent programs within art and culture in collaboration with private contributors across the country. We emphasize the exchange of expertise across disciplines and the core of our philosophy is to contribute to artistic development and mastery, through a long-term and holistic approach of the artists and their careers.`,
       imgPath: eiraEdwardsProfilePic,
     },
