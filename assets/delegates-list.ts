@@ -38,6 +38,8 @@ import sakibSaboorProfilePic from "../public/photos/norwegian-delegates-pictures
 import fadumaMohamudProfilePic from "../public/photos/norwegian-delegates-pictures/faduma-mohamud.jpg";
 import tatijanaTodorovicProfilePic from "../public/photos/norwegian-delegates-pictures/tatijana-todorovic.jpg";
 import johannaAlemProfilePic from "../public/photos/norwegian-delegates-pictures/johanna-alem.jpg";
+import danaJdidProfilePic from "../public/photos/norwegian-delegates-pictures/dana-jdid.jpg";
+import frankMichaelsenProfilePic from "../public/photos/norwegian-delegates-pictures/frank-michaelsen.jpg";
 
 import laiaProfilePic from "../public/photos/international-delegates-pictures/laia-canals.png";
 import brahimElMaznedProfilePic from "../public/photos/international-delegates-pictures/Brahim by Lorenzo - Brahim ELMAZNED.jpg";
@@ -75,6 +77,8 @@ import patrickDanielProfilePic from "../public/photos/international-delegates-pi
 import andreaLamountProfilePic from "../public/photos/international-delegates-pictures/andrea-lamount.jpg";
 import ayaNabulsiProfilePic from "../public/photos/international-delegates-pictures/aya-nabulsi.jpg";
 import fabienLherissonProfilePic from "../public/photos/international-delegates-pictures/fabien-lherisson.jpg";
+import samanthaRiseRobersonProfilePic from "../public/photos/international-delegates-pictures/samantha-rise-roberson.jpg";
+import benjamimTaubkinProfilePic from "../public/photos/international-delegates-pictures/benjamim-taubkin.jpg";
 
 // import ProfilePic from "../public/photos/international-delegates-pictures/";
 
@@ -520,6 +524,30 @@ export const delegatesList: delegatesListInterface = {
 
       She currently leads Island Records Norway (housing acts such as Astrid S, Alessandra & Emilie Nicolas) responsible for release strategies and new signings. She also leads the PR team with a main area of focus within communication, representing some of Norway’s biggest artists.`,
       imgPath: johannaAlemProfilePic,
+    },
+    {
+      firstName: "Dana",
+      lastName: "Jdid",
+      organization: "Baba bar",
+      jobPositionTitle: "Founder & owner",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `Architect and urbanism. Founder and owner of Baba Bar Oslo. Community builder & safe space architect`,
+      imgPath: danaJdidProfilePic,
+    },
+    {
+      firstName: "Frank",
+      lastName: "Michaelsen",
+      organization: "NOPA NORSK FORENING FOR KOMPONISTER OG TEKSTFORFATTERE",
+      jobPositionTitle: "Communication advisor",
+      country: "Norway",
+      category: "norwegian",
+      displayed: true,
+      description: `As the communications manager, Frank is responsible for the flow of information in NOPA, both externally and internally. He conveys information about NOPA's activities and arrangements to NOPA's members and partners, both through social media, newsletters, and on the website.
+
+      Frank has a background as a communications advisor at Kulturetaten, Deichman, and in the City Council's secretariat. He is also a guitarist in the award-winning band The Switch.`,
+      imgPath: frankMichaelsenProfilePic,
     },
   ],
   // international delegates
@@ -1025,6 +1053,51 @@ export const delegatesList: delegatesListInterface = {
       displayed: true,
       description: `Nick Anderson is Senior Producer at Shubbak, which is the UK's largest festival of SWANA cultures. He has produced many performance, music and nightlife festivals for the last 12 years, on 3 continents, with a particular focus on creating new and more equitable modes of working in the sector.`,
       imgPath: nickAndersonProfilePic,
+    },
+    {
+      firstName: "Benjamim",
+      lastName: "Taubkin",
+      organization: "Nucleo Contemporaneo",
+      jobPositionTitle: "Director",
+      country: "Brazil",
+      category: "international",
+      displayed: true,
+      description: `Musicais, curator, cultural management
+
+      Worked in public and private institutions directing the music department and organizing programs.
+
+      Among them, Itau Cultural, Mercado Cultural da Bahia, Cultural  Department of the state of Sao Paulo, Projeto Memória Brasileira , ao
+
+      Direct the label and Cultural Center Nucleo Contemporaneo
+
+      As a musician has recorded 20 albums and participated in around 150 as a musician and producer.`,
+      imgPath: benjamimTaubkinProfilePic,
+    },
+    {
+      firstName: "Samantha",
+      lastName: "Rise Roberson",
+      organization: "",
+      jobPositionTitle: "Artist/Activist",
+      country: "United States",
+      category: "international",
+      displayed: true,
+      description: `Sam Rise (they/them) is a black, gender-expansive performer, teaching artist, activist, human-amplifier, and relentless optimist. Sam’s passion for music and community are the heart of their work, feeding spaces that are inquiry-driven, participant led, and abundant in joy.
+
+      In addition to their work as a songwriter, arranger and performer, Rise aspires to facilitate creative direct action in collaboration with community organizers and leaders shaping change from the socio-political margins.  They are dedicated to social justice interventions that embrace the challenge and the opportunity of reimagining our world.
+
+      Sam is a 2023 Pew Fellow, and a WXPN artist to watch as a Black Opry Residency Artist. They live in Southwest Philadelphia.`,
+      imgPath: samanthaRiseRobersonProfilePic,
+    },
+    {
+      firstName: "David",
+      lastName: "Ibáñez",
+      organization: "Auditori de Girona",
+      jobPositionTitle: "Director",
+      country: "Spain",
+      category: "international",
+      displayed: true,
+      description: `David is the director Auditorium and Congress Center of Girona (Catalonia / Spain). He has a degree in Economic Sciences and a postgraduate qualification in Cultural Management. From 2012 to 2019, he was the artistic director of Fira Mediterrània Manresa (Catalonia/Spain), an international trade fair based on traditional culture, performing arts and world music. Previously, he worked as the co-artistic director of Girona World Sacred Music festival and Girona Auditorium. David has also collaborated with numerous world music events as a member (EFWMF), showcase selection panel (BabelMed) or mentor (Womex) and has been co-curator of the Catalan Programme at the Smihtsonian Folklife Festival 2018.`,
+      imgPath: null,
     },
   ],
 };
