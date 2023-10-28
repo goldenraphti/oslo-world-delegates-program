@@ -35,9 +35,9 @@ const ScheduleDay: NextPageWithLayout = () => {
       </Head>
 
       <div className='back-link-row'>
-        <Link href={`/delegates`} className='back-link-button'>
+        <Link href={`/schedule`} className='back-link-button'>
           <MoveLeft size={20} className={styles.iconLinkCard} />
-          Back to delegates list
+          Back to schedule overview
         </Link>
       </div>
       <h1 className={styles.title}>
