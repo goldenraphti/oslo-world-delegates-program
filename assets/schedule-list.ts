@@ -457,7 +457,7 @@ export const schedule = [
       {
         startTime: "16.30",
         endTime: "17.30",
-        title: "The Power of Music and Advocacy",
+        title: "The Power of Music",
         venue: "Internasjonalen",
         language: "English",
         obligatoryTarget: "all",
