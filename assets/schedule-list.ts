@@ -6,7 +6,7 @@ export const schedule = [
     dayStringForDate: "2023-10-30",
     events: [
       {
-        startTime: "16.40",
+        startTime: "16.30",
         title: "Pick-up",
         venue: "Hotel lobby",
         language: "English",
