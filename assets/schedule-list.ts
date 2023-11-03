@@ -467,18 +467,6 @@ export const schedule = [
         eventPageURL: null,
       },
       {
-        startTime: "17.30",
-        endTime: "18.30",
-        title: "Moroccan Soundscapes Shifting Norwegian Paradigms",
-        venue: "Baba Bar",
-        language: "English",
-        obligatoryTarget: "all",
-        description: `An exploration of the evolving Moroccan music panorama and its dynamic convergence with the Norwegian soundscape.`,
-        speakers: "Manal, Royane, Nassima Dzair",
-        isNightProgram: false,
-        eventPageURL: null,
-      },
-      {
         startTime: "19.00",
         title: "Huun-Huur-Tu",
         venue: "Cosmopolite",
@@ -536,14 +524,6 @@ export const schedule = [
       {
         startTime: "20.30",
         title: "Royane",
-        venue: "Parkteatret",
-        isNightProgram: true,
-        eventPageURL:
-          "https://www.osloworld.no/en/festival/event/manal-supp-royane",
-      },
-      {
-        startTime: "21.00",
-        title: "Manal",
         venue: "Parkteatret",
         isNightProgram: true,
         eventPageURL:
