@@ -26,6 +26,13 @@ export const HeadCommon = () => {
         name='twitter:image'
         content='https://oslo-world-delegates-program.vercel.app/opengraph-image.png'
       />
+      {/* test counter.dev analytics */}
+      <script
+        async
+        src='https://cdn.counter.dev/script.js'
+        data-id='0466ff03-46a9-4faa-a519-cfa045edc2c7'
+        data-utcoffset='1'
+      ></script>
     </>
   );
 };
